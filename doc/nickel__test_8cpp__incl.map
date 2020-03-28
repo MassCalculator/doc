@@ -1,0 +1,8 @@
+<map id="MassCalculator/test/materials/nickel_test.cpp" name="MassCalculator/test/materials/nickel_test.cpp">
+<area shape="rect" id="node2" href="$nickel__test_8hpp_source.html" title="nickel_test.hpp" alt="" coords="647,95,758,121"/>
+<area shape="rect" id="node4" href="$nickel_8hpp_source.html" title="materials/nickel.hpp" alt="" coords="704,169,843,196"/>
+<area shape="rect" id="node5" href="$material_8hpp.html" title="This class is the base class for the Materials, this will be inherited from all the Material types..." alt="" coords="727,244,820,271"/>
+<area shape="rect" id="node9" href="$units_8h.html" title="Complete implementation of units &#45; a compile&#45;time, header&#45;only, unit conversion library built on c++1..." alt="" coords="331,408,471,449"/>
+<area shape="rect" id="node18" href="$helper__functions_8hpp_source.html" title="../../helper_functions\l/helper_functions.hpp" alt="" coords="645,319,792,360"/>
+<area shape="rect" id="node19" href="$lua__handler_8hpp_source.html" title="lua_handler.hpp" alt="" coords="765,415,878,442"/>
+</map>

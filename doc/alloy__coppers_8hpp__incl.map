@@ -1,0 +1,6 @@
+<map id="MassCalculator/include/materials/alloy_coppers.hpp" name="MassCalculator/include/materials/alloy_coppers.hpp">
+<area shape="rect" id="node2" href="$material_8hpp.html" title="This class is the base class for the Materials, this will be inherited from all the Material types..." alt="" coords="727,95,820,121"/>
+<area shape="rect" id="node6" href="$units_8h.html" title="Complete implementation of units &#45; a compile&#45;time, header&#45;only, unit conversion library built on c++1..." alt="" coords="331,259,471,300"/>
+<area shape="rect" id="node15" href="$helper__functions_8hpp_source.html" title="../../helper_functions\l/helper_functions.hpp" alt="" coords="645,169,792,211"/>
+<area shape="rect" id="node16" href="$lua__handler_8hpp_source.html" title="lua_handler.hpp" alt="" coords="765,266,878,293"/>
+</map>

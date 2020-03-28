@@ -1,0 +1,9 @@
+<map id="MassCalculator/include/materials/magnesium.hpp" name="MassCalculator/include/materials/magnesium.hpp">
+<area shape="rect" id="node2" href="$materials_8hh.html" title="This header contains all the headers for Materials, if this header is included, you include all the h..." alt="" coords="229,102,388,143"/>
+<area shape="rect" id="node7" href="$magnesium__test_8hpp_source.html" title="MassCalculator/test\l/materials/magnesium\l_test.hpp" alt="" coords="417,95,568,151"/>
+<area shape="rect" id="node3" href="$object__interface_8hpp.html" title="Interface class, that interacts with all other classes to get the result we need. ..." alt="" coords="201,206,398,247"/>
+<area shape="rect" id="node4" href="$mainwindow_8h_source.html" title="MassCalculatorGUI/include\l/mainwindow.h" alt="" coords="5,310,188,351"/>
+<area shape="rect" id="node5" href="$example__1_8cpp.html" title="The example that uses interface, creates material and shape objects, and combines to get the weight T..." alt="" coords="213,310,386,351"/>
+<area shape="rect" id="node6" href="$object__interface__test_8hpp.html" title="This file contains all the tests for the class ObjectInterface, it tests all the functions and the co..." alt="" coords="411,303,583,359"/>
+<area shape="rect" id="node8" href="$magnesium__test_8cpp.html" title="This file contains all the tests for the class Magnesium, it tests all the functions and the construc..." alt="" coords="423,199,573,255"/>
+</map>

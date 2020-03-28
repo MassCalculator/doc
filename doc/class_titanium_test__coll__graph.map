@@ -1,0 +1,7 @@
+<map id="TitaniumTest" name="TitaniumTest">
+<area shape="rect" id="node3" href="$class_mass_calculator_1_1_titanium.html" title="Class Titanium, that holds all the nessesary information for Titanium and it&#39;s types therefore we can..." alt="" coords="179,492,406,863"/>
+<area shape="rect" id="node4" href="$class_mass_calculator_1_1_material.html" title="{MassCalculator::Material\l\&lt; Titanium \&gt;\n||+ Material()\l+ Material()\l+ Material()\l+ Material()\l+ initLuaScript()\l+ setType()\l+ getType()\l+ getSpecificColor()\l+ getSpecificDensity()\l+ getSpecificGravity()\land 9 more...\l}" alt="" coords="5,176,172,415"/>
+<area shape="rect" id="node5" href="$struct_mass_calculator_1_1crtp.html" title="{MassCalculator::crtp\l\&lt; Titanium \&gt;\n||+ materialType()\l+ materialType()\l}" alt="" coords="17,5,160,112"/>
+<area shape="rect" id="node6" href="$struct_mass_calculator_1_1_titanium_1_1_properties.html" title="Struct with material specific properties TODO:Check if this can be moved to the base class..." alt="" coords="197,191,389,400"/>
+<area shape="rect" id="node7" href="$class_mass_calculator_1_1_helper_classes_1_1_lua_script_handler.html" title="Class LuaScriptHandler, that holds all the nessesary functions and specialisations to get from lua fi..." alt="" coords="413,161,620,429"/>
+</map>

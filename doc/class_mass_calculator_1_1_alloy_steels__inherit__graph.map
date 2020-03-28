@@ -1,0 +1,4 @@
+<map id="MassCalculator::AlloySteels" name="MassCalculator::AlloySteels">
+<area shape="rect" id="node2" href="$class_mass_calculator_1_1_material.html" title="{MassCalculator::Material\l\&lt; AlloySteels \&gt;\n||+ Material()\l+ Material()\l+ Material()\l+ Material()\l+ initLuaScript()\l+ setType()\l+ getType()\l+ getSpecificColor()\l+ getSpecificDensity()\l+ getSpecificGravity()\land 9 more...\l}" alt="" coords="18,160,185,399"/>
+<area shape="rect" id="node3" href="$struct_mass_calculator_1_1crtp.html" title="{MassCalculator::crtp\l\&lt; AlloySteels \&gt;\n||+ materialType()\l+ materialType()\l}" alt="" coords="30,5,173,112"/>
+</map>
