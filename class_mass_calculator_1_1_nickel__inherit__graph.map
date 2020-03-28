@@ -1,4 +1,0 @@
-<map id="MassCalculator::Nickel" name="MassCalculator::Nickel">
-<area shape="rect" id="node2" href="$class_mass_calculator_1_1_material.html" title="{MassCalculator::Material\l\&lt; Nickel \&gt;\n||+ Material()\l+ Material()\l+ Material()\l+ Material()\l+ initLuaScript()\l+ setType()\l+ getType()\l+ getSpecificColor()\l+ getSpecificDensity()\l+ getSpecificGravity()\land 9 more...\l}" alt="" coords="35,160,202,399"/>
-<area shape="rect" id="node3" href="$struct_mass_calculator_1_1crtp.html" title="{MassCalculator::crtp\l\&lt; Nickel \&gt;\n||+ materialType()\l+ materialType()\l}" alt="" coords="47,5,190,112"/>
-</map>
