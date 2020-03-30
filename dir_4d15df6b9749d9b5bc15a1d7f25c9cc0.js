@@ -10,9 +10,9 @@ var dir_4d15df6b9749d9b5bc15a1d7f25c9cc0 =
     [ "material.hpp", "material_8hpp.html", "material_8hpp" ],
     [ "materials.hh", "materials_8hh.html", null ],
     [ "nickel.hpp", "nickel_8hpp.html", "nickel_8hpp" ],
-    [ "plastic.hpp", "plastic_8hpp_source.html", null ],
-    [ "stainless_steel.hpp", "stainless__steel_8hpp_source.html", null ],
-    [ "steel.hpp", "steel_8hpp_source.html", null ],
-    [ "titanium.hpp", "titanium_8hpp_source.html", null ],
-    [ "zinc.hpp", "zinc_8hpp_source.html", null ]
+    [ "plastic.hpp", "plastic_8hpp.html", "plastic_8hpp" ],
+    [ "stainless_steel.hpp", "stainless__steel_8hpp.html", "stainless__steel_8hpp" ],
+    [ "steel.hpp", "steel_8hpp.html", "steel_8hpp" ],
+    [ "titanium.hpp", "titanium_8hpp.html", "titanium_8hpp" ],
+    [ "zinc.hpp", "zinc_8hpp.html", "zinc_8hpp" ]
 ];

@@ -22,8 +22,8 @@ var searchData=
   ['squarebartest',['SquareBarTest',['../class_square_bar_test.html',1,'']]],
   ['squaretubing',['SquareTubing',['../class_mass_calculator_1_1_square_tubing.html',1,'MassCalculator']]],
   ['stainlesssteel',['StainlessSteel',['../class_mass_calculator_1_1_materials_1_1_stainless_steel.html',1,'MassCalculator::Materials']]],
-  ['stainlesssteeltest',['StainlessSteelTest',['../class_stainless_steel_test.html',1,'']]],
+  ['stainlesssteeltest',['StainlessSteelTest',['../class_mass_calculator_test_1_1_stainless_steel_test.html',1,'MassCalculatorTest']]],
   ['steel',['Steel',['../class_mass_calculator_1_1_materials_1_1_steel.html',1,'MassCalculator::Materials']]],
-  ['steeltest',['SteelTest',['../class_steel_test.html',1,'']]],
+  ['steeltest',['SteelTest',['../class_mass_calculator_test_1_1_steel_test.html',1,'MassCalculatorTest']]],
   ['stlshape',['StlShape',['../class_mass_calculator_1_1_stl_shape.html',1,'MassCalculator']]]
 ];

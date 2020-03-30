@@ -9,7 +9,7 @@ var NAVTREE =
       [ "Namespace List", "namespaces.html", "namespaces" ],
       [ "Namespace Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", "namespacemembers_dup" ],
-        [ "Functions", "namespacemembers_func.html", null ],
+        [ "Functions", "namespacemembers_func.html", "namespacemembers_func" ],
         [ "Typedefs", "namespacemembers_type.html", null ]
       ] ]
     ] ],
@@ -42,12 +42,12 @@ var NAVTREEINDEX =
 ".html",
 "class_mass_calculator_1_1_helper_classes_1_1_lua_script_handler.html#aabf23ebbbec03a2be67025e3d4914cfa",
 "class_mass_calculator_1_1_materials_1_1_bronz.html#aef1e5d09500c1c5328ec31ec6d118d2c",
-"class_mass_calculator_1_1_materials_1_1_titanium.html#a344938dd9f4682ba73cbff0046dc3158",
-"class_mass_calculator_1_1_t_bar.html#aacf55b63090b87311fb86e9d6b3e9160",
-"functions.html",
-"object__interface_8hpp.html#a967b852315b8f3ed30313922480627fd",
-"struct_mass_calculator_1_1_materials_1_1crtp.html#ae14cb1d0fbd23810d19b7493c2464f1c",
-"units_8h.html#ga17385adb4c49d5c70168bbaba780559b"
+"class_mass_calculator_1_1_materials_1_1_titanium.html#a026fae86692607a883e65f0cdd76178e",
+"class_mass_calculator_1_1_t_bar.html#a6202558c68537c30c1cb64155b07ffa7",
+"dir_3e3a1fe95d07d6e3f26484e1d4e90787.html",
+"namespacemembers_u.html",
+"struct_mass_calculator_1_1_materials_1_1_material_1_1_properties__base.html#aadde4e1f3707ea1d4edd841c4293650c",
+"units_8h.html#a910be27826d9766520b1f8e07e29d944"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

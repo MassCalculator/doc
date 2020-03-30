@@ -1,5 +1,7 @@
 var class_mass_calculator_1_1_materials_1_1_material =
 [
+    [ "Properties_base", "struct_mass_calculator_1_1_materials_1_1_material_1_1_properties__base.html", "struct_mass_calculator_1_1_materials_1_1_material_1_1_properties__base" ],
+    [ "Properties_base_t", "class_mass_calculator_1_1_materials_1_1_material.html#af6e8120e6de143ec8c6ae3659e38a5e4", null ],
     [ "Material", "class_mass_calculator_1_1_materials_1_1_material.html#a4d171abcb69563eac929fc37589f21f9", null ],
     [ "Material", "class_mass_calculator_1_1_materials_1_1_material.html#a2f786152f1be9d966bf629d0919e91db", null ],
     [ "~Material", "class_mass_calculator_1_1_materials_1_1_material.html#a5b0d2ca3fe5aaa15d2702f742b09e015", null ],

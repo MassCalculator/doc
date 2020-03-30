@@ -1,6 +1,6 @@
 <map id="MassCalculator/include/interface/object_interface.hpp" name="MassCalculator/include/interface/object_interface.hpp">
 <area shape="rect" id="node3" href="$materials_8hh.html" title="This header contains all the headers for Materials, if this header is included, you include all the h..." alt="" coords="821,95,972,121"/>
-<area shape="rect" id="node9" href="$units_8h.html" title="Complete implementation of units &#45; a compile&#45;time, header&#45;only, unit conversion library built on c++1..." alt="" coords="1320,319,1460,360"/>
+<area shape="rect" id="node9" href="$units_8h.html" title="Complete implementation of units &#45; a compile&#45;time, header&#45;only, unit conversion library built on c++1..." alt="" coords="1255,319,1395,360"/>
 <area shape="rect" id="node36" href="$shapes_8hh.html" title="This header contains all the headers for Materials, if this header is included, you include all the h..." alt="" coords="1621,169,1749,196"/>
 <area shape="rect" id="node4" href="$alloy__coppers_8hpp.html" title="AlloyCoppers class that holds the parameters for all the types. " alt="" coords="100,169,227,196"/>
 <area shape="rect" id="node24" href="$alloy__steels_8hpp.html" title="AlloySteels class that holds the parameters for all the types. " alt="" coords="251,169,367,196"/>
@@ -10,14 +10,14 @@
 <area shape="rect" id="node28" href="$copper_8hpp.html" title="Copper class that holds the parameters for all the types. " alt="" coords="728,169,815,196"/>
 <area shape="rect" id="node29" href="$magnesium_8hpp.html" title="Magnesium class that holds the parameters for all the types. " alt="" coords="839,169,954,196"/>
 <area shape="rect" id="node30" href="$nickel_8hpp.html" title="Nickel class that holds the parameters for all the types. " alt="" coords="979,169,1060,196"/>
-<area shape="rect" id="node31" href="$plastic_8hpp_source.html" title="plastic.hpp" alt="" coords="1085,169,1170,196"/>
-<area shape="rect" id="node32" href="$stainless__steel_8hpp_source.html" title="stainless_steel.hpp" alt="" coords="1195,169,1329,196"/>
-<area shape="rect" id="node33" href="$steel_8hpp_source.html" title="steel.hpp" alt="" coords="1354,169,1429,196"/>
-<area shape="rect" id="node34" href="$titanium_8hpp_source.html" title="titanium.hpp" alt="" coords="1453,169,1546,196"/>
-<area shape="rect" id="node35" href="$zinc_8hpp_source.html" title="zinc.hpp" alt="" coords="5,169,76,196"/>
-<area shape="rect" id="node5" href="$material_8hpp.html" title="This class is the base class for the Materials, this will be inherited from all the Material types..." alt="" coords="746,244,839,271"/>
-<area shape="rect" id="node18" href="$helper__functions_8hpp_source.html" title="../../helper_functions\l/helper_functions.hpp" alt="" coords="582,319,729,360"/>
-<area shape="rect" id="node19" href="$lua__handler_8hpp_source.html" title="lua_handler.hpp" alt="" coords="599,408,712,435"/>
-<area shape="rect" id="node37" href="$shape_8hpp.html" title="This class is the base class for the Shapes, this will be inherited from all the Shape types..." alt="" coords="1705,326,1787,353"/>
-<area shape="rect" id="node39" href="$cylinder_8hpp_source.html" title="cylinder.hpp" alt="" coords="1711,244,1803,271"/>
+<area shape="rect" id="node31" href="$plastic_8hpp.html" title="Plastic class that holds the parameters for all the types. " alt="" coords="1085,169,1170,196"/>
+<area shape="rect" id="node32" href="$stainless__steel_8hpp.html" title="StainlessSteel class that holds the parameters for all the types. " alt="" coords="1195,169,1329,196"/>
+<area shape="rect" id="node33" href="$steel_8hpp.html" title="Steel class that holds the parameters for all the types. " alt="" coords="1354,169,1429,196"/>
+<area shape="rect" id="node34" href="$titanium_8hpp.html" title="Titanium class that holds the parameters for all the types. " alt="" coords="1453,169,1546,196"/>
+<area shape="rect" id="node35" href="$zinc_8hpp.html" title="Zinc class that holds the parameters for all the types. " alt="" coords="5,169,76,196"/>
+<area shape="rect" id="node5" href="$material_8hpp.html" title="This class is the base class for the Materials, this will be inherited from all the Material types..." alt="" coords="747,244,841,271"/>
+<area shape="rect" id="node18" href="$helper__functions_8hpp.html" title="This file holds all the functions that are not specified for a class, but are needed throughout the c..." alt="" coords="506,319,653,360"/>
+<area shape="rect" id="node19" href="$lua__handler_8hpp.html" title="LuaScriptHandler Class that holds all the nessesary functions and specialisations to get from lua fil..." alt="" coords="749,408,863,435"/>
+<area shape="rect" id="node37" href="$shape_8hpp.html" title="This class is the base class for the Shapes, this will be inherited from all the Shape types..." alt="" coords="1681,326,1763,353"/>
+<area shape="rect" id="node39" href="$cylinder_8hpp_source.html" title="cylinder.hpp" alt="" coords="1697,244,1789,271"/>
 </map>

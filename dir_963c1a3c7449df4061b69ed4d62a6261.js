@@ -24,14 +24,19 @@ var dir_963c1a3c7449df4061b69ed4d62a6261 =
     [ "nickel_test.hpp", "nickel__test_8hpp.html", [
       [ "NickelTest", "class_mass_calculator_test_1_1_nickel_test.html", "class_mass_calculator_test_1_1_nickel_test" ]
     ] ],
-    [ "plastic_test.cpp", "plastic__test_8cpp.html", "plastic__test_8cpp" ],
-    [ "plastic_test.hpp", "plastic__test_8hpp_source.html", null ],
-    [ "stainless_steel_test.cpp", "stainless__steel__test_8cpp.html", "stainless__steel__test_8cpp" ],
-    [ "stainless_steel_test.hpp", "stainless__steel__test_8hpp_source.html", null ],
-    [ "steel_test.cpp", "steel__test_8cpp.html", "steel__test_8cpp" ],
-    [ "steel_test.hpp", "steel__test_8hpp_source.html", null ],
-    [ "titanium_test.cpp", "titanium__test_8cpp.html", "titanium__test_8cpp" ],
-    [ "titanium_test.hpp", "titanium__test_8hpp_source.html", null ],
-    [ "zinc_test.cpp", "zinc__test_8cpp.html", "zinc__test_8cpp" ],
-    [ "zinc_test.hpp", "zinc__test_8hpp_source.html", null ]
+    [ "plastic_test.hpp", "plastic__test_8hpp.html", [
+      [ "PlasticTest", "class_mass_calculator_test_1_1_plastic_test.html", "class_mass_calculator_test_1_1_plastic_test" ]
+    ] ],
+    [ "stainless_steel_test.hpp", "stainless__steel__test_8hpp.html", [
+      [ "StainlessSteelTest", "class_mass_calculator_test_1_1_stainless_steel_test.html", "class_mass_calculator_test_1_1_stainless_steel_test" ]
+    ] ],
+    [ "steel_test.hpp", "steel__test_8hpp.html", [
+      [ "SteelTest", "class_mass_calculator_test_1_1_steel_test.html", "class_mass_calculator_test_1_1_steel_test" ]
+    ] ],
+    [ "titanium_test.hpp", "titanium__test_8hpp.html", [
+      [ "TitaniumTest", "class_mass_calculator_test_1_1_titanium_test.html", "class_mass_calculator_test_1_1_titanium_test" ]
+    ] ],
+    [ "zinc_test.hpp", "zinc__test_8hpp.html", [
+      [ "ZincTest", "class_mass_calculator_test_1_1_zinc_test.html", "class_mass_calculator_test_1_1_zinc_test" ]
+    ] ]
 ];

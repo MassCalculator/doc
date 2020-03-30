@@ -1,8 +1,4 @@
 var searchData=
 [
-  ['magnesium_2ehpp',['magnesium.hpp',['../magnesium_8hpp.html',1,'']]],
-  ['magnesium_5ftest_2ehpp',['magnesium_test.hpp',['../magnesium__test_8hpp.html',1,'']]],
-  ['material_2ecpp',['material.cpp',['../material_8cpp.html',1,'']]],
-  ['material_2ehpp',['material.hpp',['../material_8hpp.html',1,'']]],
-  ['materials_2ehh',['materials.hh',['../materials_8hh.html',1,'']]]
+  ['helper_5ffunctions_2ehpp',['helper_functions.hpp',['../helper__functions_8hpp.html',1,'']]]
 ];

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['plastic_5ftest_2ecpp',['plastic_test.cpp',['../plastic__test_8cpp.html',1,'']]]
+  ['nickel_2ehpp',['nickel.hpp',['../nickel_8hpp.html',1,'']]],
+  ['nickel_5ftest_2ehpp',['nickel_test.hpp',['../nickel__test_8hpp.html',1,'']]]
 ];

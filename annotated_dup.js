@@ -12,12 +12,7 @@ var annotated_dup =
     [ "CylinderTest", "class_cylinder_test.html", "class_cylinder_test" ],
     [ "MainWindow", "class_main_window.html", "class_main_window" ],
     [ "ObjectInterfaceTest", "class_object_interface_test.html", "class_object_interface_test" ],
-    [ "PlasticTest", "class_plastic_test.html", "class_plastic_test" ],
     [ "qt_meta_stringdata_MainWindow_t", "structqt__meta__stringdata___main_window__t.html", "structqt__meta__stringdata___main_window__t" ],
     [ "SquareBarTest", "class_square_bar_test.html", "class_square_bar_test" ],
-    [ "StainlessSteelTest", "class_stainless_steel_test.html", "class_stainless_steel_test" ],
-    [ "SteelTest", "class_steel_test.html", "class_steel_test" ],
-    [ "TitaniumTest", "class_titanium_test.html", "class_titanium_test" ],
-    [ "Ui_MainWindow", "class_ui___main_window.html", "class_ui___main_window" ],
-    [ "ZincTest", "class_zinc_test.html", "class_zinc_test" ]
+    [ "Ui_MainWindow", "class_ui___main_window.html", "class_ui___main_window" ]
 ];

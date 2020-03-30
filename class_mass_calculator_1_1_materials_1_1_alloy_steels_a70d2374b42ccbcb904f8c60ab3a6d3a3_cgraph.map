@@ -1,3 +1,5 @@
 <map id="MassCalculator::Materials::AlloySteels::_setPropertieSpecs" name="MassCalculator::Materials::AlloySteels::_setPropertieSpecs">
-<area shape="rect" id="node2" href="$class_mass_calculator_1_1_materials_1_1_alloy_steels.html#aa61f7aa77b4ad9a9deec011fa9d8f235" title="Function to return the class name, not the pointer of the class, I am trying to keep away this functi..." alt="" coords="272,5,471,47"/>
+<area shape="rect" id="node2" href="$namespace_mass_calculator_1_1_helper_functions.html#adb58d669396ab2d4f9c0110a0214d085" title="MassCalculator::HelperFunctions\l::TTernaryOperator" alt="" coords="272,5,488,47"/>
+<area shape="rect" id="node3" href="$namespace_mass_calculator_1_1_helper_functions.html#af2d73923bb3fcb3ba6160ec6c179dee0" title="MassCalculator::HelperFunctions\l::checkFromLuaConfig" alt="" coords="272,71,488,112"/>
+<area shape="rect" id="node4" href="$class_mass_calculator_1_1_materials_1_1_alloy_steels.html#aa61f7aa77b4ad9a9deec011fa9d8f235" title="Function to return the class name, not the pointer of the class, I am trying to keep away this functi..." alt="" coords="281,136,479,177"/>
 </map>

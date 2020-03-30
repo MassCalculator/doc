@@ -10,6 +10,8 @@ var searchData=
   ['sheet',['Sheet',['../class_mass_calculator_1_1_sheet.html#a4f43da5c3d175120c1c33ecbfb69a287a83a293c58d996a90ac357b10ba864c83',1,'MassCalculator::Sheet']]],
   ['squarebar',['SquareBar',['../class_mass_calculator_1_1_square_bar.html#a0f33f280a91e49cb99b9bb74702848b8a5ebca3b7061ba17218d0e01cfccf2f47',1,'MassCalculator::SquareBar']]],
   ['squaretubing',['SquareTubing',['../class_mass_calculator_1_1_square_tubing.html#ad7c6b38ac619c321f9fc4ce082676803a4d8c518bf0d0cb32a31f056c8560a6d7',1,'MassCalculator::SquareTubing']]],
+  ['ss_5f15_5f5',['SS_15_5',['../class_mass_calculator_1_1_materials_1_1_stainless_steel.html#ae56c88c753451c3d0d548113fbf41e01a832b1f081a97010ace281c0f96edf3d1',1,'MassCalculator::Materials::StainlessSteel']]],
+  ['ss_5f17_5f4',['SS_17_4',['../class_mass_calculator_1_1_materials_1_1_stainless_steel.html#ae56c88c753451c3d0d548113fbf41e01a48718e145fe8bc8ae8a05281f5626031',1,'MassCalculator::Materials::StainlessSteel']]],
   ['ss_5f301',['SS_301',['../class_mass_calculator_1_1_materials_1_1_stainless_steel.html#ae56c88c753451c3d0d548113fbf41e01a5b2d63fa7ccefce62ccf730e23d55328',1,'MassCalculator::Materials::StainlessSteel']]],
   ['ss_5f302',['SS_302',['../class_mass_calculator_1_1_materials_1_1_stainless_steel.html#ae56c88c753451c3d0d548113fbf41e01a67163d4567b440ce5a0fb0aebf44f75e',1,'MassCalculator::Materials::StainlessSteel']]],
   ['ss_5f303',['SS_303',['../class_mass_calculator_1_1_materials_1_1_stainless_steel.html#ae56c88c753451c3d0d548113fbf41e01a184619f3c27360ab97346d04b76110c4',1,'MassCalculator::Materials::StainlessSteel']]],
@@ -18,5 +20,7 @@ var searchData=
   ['ss_5f316',['SS_316',['../class_mass_calculator_1_1_materials_1_1_stainless_steel.html#ae56c88c753451c3d0d548113fbf41e01af15c817deb8ce63ce404a84ed3a3fe3e',1,'MassCalculator::Materials::StainlessSteel']]],
   ['ss_5f321',['SS_321',['../class_mass_calculator_1_1_materials_1_1_stainless_steel.html#ae56c88c753451c3d0d548113fbf41e01adb3957eb7af61f29d36a0e0d0a492c9f',1,'MassCalculator::Materials::StainlessSteel']]],
   ['ss_5f409',['SS_409',['../class_mass_calculator_1_1_materials_1_1_stainless_steel.html#ae56c88c753451c3d0d548113fbf41e01a85e0e72258302c9ff63231756eddc9a6',1,'MassCalculator::Materials::StainlessSteel']]],
-  ['ss_5f410',['SS_410',['../class_mass_calculator_1_1_materials_1_1_stainless_steel.html#ae56c88c753451c3d0d548113fbf41e01afe60628a8afe49d0cc88fcfb7a3b618c',1,'MassCalculator::Materials::StainlessSteel']]]
+  ['ss_5f410',['SS_410',['../class_mass_calculator_1_1_materials_1_1_stainless_steel.html#ae56c88c753451c3d0d548113fbf41e01afe60628a8afe49d0cc88fcfb7a3b618c',1,'MassCalculator::Materials::StainlessSteel']]],
+  ['ss_5f420',['SS_420',['../class_mass_calculator_1_1_materials_1_1_stainless_steel.html#ae56c88c753451c3d0d548113fbf41e01a6fcdc23443700df8a5ddb0c74441bc8d',1,'MassCalculator::Materials::StainlessSteel']]],
+  ['ss_5f430',['SS_430',['../class_mass_calculator_1_1_materials_1_1_stainless_steel.html#ae56c88c753451c3d0d548113fbf41e01ac72fef7c7f0f61d7eae50bfdc6ae3e64',1,'MassCalculator::Materials::StainlessSteel']]]
 ];

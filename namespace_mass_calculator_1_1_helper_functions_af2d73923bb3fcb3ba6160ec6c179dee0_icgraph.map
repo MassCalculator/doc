@@ -1,0 +1,15 @@
+<map id="MassCalculator::HelperFunctions::checkFromLuaConfig" name="MassCalculator::HelperFunctions::checkFromLuaConfig">
+<area shape="rect" id="node2" href="$class_mass_calculator_1_1_materials_1_1_alloy_coppers.html#a7be2ce2e66e5d0b9ce612917396a12d3" title="Function to set the static propertie values. " alt="" coords="272,5,503,47"/>
+<area shape="rect" id="node3" href="$class_mass_calculator_1_1_materials_1_1_alloy_steels.html#a70d2374b42ccbcb904f8c60ab3a6d3a3" title="Function to set the static propertie values. " alt="" coords="278,71,497,112"/>
+<area shape="rect" id="node4" href="$class_mass_calculator_1_1_materials_1_1_aluminium.html#a544de8e976f28521e8561b882b39a5fc" title="Function to set the static propertie values. " alt="" coords="281,136,494,177"/>
+<area shape="rect" id="node5" href="$class_mass_calculator_1_1_materials_1_1_brass.html#ac00d8722fc5ed78b0546396d22494585" title="Function to set the static propertie values. " alt="" coords="294,201,481,243"/>
+<area shape="rect" id="node6" href="$class_mass_calculator_1_1_materials_1_1_bronz.html#a1430ccf5107513f935b347cbbacf96d3" title="Function to set the static propertie values. " alt="" coords="294,267,481,308"/>
+<area shape="rect" id="node7" href="$class_mass_calculator_1_1_materials_1_1_copper.html#ad0996b5f5d9e49d981422b8b59e646b5" title="Function to set the static propertie values. " alt="" coords="290,332,485,373"/>
+<area shape="rect" id="node8" href="$class_mass_calculator_1_1_materials_1_1_magnesium.html#a0a0aa3b70c62cf16201f775cf5c6e8dd" title="Function to set the static propertie values. " alt="" coords="278,397,497,439"/>
+<area shape="rect" id="node9" href="$class_mass_calculator_1_1_materials_1_1_nickel.html#a8f497ce68ca56debd2f163de4db63d57" title="Function to set the static propertie values. " alt="" coords="293,463,482,504"/>
+<area shape="rect" id="node10" href="$class_mass_calculator_1_1_materials_1_1_plastic.html#a1c53e431134953ea72c21666b44dc7ba" title="Function to set the static propertie values. " alt="" coords="291,528,483,569"/>
+<area shape="rect" id="node11" href="$class_mass_calculator_1_1_materials_1_1_stainless_steel.html#a28ed09359bb60f0a2d0a5aa411dc8461" title="Function to set the static propertie values. " alt="" coords="269,593,505,635"/>
+<area shape="rect" id="node12" href="$class_mass_calculator_1_1_materials_1_1_steel.html#a1db4a034d41adb6aae5dc530fd1abb58" title="Function to set the static propertie values. " alt="" coords="296,659,479,700"/>
+<area shape="rect" id="node13" href="$class_mass_calculator_1_1_materials_1_1_titanium.html#a026fae86692607a883e65f0cdd76178e" title="Function to set the static propertie values. " alt="" coords="286,724,489,765"/>
+<area shape="rect" id="node14" href="$class_mass_calculator_1_1_materials_1_1_zinc.html#a791f9cbd13ee214bac6169a94763a659" title="Function to set the static propertie values. " alt="" coords="299,789,476,831"/>
+</map>

@@ -1,4 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_mass_calculator_1_1_shape.html" title="MassCalculator::Shape\l\&lt; Channel \&gt;" alt="" coords="5,5,164,47"/>
-<area shape="rect" id="node2" href="$class_mass_calculator_1_1_channel.html" title="Class Channel, that holds all the nessesary information for Channel and it&#39;s details therefore we can..." alt="" coords="212,13,381,39"/>
+<area shape="rect" id="node1" href="$class_mass_calculator_1_1_shape.html" title="MassCalculator::Shape\l\&lt; Beam \&gt;" alt="" coords="5,5,164,47"/>
+<area shape="rect" id="node2" href="$class_mass_calculator_1_1_beam.html" title="Class Beam, that holds all the nessesary information for Beam and it&#39;s details therefore we can use i..." alt="" coords="212,13,367,39"/>
 </map>

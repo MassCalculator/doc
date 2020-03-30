@@ -2,6 +2,7 @@ var material_8hpp =
 [
     [ "crtp", "struct_mass_calculator_1_1_materials_1_1crtp.html", "struct_mass_calculator_1_1_materials_1_1crtp" ],
     [ "Material", "class_mass_calculator_1_1_materials_1_1_material.html", "class_mass_calculator_1_1_materials_1_1_material" ],
+    [ "Properties_base", "struct_mass_calculator_1_1_materials_1_1_material_1_1_properties__base.html", "struct_mass_calculator_1_1_materials_1_1_material_1_1_properties__base" ],
     [ "operator<<", "material_8hpp.html#a34c6533aa4f2b4bb30bb00457f4e3d7e", null ],
     [ "AlloyCoppers", "material_8hpp.html#a8ff702d1b3fdc31712a569091a8ef202", null ],
     [ "AlloySteels", "material_8hpp.html#a2996e4a5cf92a9a3c658a0b052d963ae", null ],
