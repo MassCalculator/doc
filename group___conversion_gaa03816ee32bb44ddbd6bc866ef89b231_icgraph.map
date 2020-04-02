@@ -1,8 +1,0 @@
-<map id="units::convert" name="units::convert">
-<area shape="rect" id="node2" href="$group___unit_math.html#ga845823260245af2abc83d2cf47f6e74b" title="Compute arc tangent with two parameters. " alt="" coords="155,5,281,32"/>
-<area shape="rect" id="node3" href="$group___unit_math.html#ga3162ba1ab8f84bcd2d17cbe60769b851" title="Computes the square root of the sum&#45;of&#45;squares of x and y. " alt="" coords="155,56,281,83"/>
-<area shape="rect" id="node4" href="$group___unit_math.html#ga50270995c6f9ca902fcdc2daf8edc784" title="Compute remainder of division. " alt="" coords="156,107,280,133"/>
-<area shape="rect" id="node5" href="$group___unit_math.html#ga75fe15cca375d6f73fd1b797d491119d" title="Positive difference. " alt="" coords="158,157,278,184"/>
-<area shape="rect" id="node6" href="$group___unit_math.html#ga133b8c692d6dbf2d19f27adb13ce6ecf" title="Maximum value. " alt="" coords="156,208,280,235"/>
-<area shape="rect" id="node7" href="$group___unit_math.html#ga2c7353469775440d04f98655e3a9e065" title="Minimum value. " alt="" coords="158,259,278,285"/>
-</map>

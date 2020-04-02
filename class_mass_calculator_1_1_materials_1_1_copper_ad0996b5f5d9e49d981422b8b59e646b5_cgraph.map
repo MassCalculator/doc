@@ -1,5 +1,0 @@
-<map id="MassCalculator::Materials::Copper::_setPropertieSpecs" name="MassCalculator::Materials::Copper::_setPropertieSpecs">
-<area shape="rect" id="node2" href="$namespace_mass_calculator_1_1_helper_functions.html#adb58d669396ab2d4f9c0110a0214d085" title="MassCalculator::HelperFunctions\l::TTernaryOperator" alt="" coords="248,5,464,47"/>
-<area shape="rect" id="node3" href="$namespace_mass_calculator_1_1_helper_functions.html#af2d73923bb3fcb3ba6160ec6c179dee0" title="MassCalculator::HelperFunctions\l::checkFromLuaConfig" alt="" coords="248,71,464,112"/>
-<area shape="rect" id="node4" href="$class_mass_calculator_1_1_materials_1_1_copper.html#aa6d6236c525d3760168223127d4d6464" title="Function to return the class name, not the pointer of the class, I am trying to keep away this functi..." alt="" coords="269,136,443,177"/>
-</map>

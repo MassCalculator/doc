@@ -1,5 +1,0 @@
-<map id="MassCalculator::Beam::getVolume" name="MassCalculator::Beam::getVolume">
-<area shape="rect" id="node2" href="$namespaceunits_1_1math.html#a8bc48cef3fdfae35910a4bbe5011abcd" title="computes the value of value raised to the power " alt="" coords="226,5,345,32"/>
-<area shape="rect" id="node3" href="$class_mass_calculator_1_1_beam.html#aabc5b2050cf6d4f4471932135fbe90d6" title="Get the Side object. " alt="" coords="208,57,363,98"/>
-<area shape="rect" id="node4" href="$class_mass_calculator_1_1_beam.html#ac849e79743825e3c5f55bc4b980ea3eb" title="Get the Length object. " alt="" coords="208,122,363,163"/>
-</map>

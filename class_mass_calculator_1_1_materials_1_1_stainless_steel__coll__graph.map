@@ -1,6 +1,0 @@
-<map id="MassCalculator::Materials::StainlessSteel" name="MassCalculator::Materials::StainlessSteel">
-<area shape="rect" id="node2" href="$class_mass_calculator_1_1_materials_1_1_material.html" title="{MassCalculator::Materials\l::Material\&lt; StainlessSteel \&gt;\n||+ Material()\l+ Material()\l+ Material()\l+ Material()\l+ initLuaScript()\l+ setType()\l+ getType()\l+ getSpecificColor()\l+ getSpecificDensity()\l+ getSpecificGravity()\land 9 more...\l}" alt="" coords="5,176,189,415"/>
-<area shape="rect" id="node3" href="$struct_mass_calculator_1_1_materials_1_1crtp.html" title="{MassCalculator::Materials\l::crtp\&lt; StainlessSteel \&gt;\n||+ materialType()\l+ materialType()\l}" alt="" coords="10,5,185,112"/>
-<area shape="rect" id="node4" href="$struct_mass_calculator_1_1_materials_1_1_stainless_steel_1_1_properties.html" title="Struct with material specific properties TODO:Check if this can be moved to the base class..." alt="" coords="213,191,405,400"/>
-<area shape="rect" id="node5" href="$class_mass_calculator_1_1_helper_classes_1_1_lua_script_handler.html" title="Class LuaScriptHandler, that holds all the nessesary functions and specialisations to get from lua fi..." alt="" coords="430,161,637,429"/>
-</map>

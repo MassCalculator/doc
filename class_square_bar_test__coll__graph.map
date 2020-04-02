@@ -1,5 +1,0 @@
-<map id="SquareBarTest" name="SquareBarTest">
-<area shape="rect" id="node3" href="$class_mass_calculator_1_1_square_bar.html" title="Class SquareBar, that holds all the nessesary information for SquareBar and it&#39;s details therefore we..." alt="" coords="101,307,283,575"/>
-<area shape="rect" id="node4" href="$class_mass_calculator_1_1_shape.html" title="{MassCalculator::Shape\l\&lt; SquareBar \&gt;\n|+ type_\l|+ Shape()\l+ Shape()\l+ Shape()\l+ setSize()\l+ getRadius()\l+ getType()\l+ getDiameter()\l+ getLength()\l+ getVolume()\l+ getSurfaceArea()\land 6 more...\l}" alt="" coords="15,5,174,244"/>
-<area shape="rect" id="node5" href="$struct_mass_calculator_1_1_square_bar_1_1_properties.html" title="Struct with material specific properties TODO:Check if this can be moved to the base class..." alt="" coords="198,57,381,193"/>
-</map>

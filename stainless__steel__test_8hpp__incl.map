@@ -1,7 +1,0 @@
-<map id="MassCalculator/test/materials/stainless_steel_test.hpp" name="MassCalculator/test/materials/stainless_steel_test.hpp">
-<area shape="rect" id="node2" href="$stainless__steel_8hpp.html" title="StainlessSteel class that holds the parameters for all the types. " alt="" coords="676,109,807,151"/>
-<area shape="rect" id="node3" href="$material_8hpp.html" title="This class is the base class for the Materials, this will be inherited from all the Material types..." alt="" coords="695,199,788,225"/>
-<area shape="rect" id="node7" href="$units_8h.html" title="Complete implementation of units &#45; a compile&#45;time, header&#45;only, unit conversion library built on c++1..." alt="" coords="353,363,493,404"/>
-<area shape="rect" id="node16" href="$helper__functions_8hpp.html" title="This file holds all the functions that are not specified for a class, but are needed throughout the c..." alt="" coords="724,273,871,315"/>
-<area shape="rect" id="node17" href="$lua__handler_8hpp.html" title="LuaScriptHandler Class that holds all the nessesary functions and specialisations to get from lua fil..." alt="" coords="742,370,855,397"/>
-</map>

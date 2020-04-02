@@ -1,4 +1,0 @@
-<map id="MassCalculator::Sheet" name="MassCalculator::Sheet">
-<area shape="rect" id="node2" href="$class_mass_calculator_1_1_shape.html" title="{MassCalculator::Shape\l\&lt; Sheet \&gt;\n|+ type_\l|+ Shape()\l+ Shape()\l+ Shape()\l+ setSize()\l+ getRadius()\l+ getType()\l+ getDiameter()\l+ getLength()\l+ getVolume()\l+ getSurfaceArea()\land 6 more...\l}" alt="" coords="5,5,164,244"/>
-<area shape="rect" id="node3" href="$struct_mass_calculator_1_1_sheet_1_1_properties.html" title="Struct with material specific properties TODO:Check if this can be moved to the base class..." alt="" coords="189,57,343,193"/>
-</map>

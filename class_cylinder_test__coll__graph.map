@@ -1,5 +1,0 @@
-<map id="CylinderTest" name="CylinderTest">
-<area shape="rect" id="node3" href="$class_mass_calculator_1_1_cylinder.html" title="Class Cylinder, that holds all the nessesary information for Cylinder and it&#39;s details therefore we c..." alt="" coords="94,307,263,575"/>
-<area shape="rect" id="node4" href="$class_mass_calculator_1_1_shape.html" title="{MassCalculator::Shape\l\&lt; Cylinder \&gt;\n|+ type_\l|+ Shape()\l+ Shape()\l+ Shape()\l+ setSize()\l+ getRadius()\l+ getType()\l+ getDiameter()\l+ getLength()\l+ getVolume()\l+ getSurfaceArea()\land 6 more...\l}" alt="" coords="6,5,165,244"/>
-<area shape="rect" id="node5" href="$struct_mass_calculator_1_1_cylinder_1_1_properties.html" title="Struct with material specific properties TODO:Check if this can be moved to the base class..." alt="" coords="189,64,358,185"/>
-</map>

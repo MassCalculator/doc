@@ -1,5 +1,0 @@
-<map id="MassCalculator::Cylinder::getVolume" name="MassCalculator::Cylinder::getVolume">
-<area shape="rect" id="node2" href="$namespaceunits_1_1math.html#a8bc48cef3fdfae35910a4bbe5011abcd" title="computes the value of value raised to the power " alt="" coords="248,5,367,32"/>
-<area shape="rect" id="node3" href="$class_mass_calculator_1_1_cylinder.html#a920d09da6d4542c4162926bb7c89c360" title="Get the Radius object. " alt="" coords="223,57,392,98"/>
-<area shape="rect" id="node4" href="$class_mass_calculator_1_1_cylinder.html#abdfd97494a0ac96fa88a0a44ed004f33" title="Get the Length object. " alt="" coords="223,122,392,163"/>
-</map>

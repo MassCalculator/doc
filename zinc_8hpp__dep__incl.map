@@ -1,8 +1,0 @@
-<map id="MassCalculator/include/materials/zinc.hpp" name="MassCalculator/include/materials/zinc.hpp">
-<area shape="rect" id="node2" href="$materials_8hh.html" title="This header contains all the headers for Materials, if this header is included, you include all the h..." alt="" coords="220,95,379,136"/>
-<area shape="rect" id="node7" href="$zinc__test_8hpp.html" title="This file contains all the tests for the class Zinc, it tests all the functions and the constructors ..." alt="" coords="403,95,564,136"/>
-<area shape="rect" id="node3" href="$object__interface_8hpp.html" title="Interface class, that interacts with all other classes to get the result we need. ..." alt="" coords="201,184,398,225"/>
-<area shape="rect" id="node4" href="$mainwindow_8h_source.html" title="MassCalculatorGUI/include\l/mainwindow.h" alt="" coords="5,281,188,322"/>
-<area shape="rect" id="node5" href="$example__1_8cpp.html" title="The example that uses interface, creates material and shape objects, and combines to get the weight T..." alt="" coords="213,281,386,322"/>
-<area shape="rect" id="node6" href="$object__interface__test_8hpp.html" title="This file contains all the tests for the class ObjectInterface, it tests all the functions and the co..." alt="" coords="411,273,583,329"/>
-</map>
