@@ -1,0 +1,6 @@
+<map id="MassCalculator/include/shapes/shapes.hh" name="MassCalculator/include/shapes/shapes.hh">
+<area shape="rect" id="node2" href="$object__interface_8hpp.html" title="Interface class, that interacts with all other classes to get the result we need. ..." alt="" coords="201,95,398,136"/>
+<area shape="rect" id="node3" href="$mainwindow_8h_source.html" title="MassCalculatorGUI/include\l/mainwindow.h" alt="" coords="5,191,188,233"/>
+<area shape="rect" id="node4" href="$example__1_8cpp.html" title="The example that uses interface, creates material and shape objects, and combines to get the weight T..." alt="" coords="213,191,386,233"/>
+<area shape="rect" id="node5" href="$object__interface__test_8hpp.html" title="This file contains all the tests for the class ObjectInterface, it tests all the functions and the co..." alt="" coords="411,184,583,240"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="MassCalculator::Shapes::Angle::getVolume" name="MassCalculator::Shapes::Angle::getVolume">
+<area shape="rect" id="node2" href="$namespaceunits_1_1math.html#a8bc48cef3fdfae35910a4bbe5011abcd" title="computes the value of value raised to the power " alt="" coords="242,5,361,32"/>
+<area shape="rect" id="node3" href="$class_mass_calculator_1_1_shapes_1_1_angle.html#a3e58d65898538712d4ee2582deffdbe6" title="Get the Side object. " alt="" coords="219,57,384,98"/>
+<area shape="rect" id="node4" href="$class_mass_calculator_1_1_shapes_1_1_angle.html#ac74239e842c30e7ba14b095a25b89a99" title="Get the Length object. " alt="" coords="219,122,384,163"/>
+</map>

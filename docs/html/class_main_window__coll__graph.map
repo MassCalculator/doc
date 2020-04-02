@@ -1,0 +1,4 @@
+<map id="MainWindow" name="MainWindow">
+<area shape="rect" id="node3" href="$class_ui_1_1_main_window.html" title="{Ui::MainWindow\n||}" alt="" coords="175,293,293,371"/>
+<area shape="rect" id="node4" href="$class_ui___main_window.html" title="{Ui_MainWindow\n|+ actionImport_DXF\l+ actionAbout\l+ actionTest\l+ actionExit\l+ centralwidget\l+ frame\l+ openGLWidget\l+ frame_2\l+ formLayoutWidget\l+ formLayout\land 17 more...\l|+ setupUi()\l+ retranslateUi()\l}" alt="" coords="164,5,304,244"/>
+</map>
