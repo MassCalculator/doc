@@ -1,0 +1,4 @@
+<map id="MassCalculator::Materials::StainlessSteel" name="MassCalculator::Materials::StainlessSteel">
+<area shape="rect" id="node2" href="$class_mass_calculator_1_1_materials_1_1_material.html" title="{MassCalculator::Materials\l::Material\&lt; StainlessSteel \&gt;\n||+ Material()\l+ Material()\l+ Material()\l+ Material()\l+ initLuaScript()\l+ setType()\l+ getType()\l+ getSpecificColor()\l+ getSpecificDensity()\l+ getSpecificGravity()\land 9 more...\l}" alt="" coords="9,160,193,399"/>
+<area shape="rect" id="node3" href="$struct_mass_calculator_1_1_materials_1_1crtp.html" title="{MassCalculator::Materials\l::crtp\&lt; StainlessSteel \&gt;\n||+ materialType()\l+ materialType()\l}" alt="" coords="14,5,189,112"/>
+</map>

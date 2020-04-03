@@ -1,0 +1,5 @@
+<map id="MassCalculator::HexagonBar::getVolume" name="MassCalculator::HexagonBar::getVolume">
+<area shape="rect" id="node2" href="$namespaceunits_1_1math.html#a8bc48cef3fdfae35910a4bbe5011abcd" title="computes the value of value raised to the power " alt="" coords="284,5,403,32"/>
+<area shape="rect" id="node3" href="$class_mass_calculator_1_1_hexagon_bar.html#a780785da81905c29f28b31fa4ab38b89" title="Get the Side object. " alt="" coords="247,57,440,98"/>
+<area shape="rect" id="node4" href="$class_mass_calculator_1_1_hexagon_bar.html#a58cbc71fa36501c55ae5d5d244b6c9d9" title="Get the Length object. " alt="" coords="247,122,440,163"/>
+</map>

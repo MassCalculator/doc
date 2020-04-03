@@ -1,0 +1,4 @@
+<map id="MassCalculator::Shapes::HexagonBar" name="MassCalculator::Shapes::HexagonBar">
+<area shape="rect" id="node2" href="$class_mass_calculator_1_1_shapes_1_1_shape.html" title="{MassCalculator::Shapes\l::Shape\&lt; HexagonBar \&gt;\n|&#45; type_\l|+ Shape()\l+ Shape()\l+ Shape()\l+ setSize()\l+ getRadius()\l+ getType()\l+ getDiameter()\l+ getLength()\l+ getVolume()\l+ getSurfaceArea()\l+ ~Shape()\l+ operator=()\l+ operator=()\l+ thisTShapeType()\l&#45; formatStringToEnum()\l&#45; previewFormatToEnum()\l}" alt="" coords="5,160,179,472"/>
+<area shape="rect" id="node3" href="$struct_mass_calculator_1_1_shapes_1_1crtp.html" title="{MassCalculator::Shapes\l::crtp\&lt; HexagonBar \&gt;\n||+ shapeType()\l+ shapeType()\l}" alt="" coords="9,5,175,112"/>
+</map>
