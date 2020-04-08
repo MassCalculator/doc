@@ -1,5 +1,7 @@
 var struct_mass_calculator_1_1_materials_1_1_copper_1_1_properties =
 [
+    [ "Properties", "struct_mass_calculator_1_1_materials_1_1_copper_1_1_properties.html#afb246952fb01a0233125e3c610bf5fa4", null ],
+    [ "Properties", "struct_mass_calculator_1_1_materials_1_1_copper_1_1_properties.html#a4a0ecb58dc9135fa09128a152ec5e18e", null ],
     [ "color_", "struct_mass_calculator_1_1_materials_1_1_copper_1_1_properties.html#af63b2023255bb7d7a22f21b3e327552f", null ],
     [ "density_", "struct_mass_calculator_1_1_materials_1_1_copper_1_1_properties.html#ac59a33fb0f6a90eff0dc10c1e96dfab6", null ],
     [ "gravity_", "struct_mass_calculator_1_1_materials_1_1_copper_1_1_properties.html#ae9d7b8bbc88cec6a0f7e99412c38794a", null ],

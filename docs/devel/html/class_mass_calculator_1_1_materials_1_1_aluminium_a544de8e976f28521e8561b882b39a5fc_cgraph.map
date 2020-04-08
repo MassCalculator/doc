@@ -1,5 +1,5 @@
 <map id="MassCalculator::Materials::Aluminium::_setPropertieSpecs" name="MassCalculator::Materials::Aluminium::_setPropertieSpecs">
-<area shape="rect" id="node2" href="$namespace_mass_calculator_1_1_helper_functions.html#adb58d669396ab2d4f9c0110a0214d085" title="MassCalculator::HelperFunctions\l::TTernaryOperator" alt="" coords="267,5,483,47"/>
+<area shape="rect" id="node2" href="$namespace_mass_calculator_1_1_helper_functions.html#adb58d669396ab2d4f9c0110a0214d085" title="Template ternary operator, you can specify with template the return type. " alt="" coords="267,5,483,47"/>
 <area shape="rect" id="node3" href="$namespace_mass_calculator_1_1_helper_functions.html#af2d73923bb3fcb3ba6160ec6c179dee0" title="MassCalculator::HelperFunctions\l::checkFromLuaConfig" alt="" coords="267,71,483,112"/>
 <area shape="rect" id="node4" href="$class_mass_calculator_1_1_materials_1_1_aluminium.html#a398b23b32cb6e79f3b1f13ae8dc4564e" title="Function to return the class name, not the pointer of the class, I am trying to keep away this functi..." alt="" coords="278,136,471,177"/>
 </map>

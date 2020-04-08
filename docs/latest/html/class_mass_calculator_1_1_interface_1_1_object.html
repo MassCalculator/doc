@@ -142,10 +142,9 @@ Private Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:aefbe484d08d77470736803687ac2a27f"><td class="memTemplParams" colspan="2"><a id="aefbe484d08d77470736803687ac2a27f"></a>
-template&lt;typename TShapeOs , typename TMaterialOs &gt; </td></tr>
+<tr class="memitem:aefbe484d08d77470736803687ac2a27f"><td class="memTemplParams" colspan="2">template&lt;typename TShapeOs , typename TMaterialOs &gt; </td></tr>
 <tr class="memitem:aefbe484d08d77470736803687ac2a27f"><td class="memTemplItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_mass_calculator_1_1_interface_1_1_object.html#aefbe484d08d77470736803687ac2a27f">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="class_mass_calculator_1_1_interface_1_1_object.html">Object</a>&lt; TShapeOs, TMaterialOs &gt; &amp;obj)</td></tr>
-<tr class="memdesc:aefbe484d08d77470736803687ac2a27f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shift operator overload for class <a class="el" href="class_mass_calculator_1_1_interface_1_1_object.html" title="Class Object, that holds all the nessesary information from Material and Shape classes. ">Object</a>, this will print all the calculated properties. <br /></td></tr>
+<tr class="memdesc:aefbe484d08d77470736803687ac2a27f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shift operator overload for class <a class="el" href="class_mass_calculator_1_1_interface_1_1_object.html" title="Class Object, that holds all the nessesary information from Material and Shape classes. ">Object</a>, this will print all the calculated properties.  <a href="#aefbe484d08d77470736803687ac2a27f">More...</a><br /></td></tr>
 <tr class="separator:aefbe484d08d77470736803687ac2a27f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -273,8 +272,67 @@ template&lt;typename TShape , typename TMaterial &gt; </div>
 
 </div>
 </div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="aefbe484d08d77470736803687ac2a27f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefbe484d08d77470736803687ac2a27f">&#9670;&nbsp;</a></span>operator<<</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TShape , typename TMaterial &gt; </div>
+<div class="memtemplate">
+template&lt;typename TShapeOs , typename TMaterialOs &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream&amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_mass_calculator_1_1_interface_1_1_object.html">Object</a>&lt; TShapeOs, TMaterialOs &gt; &amp;&#160;</td>
+          <td class="paramname"><em>obj</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Shift operator overload for class <a class="el" href="class_mass_calculator_1_1_interface_1_1_object.html" title="Class Object, that holds all the nessesary information from Material and Shape classes. ">Object</a>, this will print all the calculated properties. </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000023">Todo:</a></b></dt><dd>Add documentation</dd></dl>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">TShapeOs</td><td></td></tr>
+    <tr><td class="paramname">TMaterialOs</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">os</td><td></td></tr>
+    <tr><td class="paramname">obj</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>std::ostream&amp; </dd></dl>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>MassCalculator/include/interface/<a class="el" href="object__interface_8hpp_source.html">object_interface.hpp</a></li>
+<li>include/interface/<a class="el" href="object__interface_8hpp_source.html">object_interface.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -282,7 +340,7 @@ template&lt;typename TShape , typename TMaterial &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_mass_calculator.html">MassCalculator</a></li><li class="navelem"><a class="el" href="namespace_mass_calculator_1_1_interface.html">Interface</a></li><li class="navelem"><a class="el" href="class_mass_calculator_1_1_interface_1_1_object.html">Object</a></li>
-    <li class="footer">Generated on Thu Apr 2 2020 23:24:12 for MassCalculator by
+    <li class="footer">Generated on Wed Apr 8 2020 18:02:20 for MassCalculator by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

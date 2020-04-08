@@ -1,5 +1,7 @@
 var struct_mass_calculator_1_1_materials_1_1_magnesium_1_1_properties =
 [
+    [ "Properties", "struct_mass_calculator_1_1_materials_1_1_magnesium_1_1_properties.html#afb58f7e256fc8a8645ae05d07dc02107", null ],
+    [ "Properties", "struct_mass_calculator_1_1_materials_1_1_magnesium_1_1_properties.html#abc53c78409461a49fa9c31e36b26368a", null ],
     [ "color_", "struct_mass_calculator_1_1_materials_1_1_magnesium_1_1_properties.html#a398a3669594f6a7ab89b5d1379b7b515", null ],
     [ "density_", "struct_mass_calculator_1_1_materials_1_1_magnesium_1_1_properties.html#ae435bdf076862cec417a9c814231e943", null ],
     [ "gravity_", "struct_mass_calculator_1_1_materials_1_1_magnesium_1_1_properties.html#ab4ea5130907716b251e7051d70dcfedf", null ],

@@ -1,5 +1,6 @@
 var namespace_mass_calculator_1_1_shapes =
 [
+    [ "Constants", null, null ],
     [ "Angle", "class_mass_calculator_1_1_shapes_1_1_angle.html", "class_mass_calculator_1_1_shapes_1_1_angle" ],
     [ "Bar", "class_mass_calculator_1_1_shapes_1_1_bar.html", "class_mass_calculator_1_1_shapes_1_1_bar" ],
     [ "Beam", "class_mass_calculator_1_1_shapes_1_1_beam.html", "class_mass_calculator_1_1_shapes_1_1_beam" ],

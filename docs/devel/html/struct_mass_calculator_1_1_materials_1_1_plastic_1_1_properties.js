@@ -1,5 +1,7 @@
 var struct_mass_calculator_1_1_materials_1_1_plastic_1_1_properties =
 [
+    [ "Properties", "struct_mass_calculator_1_1_materials_1_1_plastic_1_1_properties.html#a0becf65c895be3559263ddb5bf6e7a61", null ],
+    [ "Properties", "struct_mass_calculator_1_1_materials_1_1_plastic_1_1_properties.html#a27915f040b5ff0efbae73f5122bfe6d3", null ],
     [ "color_", "struct_mass_calculator_1_1_materials_1_1_plastic_1_1_properties.html#a5125c992938f79d20dafbf884234fbbc", null ],
     [ "density_", "struct_mass_calculator_1_1_materials_1_1_plastic_1_1_properties.html#a531cfce96d62f95e837a3540c402296a", null ],
     [ "gravity_", "struct_mass_calculator_1_1_materials_1_1_plastic_1_1_properties.html#a4af3fc2428eb4fe797fd367eb64b5731", null ],

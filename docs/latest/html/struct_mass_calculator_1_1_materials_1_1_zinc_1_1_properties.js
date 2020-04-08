@@ -1,5 +1,7 @@
 var struct_mass_calculator_1_1_materials_1_1_zinc_1_1_properties =
 [
+    [ "Properties", "struct_mass_calculator_1_1_materials_1_1_zinc_1_1_properties.html#a8f27444e8066a3dcd825bd2843db2ac3", null ],
+    [ "Properties", "struct_mass_calculator_1_1_materials_1_1_zinc_1_1_properties.html#a2bed2dd73e1d8983c5ff3979be8ce0a2", null ],
     [ "color_", "struct_mass_calculator_1_1_materials_1_1_zinc_1_1_properties.html#a23ea59a864539d0d6cad9f6aae11d2d1", null ],
     [ "density_", "struct_mass_calculator_1_1_materials_1_1_zinc_1_1_properties.html#a2c015ae09d75c79d5d853c928ef57b60", null ],
     [ "gravity_", "struct_mass_calculator_1_1_materials_1_1_zinc_1_1_properties.html#a4a6bb38635e456194d713a2fcb890b93", null ],

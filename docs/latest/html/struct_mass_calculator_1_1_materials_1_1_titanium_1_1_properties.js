@@ -1,5 +1,7 @@
 var struct_mass_calculator_1_1_materials_1_1_titanium_1_1_properties =
 [
+    [ "Properties", "struct_mass_calculator_1_1_materials_1_1_titanium_1_1_properties.html#af84f2dfea5392dd010b0917cd98454df", null ],
+    [ "Properties", "struct_mass_calculator_1_1_materials_1_1_titanium_1_1_properties.html#a443daabfab8c9e503b27caa7a054911a", null ],
     [ "color_", "struct_mass_calculator_1_1_materials_1_1_titanium_1_1_properties.html#afabc2814b8e866ae9fcb71cb6332b5ff", null ],
     [ "density_", "struct_mass_calculator_1_1_materials_1_1_titanium_1_1_properties.html#a0b121fd94d16789439cbbdcc95562c7e", null ],
     [ "gravity_", "struct_mass_calculator_1_1_materials_1_1_titanium_1_1_properties.html#a7a4435fde081357cb6c88faefcd69af6", null ],

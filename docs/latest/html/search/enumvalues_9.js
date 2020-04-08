@@ -8,7 +8,7 @@ var searchData=
   ['s_5f4140',['S_4140',['../class_mass_calculator_1_1_materials_1_1_steel.html#aa79d233c8aa8289b9fe4227366dab992a6882269d9d449311133a9240892c88d8',1,'MassCalculator::Materials::Steel']]],
   ['s_5fa36',['S_A36',['../class_mass_calculator_1_1_materials_1_1_steel.html#aa79d233c8aa8289b9fe4227366dab992a2ec730ea2a215755675358d597b7b406',1,'MassCalculator::Materials::Steel']]],
   ['sheet',['Sheet',['../class_mass_calculator_1_1_shapes_1_1_sheet.html#a12ff43f133026dcc28b0a1228765f6dea83a293c58d996a90ac357b10ba864c83',1,'MassCalculator::Shapes::Sheet']]],
-  ['squarebar',['SquareBar',['../class_mass_calculator_1_1_shapes_1_1_square_bar.html#a3376b4196ac378b22bdcf4b2c3202555a5ebca3b7061ba17218d0e01cfccf2f47',1,'MassCalculator::Shapes::SquareBar']]],
+  ['squarebar',['SquareBar',['../class_mass_calculator_1_1_shapes_1_1_shape.html#a441280b83d609960721167ea425fd784a5ebca3b7061ba17218d0e01cfccf2f47',1,'MassCalculator::Shapes::Shape']]],
   ['squaretubing',['SquareTubing',['../class_mass_calculator_1_1_shapes_1_1_square_tubing.html#a257fa3419a11f796cdc11c04a25e274ba4d8c518bf0d0cb32a31f056c8560a6d7',1,'MassCalculator::Shapes::SquareTubing']]],
   ['ss_5f15_5f5',['SS_15_5',['../class_mass_calculator_1_1_materials_1_1_stainless_steel.html#ae56c88c753451c3d0d548113fbf41e01a832b1f081a97010ace281c0f96edf3d1',1,'MassCalculator::Materials::StainlessSteel']]],
   ['ss_5f17_5f4',['SS_17_4',['../class_mass_calculator_1_1_materials_1_1_stainless_steel.html#ae56c88c753451c3d0d548113fbf41e01a48718e145fe8bc8ae8a05281f5626031',1,'MassCalculator::Materials::StainlessSteel']]],

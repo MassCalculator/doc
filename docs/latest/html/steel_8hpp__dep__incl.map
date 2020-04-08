@@ -1,8 +1,6 @@
-<map id="MassCalculator/include/materials/steel.hpp" name="MassCalculator/include/materials/steel.hpp">
-<area shape="rect" id="node2" href="$materials_8hh.html" title="This header contains all the headers for Materials, if this header is included, you include all the h..." alt="" coords="220,95,379,136"/>
-<area shape="rect" id="node7" href="$steel__test_8hpp.html" title="This file contains all the tests for the class Steel, it tests all the functions and the constructors..." alt="" coords="403,95,569,136"/>
-<area shape="rect" id="node3" href="$object__interface_8hpp.html" title="Interface class, that interacts with all other classes to get the result we need. ..." alt="" coords="201,184,398,225"/>
-<area shape="rect" id="node4" href="$mainwindow_8h_source.html" title="MassCalculatorGUI/include\l/mainwindow.h" alt="" coords="5,281,188,322"/>
-<area shape="rect" id="node5" href="$example__1_8cpp.html" title="The example that uses interface, creates material and shape objects, and combines to get the weight T..." alt="" coords="213,281,386,322"/>
-<area shape="rect" id="node6" href="$object__interface__test_8hpp.html" title="This file contains all the tests for the class ObjectInterface, it tests all the functions and the co..." alt="" coords="411,273,583,329"/>
+<map id="include/materials/steel.hpp" name="include/materials/steel.hpp">
+<area shape="rect" id="node2" href="$materials_8hh.html" title="This header contains all the headers for Materials, if this header is included, you include all the h..." alt="" coords="5,87,200,114"/>
+<area shape="rect" id="node5" href="$steel__test_8hpp.html" title="This file contains all the tests for the class Steel, it tests all the functions and the constructors..." alt="" coords="224,80,357,121"/>
+<area shape="rect" id="node3" href="$object__interface_8hpp.html" title="Interface class, that interacts with all other classes to get the result we need. ..." alt="" coords="25,169,181,211"/>
+<area shape="rect" id="node4" href="$object__interface__test_8hpp.html" title="This file contains all the tests for the class ObjectInterface, it tests all the functions and the co..." alt="" coords="34,259,171,300"/>
 </map>

@@ -2,12 +2,13 @@ var zinc_8hpp =
 [
     [ "Zinc", "class_mass_calculator_1_1_materials_1_1_zinc.html", "class_mass_calculator_1_1_materials_1_1_zinc" ],
     [ "Properties", "struct_mass_calculator_1_1_materials_1_1_zinc_1_1_properties.html", "struct_mass_calculator_1_1_materials_1_1_zinc_1_1_properties" ],
-    [ "Z_190", "zinc_8hpp.html#af916be254b3d31687dc65edc8701a1d4", null ],
-    [ "Z_310", "zinc_8hpp.html#ac1b38d11bb3be4e97e9821938ea5dade", null ],
-    [ "Z_320", "zinc_8hpp.html#a7ae55138bdafdb5b11bd480a156838d3", null ],
-    [ "Z_500", "zinc_8hpp.html#af1f219c20ba9b1dd5c19451e63965c4d", null ],
-    [ "Z_700", "zinc_8hpp.html#a003ffecd7b007b54dd87c1007bb47462", null ],
-    [ "Z_720", "zinc_8hpp.html#a9af82cf21e094a9821ada076b19b3b8b", null ],
-    [ "Z_750", "zinc_8hpp.html#a12bf47c16b765cbcc99e64092845da00", null ],
-    [ "ZincLuaConfigPath", "zinc_8hpp.html#a58ec3a6bc4778f2645447421698e1018", null ]
+    [ "LuaConfigPath", "zinc_8hpp.html#a5482ad82c35c856a1c176e57f67d5425", null ],
+    [ "UNSPECIFIED", "zinc_8hpp.html#ae0d7e37c82e949ce6401101430525755", null ],
+    [ "Z_190", "zinc_8hpp.html#a4cd98f7f276404a847c772cce6a4a341", null ],
+    [ "Z_310", "zinc_8hpp.html#afd333eeac1921696adc26865a22d273f", null ],
+    [ "Z_320", "zinc_8hpp.html#ae6c389c3dabedd85d4c02fe21dca4aaf", null ],
+    [ "Z_500", "zinc_8hpp.html#a8254e173d17e4a0946dbcac4cbc59a9b", null ],
+    [ "Z_700", "zinc_8hpp.html#a4bfb9888345974faeb1996cf63adac33", null ],
+    [ "Z_720", "zinc_8hpp.html#a037df4a9147b0e9e21f93583c5523211", null ],
+    [ "Z_750", "zinc_8hpp.html#ae734af41b8af73b568f372baf0950cc7", null ]
 ];

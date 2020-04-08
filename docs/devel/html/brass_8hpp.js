@@ -2,13 +2,14 @@ var brass_8hpp =
 [
     [ "Brass", "class_mass_calculator_1_1_materials_1_1_brass.html", "class_mass_calculator_1_1_materials_1_1_brass" ],
     [ "Properties", "struct_mass_calculator_1_1_materials_1_1_brass_1_1_properties.html", "struct_mass_calculator_1_1_materials_1_1_brass_1_1_properties" ],
-    [ "B_240Low", "brass_8hpp.html#a20dc8452079c3835314b18b7c4259f29", null ],
-    [ "B_260Cartridge", "brass_8hpp.html#a7f4bf7403849f1b00c0838c2675c7afa", null ],
-    [ "B_353Leaded", "brass_8hpp.html#af1f648c8f359f32e03bc1962292e34fb", null ],
-    [ "B_360", "brass_8hpp.html#a6eece0769ae7667f6a7253a27d4d9daf", null ],
-    [ "B_365", "brass_8hpp.html#a0d4be069f78330b3f62cf73ff1acc5a9", null ],
-    [ "B_380", "brass_8hpp.html#a14bffc284db93d2544b6c1fc8a4454f0", null ],
-    [ "B_385", "brass_8hpp.html#ac2ead46633b7a5757a4c7f942ca11929", null ],
-    [ "B_464", "brass_8hpp.html#a773068a20c9e7fcf0a87ec640a428c5a", null ],
-    [ "BrassLuaConfigPath", "brass_8hpp.html#a9408cca6bf5cffff6268f7c7475acc6a", null ]
+    [ "B_240Low", "brass_8hpp.html#a6f650be7a66f0dab3f8d2f10c42cbbf2", null ],
+    [ "B_260Cartridge", "brass_8hpp.html#a7c3b95dbd31f58c49147f5b9e473bcc8", null ],
+    [ "B_353Leaded", "brass_8hpp.html#ac734a61fb6797655fc7c9bf7605d0f65", null ],
+    [ "B_360", "brass_8hpp.html#a89b4b1a077ff9298bc39b9c43b3e846a", null ],
+    [ "B_365", "brass_8hpp.html#a2b9ffbe51637b7f1a54e600a35261b5f", null ],
+    [ "B_380", "brass_8hpp.html#a3291a08df9d74500b354fa7d4cd33902", null ],
+    [ "B_385", "brass_8hpp.html#a7538ff5a2fc0874848fba8cc5e0a7e62", null ],
+    [ "B_464", "brass_8hpp.html#a7725f0ac588d8d70bb35b7787d4e5455", null ],
+    [ "LuaConfigPath", "brass_8hpp.html#ad54dba1d135e68ebed3de95e7172262c", null ],
+    [ "UNSPECIFIED", "brass_8hpp.html#a2a449ed484827f14fdb3f467717b67d0", null ]
 ];

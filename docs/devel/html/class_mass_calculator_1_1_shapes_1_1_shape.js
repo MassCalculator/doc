@@ -19,6 +19,7 @@ var class_mass_calculator_1_1_shapes_1_1_shape =
       [ "END", "class_mass_calculator_1_1_shapes_1_1_shape.html#a441280b83d609960721167ea425fd784ab1a326c06d88bf042f73d70f50197905", null ]
     ] ],
     [ "Shape", "class_mass_calculator_1_1_shapes_1_1_shape.html#a8e4e074619431083e9c6bfb9fcf61c1a", null ],
+    [ "Shape", "class_mass_calculator_1_1_shapes_1_1_shape.html#a96f02843a64b73afcb7bfc4f58e612a7", null ],
     [ "~Shape", "class_mass_calculator_1_1_shapes_1_1_shape.html#ae56c237530fe221c3e2666c1bbc59315", null ],
     [ "Shape", "class_mass_calculator_1_1_shapes_1_1_shape.html#a0ee32e10f89e72d1a201fc7f54fbf707", null ],
     [ "Shape", "class_mass_calculator_1_1_shapes_1_1_shape.html#adb10d8028843ef91e6acdbd72a99fe1f", null ],

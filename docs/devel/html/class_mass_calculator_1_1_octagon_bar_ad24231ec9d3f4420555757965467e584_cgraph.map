@@ -1,5 +1,0 @@
-<map id="MassCalculator::OctagonBar::getVolume" name="MassCalculator::OctagonBar::getVolume">
-<area shape="rect" id="node2" href="$namespaceunits_1_1math.html#a8bc48cef3fdfae35910a4bbe5011abcd" title="computes the value of value raised to the power " alt="" coords="280,5,399,32"/>
-<area shape="rect" id="node3" href="$class_mass_calculator_1_1_octagon_bar.html#aa8cb8482bf92c1118958995f3beaa7a7" title="Get the Side object. " alt="" coords="244,57,435,98"/>
-<area shape="rect" id="node4" href="$class_mass_calculator_1_1_octagon_bar.html#a1d26bba520f5180617fcb2c3921ba506" title="Get the Length object. " alt="" coords="244,122,435,163"/>
-</map>

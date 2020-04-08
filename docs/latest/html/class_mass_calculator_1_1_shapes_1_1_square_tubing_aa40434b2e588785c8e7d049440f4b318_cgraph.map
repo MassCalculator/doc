@@ -1,5 +1,4 @@
 <map id="MassCalculator::Shapes::SquareTubing::getVolume" name="MassCalculator::Shapes::SquareTubing::getVolume">
-<area shape="rect" id="node2" href="$namespaceunits_1_1math.html#a8bc48cef3fdfae35910a4bbe5011abcd" title="computes the value of value raised to the power " alt="" coords="261,5,380,32"/>
-<area shape="rect" id="node3" href="$class_mass_calculator_1_1_shapes_1_1_square_tubing.html#a2e719b1e66d6fd81faaac1f7af45b0f4" title="Get the Side object. " alt="" coords="238,57,403,98"/>
-<area shape="rect" id="node4" href="$class_mass_calculator_1_1_shapes_1_1_square_tubing.html#a4c93418c54693270894f029498673fc6" title="Get the Length object. " alt="" coords="233,122,408,163"/>
+<area shape="rect" id="node2" href="$class_mass_calculator_1_1_shapes_1_1_square_tubing.html#a2e719b1e66d6fd81faaac1f7af45b0f4" title="Get the Side object. " alt="" coords="238,5,403,47"/>
+<area shape="rect" id="node3" href="$class_mass_calculator_1_1_shapes_1_1_square_tubing.html#a4c93418c54693270894f029498673fc6" title="Get the Length object. " alt="" coords="233,71,408,112"/>
 </map>

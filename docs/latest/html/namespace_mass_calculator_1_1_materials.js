@@ -1,5 +1,6 @@
 var namespace_mass_calculator_1_1_materials =
 [
+    [ "Constants", "namespace_mass_calculator_1_1_materials_1_1_constants.html", null ],
     [ "AlloyCoppers", "class_mass_calculator_1_1_materials_1_1_alloy_coppers.html", "class_mass_calculator_1_1_materials_1_1_alloy_coppers" ],
     [ "AlloySteels", "class_mass_calculator_1_1_materials_1_1_alloy_steels.html", "class_mass_calculator_1_1_materials_1_1_alloy_steels" ],
     [ "Aluminium", "class_mass_calculator_1_1_materials_1_1_aluminium.html", "class_mass_calculator_1_1_materials_1_1_aluminium" ],

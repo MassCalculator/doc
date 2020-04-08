@@ -1,5 +1,7 @@
 var struct_mass_calculator_1_1_materials_1_1_bronz_1_1_properties =
 [
+    [ "Properties", "struct_mass_calculator_1_1_materials_1_1_bronz_1_1_properties.html#aed141ca80e8b926ab9df2b97953edf4b", null ],
+    [ "Properties", "struct_mass_calculator_1_1_materials_1_1_bronz_1_1_properties.html#ae687a5cc0fa965f1d886f858fb61461a", null ],
     [ "color_", "struct_mass_calculator_1_1_materials_1_1_bronz_1_1_properties.html#af532b01704034c9afe58f149f36a20ae", null ],
     [ "density_", "struct_mass_calculator_1_1_materials_1_1_bronz_1_1_properties.html#ae362d03330081e61f48e8b1c37385f6b", null ],
     [ "gravity_", "struct_mass_calculator_1_1_materials_1_1_bronz_1_1_properties.html#aaaeca5f528cf94115f6e29bdd208f90d", null ],

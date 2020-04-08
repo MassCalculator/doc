@@ -1,5 +1,7 @@
 var struct_mass_calculator_1_1_materials_1_1_alloy_steels_1_1_properties =
 [
+    [ "Properties", "struct_mass_calculator_1_1_materials_1_1_alloy_steels_1_1_properties.html#a12e43022856033dbba86f7ca907857b0", null ],
+    [ "Properties", "struct_mass_calculator_1_1_materials_1_1_alloy_steels_1_1_properties.html#a8b5e1c7399983a582cb984218fbfa991", null ],
     [ "color_", "struct_mass_calculator_1_1_materials_1_1_alloy_steels_1_1_properties.html#ac6a00012d81bd50a43bb96fc2929b5b9", null ],
     [ "density_", "struct_mass_calculator_1_1_materials_1_1_alloy_steels_1_1_properties.html#a057771e14a170e2e3b51fee477889d33", null ],
     [ "gravity_", "struct_mass_calculator_1_1_materials_1_1_alloy_steels_1_1_properties.html#a5bf3056082a0d583835b7da2b342dd4c", null ],

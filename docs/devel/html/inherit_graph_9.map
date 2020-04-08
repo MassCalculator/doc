@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$struct_mass_calculator_1_1_materials_1_1_bronz_1_1_properties.html" title="Struct with material specific properties TODO:Check if this can be moved to the base class..." alt="" coords="5,5,180,47"/>
+<area shape="rect" id="node1" href="$struct_mass_calculator_1_1_materials_1_1crtp.html" title="MassCalculator::Materials\l::crtp\&lt; AlloyCoppers \&gt;" alt="" coords="5,5,180,47"/>
+<area shape="rect" id="node2" href="$class_mass_calculator_1_1_materials_1_1_material.html" title="MassCalculator::Materials\l::Material\&lt; AlloyCoppers \&gt;" alt="" coords="228,5,407,47"/>
+<area shape="rect" id="node3" href="$class_mass_calculator_1_1_materials_1_1_alloy_coppers.html" title="Class AlloyCoppers, that holds all the nessesary information for AlloyCoppers and it&#39;s types therefor..." alt="" coords="455,5,629,47"/>
 </map>

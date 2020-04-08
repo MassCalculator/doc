@@ -1,5 +1,7 @@
 var struct_mass_calculator_1_1_materials_1_1_nickel_1_1_properties =
 [
+    [ "Properties", "struct_mass_calculator_1_1_materials_1_1_nickel_1_1_properties.html#ae95fb80050f54cae27725c3f8aebf92e", null ],
+    [ "Properties", "struct_mass_calculator_1_1_materials_1_1_nickel_1_1_properties.html#a789ded7df36604fcd71461789a975939", null ],
     [ "color_", "struct_mass_calculator_1_1_materials_1_1_nickel_1_1_properties.html#ab2db59a628fb707ef507e0936cf3aaa7", null ],
     [ "density_", "struct_mass_calculator_1_1_materials_1_1_nickel_1_1_properties.html#a8c8a2b72f7b6eaae811919f19fc7e496", null ],
     [ "gravity_", "struct_mass_calculator_1_1_materials_1_1_nickel_1_1_properties.html#ac4445414b23c026325c136820c08e94b", null ],

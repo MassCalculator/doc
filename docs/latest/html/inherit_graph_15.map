@@ -1,5 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$struct_mass_calculator_1_1_materials_1_1crtp.html" title="MassCalculator::Materials\l::crtp\&lt; Bronz \&gt;" alt="" coords="5,5,180,47"/>
-<area shape="rect" id="node2" href="$class_mass_calculator_1_1_materials_1_1_material.html" title="MassCalculator::Materials\l::Material\&lt; Bronz \&gt;" alt="" coords="228,5,403,47"/>
-<area shape="rect" id="node3" href="$class_mass_calculator_1_1_materials_1_1_bronz.html" title="Class Bronz, that holds all the nessesary information for Bronz and it&#39;s types therefore we can use i..." alt="" coords="451,5,625,47"/>
+<area shape="rect" id="node1" href="$struct_mass_calculator_1_1_materials_1_1crtp.html" title="MassCalculator::Materials\l::crtp\&lt; Magnesium \&gt;" alt="" coords="5,5,180,47"/>
+<area shape="rect" id="node2" href="$class_mass_calculator_1_1_materials_1_1_material.html" title="MassCalculator::Materials\l::Material\&lt; Magnesium \&gt;" alt="" coords="228,5,403,47"/>
+<area shape="rect" id="node3" href="$class_mass_calculator_1_1_materials_1_1_magnesium.html" title="Class Magnesium, that holds all the nessesary information for Magnesium and it&#39;s types therefore we c..." alt="" coords="451,5,625,47"/>
 </map>

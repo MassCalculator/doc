@@ -1,0 +1,5 @@
+<map id="MassCalculator::Shapes::SquareBar::getLength" name="MassCalculator::Shapes::SquareBar::getLength">
+<area shape="rect" id="node2" href="$struct_mass_calculator_1_1_shapes_1_1_square_bar_1_1_properties.html#a2a9f64140a0a7c09aef8ee6bd746ea31" title="Construct a new Properties object and set diameter and length. " alt="" coords="456,19,621,75"/>
+<area shape="rect" id="node3" href="$class_mass_calculator_1_1_shapes_1_1_square_bar.html#af19d3a05135040722e342c18660a217a" title="Get the Volume object. " alt="" coords="231,26,396,67"/>
+<area shape="rect" id="node4" href="$class_mass_calculator_1_1_shapes_1_1_square_bar.html#a54154e52b40038fc74a634ef71ce8764" title="Get the Surface Area object. " alt="" coords="219,91,408,133"/>
+</map>

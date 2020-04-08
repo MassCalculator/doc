@@ -1,8 +1,6 @@
-<map id="MassCalculator/include/materials/stainless_steel.hpp" name="MassCalculator/include/materials/stainless_steel.hpp">
-<area shape="rect" id="node2" href="$materials_8hh.html" title="This header contains all the headers for Materials, if this header is included, you include all the h..." alt="" coords="220,102,379,143"/>
-<area shape="rect" id="node7" href="$stainless__steel__test_8hpp.html" title="This file contains all the tests for the class StainlessSteel, it tests all the functions and the con..." alt="" coords="403,95,542,151"/>
-<area shape="rect" id="node3" href="$object__interface_8hpp.html" title="Interface class, that interacts with all other classes to get the result we need. ..." alt="" coords="201,199,398,240"/>
-<area shape="rect" id="node4" href="$mainwindow_8h_source.html" title="MassCalculatorGUI/include\l/mainwindow.h" alt="" coords="5,295,188,337"/>
-<area shape="rect" id="node5" href="$example__1_8cpp.html" title="The example that uses interface, creates material and shape objects, and combines to get the weight T..." alt="" coords="213,295,386,337"/>
-<area shape="rect" id="node6" href="$object__interface__test_8hpp.html" title="This file contains all the tests for the class ObjectInterface, it tests all the functions and the co..." alt="" coords="411,288,583,344"/>
+<map id="include/materials/stainless_steel.hpp" name="include/materials/stainless_steel.hpp">
+<area shape="rect" id="node2" href="$materials_8hh.html" title="This header contains all the headers for Materials, if this header is included, you include all the h..." alt="" coords="5,102,200,129"/>
+<area shape="rect" id="node5" href="$stainless__steel__test_8hpp.html" title="This file contains all the tests for the class StainlessSteel, it tests all the functions and the con..." alt="" coords="224,95,381,136"/>
+<area shape="rect" id="node3" href="$object__interface_8hpp.html" title="Interface class, that interacts with all other classes to get the result we need. ..." alt="" coords="25,184,181,225"/>
+<area shape="rect" id="node4" href="$object__interface__test_8hpp.html" title="This file contains all the tests for the class ObjectInterface, it tests all the functions and the co..." alt="" coords="34,273,171,315"/>
 </map>

@@ -1,5 +1,4 @@
-<map id="MassCalculator/include/materials/material.hpp" name="MassCalculator/include/materials/material.hpp">
-<area shape="rect" id="node5" href="$units_8h.html" title="Complete implementation of units &#45; a compile&#45;time, header&#45;only, unit conversion library built on c++1..." alt="" coords="353,184,493,225"/>
-<area shape="rect" id="node14" href="$helper__functions_8hpp.html" title="This file holds all the functions that are not specified for a class, but are needed throughout the c..." alt="" coords="724,95,871,136"/>
-<area shape="rect" id="node15" href="$lua__handler_8hpp.html" title="LuaScriptHandler Class that holds all the nessesary functions and specialisations to get from lua fil..." alt="" coords="742,191,855,218"/>
+<map id="include/materials/material.hpp" name="include/materials/material.hpp">
+<area shape="rect" id="node6" href="$helper__functions_8hpp.html" title="This file holds all the functions that are not specified for a class, but are needed throughout the c..." alt="" coords="432,80,579,121"/>
+<area shape="rect" id="node7" href="$lua__handler_8hpp.html" title="LuaScriptHandler Class that holds all the nessesary functions and specialisations to get from lua fil..." alt="" coords="449,169,562,196"/>
 </map>

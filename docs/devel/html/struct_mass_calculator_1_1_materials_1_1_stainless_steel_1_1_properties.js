@@ -1,5 +1,7 @@
 var struct_mass_calculator_1_1_materials_1_1_stainless_steel_1_1_properties =
 [
+    [ "Properties", "struct_mass_calculator_1_1_materials_1_1_stainless_steel_1_1_properties.html#abc97ab5a25e3ece4f9fc2f34a0318305", null ],
+    [ "Properties", "struct_mass_calculator_1_1_materials_1_1_stainless_steel_1_1_properties.html#ad89d1fc4d3bac85c7b8c738fd8a3ae00", null ],
     [ "color_", "struct_mass_calculator_1_1_materials_1_1_stainless_steel_1_1_properties.html#a9f00e00165bd2f4105efe2942d1e3992", null ],
     [ "density_", "struct_mass_calculator_1_1_materials_1_1_stainless_steel_1_1_properties.html#a945eb763ed75e70f07f0f74b7de7ed6d", null ],
     [ "gravity_", "struct_mass_calculator_1_1_materials_1_1_stainless_steel_1_1_properties.html#ade36b1db02a28a6fb1c561986f702cb5", null ],
