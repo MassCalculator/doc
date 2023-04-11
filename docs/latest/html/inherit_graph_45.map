@@ -1,5 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$struct_mass_calculator_1_1_shapes_1_1crtp.html" title="MassCalculator::Shapes\l::crtp\&lt; Sheet \&gt;" alt="" coords="5,5,171,47"/>
-<area shape="rect" id="node2" href="$class_mass_calculator_1_1_shapes_1_1_shape.html" title="MassCalculator::Shapes\l::Shape\&lt; Sheet \&gt;" alt="" coords="219,5,384,47"/>
-<area shape="rect" id="node3" href="$class_mass_calculator_1_1_shapes_1_1_sheet.html" title="Class Sheet, that holds all the nessesary information for Sheet and it&#39;s details therefore we can use..." alt="" coords="432,5,597,47"/>
-</map>

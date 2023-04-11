@@ -1,0 +1,5 @@
+<map id="masscalculator::materials::AlloyCoppers" name="masscalculator::materials::AlloyCoppers">
+<area shape="rect" id="node1" title="Class AlloyCoppers, that holds all the nessesary information for AlloyCoppers and it&#39;s types therefor..." alt="" coords="10,184,201,225"/>
+<area shape="rect" id="node2" href="$classmasscalculator_1_1materials_1_1Material.html" title=" " alt="" coords="5,95,205,136"/>
+<area shape="rect" id="node3" href="$structmasscalculator_1_1materials_1_1Crtp.html" title=" " alt="" coords="10,5,201,47"/>
+</map>

@@ -1,6 +1,0 @@
-<map id="test/materials/titanium_test.hpp" name="test/materials/titanium_test.hpp">
-<area shape="rect" id="node2" href="$titanium_8hpp.html" title="Titanium class that holds the parameters for all the types. " alt="" coords="188,95,338,121"/>
-<area shape="rect" id="node3" href="$material_8hpp.html" title="This class is the base class for the Materials, this will be inherited from all the Material types..." alt="" coords="216,169,310,196"/>
-<area shape="rect" id="node8" href="$helper__functions_8hpp.html" title="This file holds all the functions that are not specified for a class, but are needed throughout the c..." alt="" coords="432,244,579,285"/>
-<area shape="rect" id="node9" href="$lua__handler_8hpp.html" title="LuaScriptHandler Class that holds all the nessesary functions and specialisations to get from lua fil..." alt="" coords="449,333,562,360"/>
-</map>

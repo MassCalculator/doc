@@ -1,5 +1,0 @@
-<map id="include/materials/alloy_coppers.hpp" name="include/materials/alloy_coppers.hpp">
-<area shape="rect" id="node2" href="$material_8hpp.html" title="This class is the base class for the Materials, this will be inherited from all the Material types..." alt="" coords="216,95,310,121"/>
-<area shape="rect" id="node7" href="$helper__functions_8hpp.html" title="This file holds all the functions that are not specified for a class, but are needed throughout the c..." alt="" coords="432,169,579,211"/>
-<area shape="rect" id="node8" href="$lua__handler_8hpp.html" title="LuaScriptHandler Class that holds all the nessesary functions and specialisations to get from lua fil..." alt="" coords="449,259,562,285"/>
-</map>

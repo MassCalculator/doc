@@ -1,6 +1,0 @@
-<map id="MassCalculator::Materials::Nickel" name="MassCalculator::Materials::Nickel">
-<area shape="rect" id="node2" href="$class_mass_calculator_1_1_materials_1_1_material.html" title="{MassCalculator::Materials\l::Material\&lt; Nickel \&gt;\n||+ Material()\l+ Material()\l+ Material()\l+ Material()\l+ initLuaScript()\l+ setType()\l+ getType()\l+ getSpecificColor()\l+ getSpecificDensity()\l+ getSpecificGravity()\land 9 more...\l}" alt="" coords="5,176,180,415"/>
-<area shape="rect" id="node3" href="$struct_mass_calculator_1_1_materials_1_1crtp.html" title="{MassCalculator::Materials\l::crtp\&lt; Nickel \&gt;\n||+ materialType()\l+ materialType()\l}" alt="" coords="5,5,180,112"/>
-<area shape="rect" id="node4" href="$class_mass_calculator_1_1_helper_classes_1_1_lua_script_handler.html" title="Class LuaScriptHandler, that holds all the nessesary functions and specialisations to get from lua fi..." alt="" coords="204,161,411,429"/>
-<area shape="rect" id="node5" href="$struct_mass_calculator_1_1_materials_1_1_nickel_1_1_properties.html" title="Struct with material specific properties. " alt="" coords="435,183,627,407"/>
-</map>

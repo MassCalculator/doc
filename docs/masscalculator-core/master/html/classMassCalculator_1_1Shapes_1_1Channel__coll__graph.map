@@ -1,0 +1,6 @@
+<map id="MassCalculator::Shapes::Channel" name="MassCalculator::Shapes::Channel">
+<area shape="rect" id="node1" title="Class Channel, that holds all the nessesary information for Channel and it&#39;s details therefore we can..." alt="" coords="535,53,712,95"/>
+<area shape="rect" id="node2" href="$classMassCalculator_1_1Shapes_1_1Shape.html" title=" " alt="" coords="232,5,409,47"/>
+<area shape="rect" id="node3" href="$structMassCalculator_1_1Shapes_1_1crtp.html" title=" " alt="" coords="5,5,183,47"/>
+<area shape="rect" id="node4" href="$structMassCalculator_1_1Shapes_1_1Channel_1_1Properties.html" title="Struct with material specific properties TODO:Check if this can be moved to the base class." alt="" coords="232,71,409,112"/>
+</map>

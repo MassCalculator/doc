@@ -1,6 +1,0 @@
-<map id="include/materials/alloy_coppers.hpp" name="include/materials/alloy_coppers.hpp">
-<area shape="rect" id="node2" href="$materials_8hh.html" title="This header contains all the headers for Materials, if this header is included, you include all the h..." alt="" coords="5,102,200,129"/>
-<area shape="rect" id="node5" href="$alloy__coppers__test_8hpp.html" title="This file contains all the tests for the class AlloyCoppers, it tests all the functions and the const..." alt="" coords="225,95,357,136"/>
-<area shape="rect" id="node3" href="$object__interface_8hpp.html" title="Interface class, that interacts with all other classes to get the result we need. ..." alt="" coords="25,184,181,225"/>
-<area shape="rect" id="node4" href="$object__interface__test_8hpp.html" title="This file contains all the tests for the class ObjectInterface, it tests all the functions and the co..." alt="" coords="34,273,171,315"/>
-</map>

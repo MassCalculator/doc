@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$structMassCalculator_1_1Shapes_1_1crtp.html" title=" " alt="" coords="5,5,183,47"/>
+<area shape="rect" id="node2" href="$classMassCalculator_1_1Shapes_1_1Shape.html" title=" " alt="" coords="231,5,408,47"/>
+<area shape="rect" id="node3" href="$classMassCalculator_1_1Shapes_1_1StlShape.html" title="Class StlShape, that holds all the nessesary information for the shape that is read from the dxf file..." alt="" coords="456,5,633,47"/>
+</map>

@@ -1,5 +1,0 @@
-<map id="include/materials/bronz.hpp" name="include/materials/bronz.hpp">
-<area shape="rect" id="node2" href="$material_8hpp.html" title="This class is the base class for the Materials, this will be inherited from all the Material types..." alt="" coords="216,80,310,107"/>
-<area shape="rect" id="node7" href="$helper__functions_8hpp.html" title="This file holds all the functions that are not specified for a class, but are needed throughout the c..." alt="" coords="432,155,579,196"/>
-<area shape="rect" id="node8" href="$lua__handler_8hpp.html" title="LuaScriptHandler Class that holds all the nessesary functions and specialisations to get from lua fil..." alt="" coords="449,244,562,271"/>
-</map>

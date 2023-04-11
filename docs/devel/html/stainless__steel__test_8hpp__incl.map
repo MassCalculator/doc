@@ -1,6 +1,0 @@
-<map id="test/materials/stainless_steel_test.hpp" name="test/materials/stainless_steel_test.hpp">
-<area shape="rect" id="node2" href="$stainless__steel_8hpp.html" title="StainlessSteel class that holds the parameters for all the types. " alt="" coords="198,95,328,136"/>
-<area shape="rect" id="node3" href="$material_8hpp.html" title="This class is the base class for the Materials, this will be inherited from all the Material types..." alt="" coords="216,184,310,211"/>
-<area shape="rect" id="node8" href="$helper__functions_8hpp.html" title="This file holds all the functions that are not specified for a class, but are needed throughout the c..." alt="" coords="432,259,579,300"/>
-<area shape="rect" id="node9" href="$lua__handler_8hpp.html" title="LuaScriptHandler Class that holds all the nessesary functions and specialisations to get from lua fil..." alt="" coords="449,348,562,375"/>
-</map>
