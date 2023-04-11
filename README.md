@@ -1,3 +1,3 @@
-## Mass Calculator documentation hosting repository
+# MassCalculator page
 
-In this repository lives the documentation generated from Doxygen and hosted in masscalculator.github.io
+This repository contains the documentation for the codebases of MassCalculator.
