@@ -158,6 +158,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a25a14838c35eb6a9118ae8e1e8607638"><td class="memItemLeft" align="right" valign="top">constexpr units::pressure::pascal_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html#a25a14838c35eb6a9118ae8e1e8607638">GetSpecificModOfElasticityTension</a> () const</td></tr>
 <tr class="memdesc:a25a14838c35eb6a9118ae8e1e8607638"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Specific Modulus of Elasticity Tension object.  <a href="classmasscalculator_1_1core_1_1materials_1_1Material.html#a25a14838c35eb6a9118ae8e1e8607638">More...</a><br /></td></tr>
 <tr class="separator:a25a14838c35eb6a9118ae8e1e8607638"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac80e14fb4f435103424149f40a1edcf3"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html#ac80e14fb4f435103424149f40a1edcf3">SetType</a> (const std::string_view &amp;type)</td></tr>
+<tr class="memdesc:ac80e14fb4f435103424149f40a1edcf3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Propertie Specs object.  <a href="classmasscalculator_1_1core_1_1materials_1_1Material.html#ac80e14fb4f435103424149f40a1edcf3">More...</a><br /></td></tr>
+<tr class="separator:ac80e14fb4f435103424149f40a1edcf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5cd0cb3b1b13783ea9a7e1013d0123e1"><td class="memItemLeft" align="right" valign="top"><a id="a5cd0cb3b1b13783ea9a7e1013d0123e1"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html#a5cd0cb3b1b13783ea9a7e1013d0123e1">~Material</a> ()=default</td></tr>
 <tr class="memdesc:a5cd0cb3b1b13783ea9a7e1013d0123e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy the <a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html" title="Template base class Material.">Material</a> object. <br /></td></tr>
@@ -484,6 +487,45 @@ template&lt;typename TMaterialType &gt; </div>
 
 <p>Get the Type object. </p>
 <dl class="section return"><dt>Returns</dt><dd>const std::string_view Type of the <a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html" title="Template base class Material.">Material</a> from Derived class </dd></dl>
+
+</div>
+</div>
+<a id="ac80e14fb4f435103424149f40a1edcf3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac80e14fb4f435103424149f40a1edcf3">&#9670;&nbsp;</a></span>SetType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TMaterialType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool <a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html">masscalculator::core::materials::Material</a>&lt; TMaterialType &gt;::SetType </td>
+          <td>(</td>
+          <td class="paramtype">const std::string_view &amp;&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the Propertie Specs object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td>Type of <a class="el" href="classmasscalculator_1_1core_1_1materials_1_1AlloyCoppers.html" title="Class AlloyCoppers, that holds all the nessesary information for AlloyCoppers and it&#39;s types therefor...">AlloyCoppers</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true If the specifications of propertie are successfully set </dd>
+<dd>
+false If the specifications of propertie failed to set </dd></dl>
 
 </div>
 </div>
