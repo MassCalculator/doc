@@ -1,11 +1,8 @@
 name: Update Docs
 
 on:
-  push:
-  pull_request:
-    types: [closed]
   repository_dispatch:
-    types: [your-event-type]
+    types: [core-pr-merged]
     repository: MassCalculator/masscalculator-core
 
 jobs:
