@@ -45,7 +45,7 @@ jobs:
         run: cp -r ${{matrix.repository}}/build/docs/docs/doxygen/html masscalculator.github.io/docs/masscalculator-core/${{matrix.ref}}/html
 
       - name: Pull changes from remote repository
-        run: git pull origin master
+        run: git -C masscalculator.github.io pull origin master
 
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v4
