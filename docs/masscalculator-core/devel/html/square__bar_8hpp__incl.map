@@ -1,10 +1,4 @@
-<map id="/home/jimmyhalimi/ws/masscalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/masscalculator/masscalculator&#45;core/shapes/square_bar.hpp" name="/home/jimmyhalimi/ws/masscalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/masscalculator/masscalculator&#45;core/shapes/square_bar.hpp">
-<area shape="rect" id="node1" title="SquareBar class that holds the parameters for the shape." alt="" coords="244,5,556,91"/>
-<area shape="rect" id="node2" href="$shape_8hpp.html" title="This class is the base class for the Shapes, this will be inherited from all the Shape types,..." alt="" coords="355,139,445,165"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,213,152,255"/>
-<area shape="rect" id="node4" title=" " alt="" coords="177,221,239,247"/>
-<area shape="rect" id="node5" title=" " alt="" coords="264,221,379,247"/>
-<area shape="rect" id="node6" title=" " alt="" coords="403,213,555,255"/>
-<area shape="rect" id="node7" title=" " alt="" coords="579,213,741,255"/>
-<area shape="rect" id="node8" title=" " alt="" coords="766,213,909,255"/>
+<map id="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/masscalculator/masscalculator&#45;core/shapes/square_bar.hpp" name="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/masscalculator/masscalculator&#45;core/shapes/square_bar.hpp">
+<area shape="rect" id="node1" title="SquareBar class that holds the parameters for the shape." alt="" coords="5,5,324,91"/>
+<area shape="rect" id="node2" title=" " alt="" coords="120,139,209,165"/>
 </map>

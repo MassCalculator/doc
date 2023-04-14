@@ -1,5 +1,4 @@
 <map id="MassCalculator::Shapes::SquareBar" name="MassCalculator::Shapes::SquareBar">
-<area shape="rect" id="node1" title="Class SquareBar, that holds all the nessesary information for SquareBar and it&#39;s details therefore we..." alt="" coords="5,184,183,225"/>
-<area shape="rect" id="node2" href="$classMassCalculator_1_1Shapes_1_1Shape.html" title=" " alt="" coords="5,95,183,136"/>
-<area shape="rect" id="node3" href="$structMassCalculator_1_1Shapes_1_1crtp.html" title=" " alt="" coords="5,5,183,47"/>
+<area shape="rect" id="node1" title="Class SquareBar, that holds all the nessesary information for SquareBar and it&#39;s details therefore we..." alt="" coords="5,80,183,121"/>
+<area shape="rect" id="node2" title=" " alt="" coords="15,5,173,32"/>
 </map>

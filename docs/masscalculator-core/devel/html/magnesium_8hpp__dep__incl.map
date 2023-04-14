@@ -1,8 +1,4 @@
-<map id="/home/jimmyhalimi/ws/masscalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/masscalculator/masscalculator&#45;core/materials/magnesium.hpp" name="/home/jimmyhalimi/ws/masscalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/masscalculator/masscalculator&#45;core/materials/magnesium.hpp">
-<area shape="rect" id="node1" title="Magnesium class that holds the parameters for all the types." alt="" coords="277,5,589,91"/>
-<area shape="rect" id="node2" href="$materials_8hh.html" title="This header contains all the headers for Materials, if this header is included, you include all the h..." alt="" coords="113,139,425,224"/>
-<area shape="rect" id="node6" href="$magnesium__test_8hpp.html" title="This file contains all the tests for the class Magnesium, it tests all the functions and the construc..." alt="" coords="449,146,747,217"/>
-<area shape="rect" id="node3" href="$object__interface_8hpp.html" title="Interface class, that interacts with all other classes to get the result we need." alt="" coords="113,272,425,357"/>
-<area shape="rect" id="node4" href="$example__1_8cpp.html" title="The example that uses interface, creates material and shape objects, and combines to get the weight T..." alt="" coords="5,413,233,469"/>
-<area shape="rect" id="node5" href="$object__interface__test_8hpp.html" title="This file contains all the tests for the class ObjectInterface, it tests all the functions and the co..." alt="" coords="258,405,581,476"/>
+<map id="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/masscalculator/masscalculator&#45;core/materials/magnesium.hpp" name="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/masscalculator/masscalculator&#45;core/materials/magnesium.hpp">
+<area shape="rect" id="node1" title="Magnesium class that holds the parameters for all the types." alt="" coords="5,5,324,91"/>
+<area shape="rect" id="node2" href="$magnesium__test_8hpp.html" title="This file contains all the tests for the class Magnesium, it tests all the functions and the construc..." alt="" coords="5,139,324,209"/>
 </map>
