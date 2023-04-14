@@ -1,8 +1,8 @@
-<map id="/home/jimmyhalimi/ws/masscalculator/masscalculator&#45;core/libraries/lua&#45;handler/tests/lua_handler_test.cc" name="/home/jimmyhalimi/ws/masscalculator/masscalculator&#45;core/libraries/lua&#45;handler/tests/lua_handler_test.cc">
-<area shape="rect" id="node1" title="Defines unit tests for the LuaScriptHandler class." alt="" coords="46,5,274,76"/>
-<area shape="rect" id="node2" href="$lua__handler__test_8h.html" title="Defines unit tests for the LuaScriptHandler class." alt="" coords="146,124,289,151"/>
-<area shape="rect" id="node3" title=" " alt="" coords="51,206,155,233"/>
-<area shape="rect" id="node4" title=" " alt="" coords="179,206,256,233"/>
+<map id="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/libraries/lua&#45;handler/tests/lua_handler_test.cc" name="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/libraries/lua&#45;handler/tests/lua_handler_test.cc">
+<area shape="rect" id="node1" title="Defines unit tests for the LuaScriptHandler class." alt="" coords="7,5,315,76"/>
+<area shape="rect" id="node2" href="$lua__handler__test_8h.html" title="Defines unit tests for the LuaScriptHandler class." alt="" coords="147,124,290,151"/>
+<area shape="rect" id="node3" title=" " alt="" coords="52,206,156,233"/>
+<area shape="rect" id="node4" title=" " alt="" coords="180,206,257,233"/>
 <area shape="rect" id="node5" href="$lua__handler_8h.html" title="Definition of the LuaScriptHandler class, which encapsulates the definition and specializations for h..." alt="" coords="281,206,391,233"/>
 <area shape="rect" id="node14" href="$lua__handler__data_8h.html" title="Specifies the path to the test data used by the LuaScriptHandler class." alt="" coords="415,199,566,240"/>
 <area shape="rect" id="node6" title=" " alt="" coords="5,295,64,322"/>

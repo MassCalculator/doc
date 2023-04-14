@@ -1,5 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structMassCalculator_1_1Shapes_1_1crtp.html" title=" " alt="" coords="5,5,183,47"/>
-<area shape="rect" id="node2" href="$classMassCalculator_1_1Shapes_1_1Shape.html" title=" " alt="" coords="231,5,411,47"/>
-<area shape="rect" id="node3" href="$classMassCalculator_1_1Shapes_1_1HexagonBar.html" title="Class HexagonBar, that holds all the nessesary information for HexagonBar and it&#39;s details therefore ..." alt="" coords="459,5,636,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,35,92,61"/>
+<area shape="rect" id="node2" href="$classrun-clang-format_1_1DiffError.html" title=" " alt="" coords="152,5,343,32"/>
+<area shape="rect" id="node3" href="$classrun-clang-format_1_1UnexpectedError.html" title=" " alt="" coords="140,57,355,98"/>
 </map>

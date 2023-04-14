@@ -1,5 +1,5 @@
-<map id="/home/jimmyhalimi/ws/masscalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/materials/materials.hh" name="/home/jimmyhalimi/ws/masscalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/materials/materials.hh">
-<area shape="rect" id="node1" title="This header contains all the headers for Materials, if this header is included, you include all the h..." alt="" coords="739,5,998,76"/>
+<map id="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/materials/materials.hh" name="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/materials/materials.hh">
+<area shape="rect" id="node1" title="This header contains all the headers for Materials, if this header is included, you include all the h..." alt="" coords="709,5,1028,76"/>
 <area shape="rect" id="node2" title=" " alt="" coords="5,124,145,151"/>
 <area shape="rect" id="node3" href="$alloy__steels_8hpp.html" title="AlloySteels class that holds the parameters for all the types." alt="" coords="170,124,298,151"/>
 <area shape="rect" id="node5" href="$aluminium_8hpp.html" title="Aluminium class that holds the parameters for all the types." alt="" coords="322,124,442,151"/>
