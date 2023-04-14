@@ -4,37 +4,56 @@ on:
   push:
   pull_request:
     types: [closed]
+  repository_dispatch:
+    types: [your-event-type]
+    repository: MassCalculator/masscalculator-core
 
 jobs:
   update-docs:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        repository: ['MassCalculator/masscalculator-core']
+        ref: ['devel', 'master']
 
     steps:
+      - name: Checkout documentation hosting repository
+        uses: "actions/checkout@v3"
+        with:
+          repository: "MassCalculator/masscalculator.github.io"
+          path: "masscalculator.github.io"
       - name: Checkout documentation repository
         uses: actions/checkout@v3
         with:
-          repository: MassCalculator/masscalculator-core
-          ref: devel
+          repository: ${{matrix.repository}}
+          path: "${{matrix.repository}}"
+          ref: ${{matrix.ref}}
+
+      - name: Environment setup
+        run: sudo ${{matrix.repository}}/tools/installers/essentials.sh
 
       - name: Configure CMake
-        run: cmake -B ${{github.workspace}}/build -DBUILD_DOCS=ON
+        run: cmake -S ${{matrix.repository}} -B ${{matrix.repository}}/build -DBUILD_DOCS=ON
 
       - name: Build documentation
-        run: cmake --build ${{github.workspace}}/build -t Doxygen
+        run: cmake --build ${{matrix.repository}}/build -t Doxygen
 
       - name: Remove old HTML
-        run: rm -rf masscalculator.github.io/docs/masscalculator-core/devel/html
+        run: rm -rf masscalculator.github.io/docs/masscalculator-core/${{matrix.ref}}/html
 
       - name: Copy new HTML
-        run: cp -r ${{github.workspace}}/build/docs/docs/doxygen/html masscalculator.github.io/docs/masscalculator-core/devel/html
+        run: cp -r ${{matrix.repository}}/build/docs/docs/doxygen/html masscalculator.github.io/docs/masscalculator-core/${{matrix.ref}}/html
+
+      - name: Pull changes from remote repository
+        run: git pull origin master
 
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "Update documentation"
-          commit_user_name: "GitHub Actions"
-          commit_user_email: "actions@github.com"
+          commit_user_name: "Mergim Halimi"
+          commit_user_email: "m.halimi123@gmail.com"
           branch: master
-          force: true
+          repository: "masscalculator.github.io"
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
