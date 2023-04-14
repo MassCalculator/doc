@@ -2,8 +2,7 @@ name: Update Docs
 
 on:
   repository_dispatch:
-    types: [core-pr-merged]
-    repository: MassCalculator/masscalculator-core
+    types: [masscalculator-core-pr-merged]
 
 jobs:
   update-docs:
