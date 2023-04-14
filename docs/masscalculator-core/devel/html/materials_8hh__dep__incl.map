@@ -1,6 +1,7 @@
 <map id="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/masscalculator/masscalculator&#45;core/materials/materials.hh" name="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/masscalculator/masscalculator&#45;core/materials/materials.hh">
-<area shape="rect" id="node1" title="This file contains the includes for all types of materials." alt="" coords="185,5,504,91"/>
-<area shape="rect" id="node2" href="$object__interface_8hpp.html" title="Interface class, that interacts with all other classes to get the result we need." alt="" coords="185,139,504,224"/>
-<area shape="rect" id="node3" href="$example__1_8cpp.html" title="The example that uses interface, creates material and shape objects, and combines to get the weight T..." alt="" coords="5,279,335,335"/>
-<area shape="rect" id="node4" href="$object__interface__test_8hpp.html" title="This file contains all the tests for the class ObjectInterface, it tests all the functions and the co..." alt="" coords="359,272,682,343"/>
+<area shape="rect" id="node1" title="This file contains the includes for all types of materials." alt="" coords="350,5,669,91"/>
+<area shape="rect" id="node2" href="$example__1_8cc.html" title="This file contains an example for using the Object Interface class." alt="" coords="5,146,325,202"/>
+<area shape="rect" id="node3" href="$object__interface_8cc.html" title="This file contains the implementation for the Object class. The Object class holds all the properties..." alt="" coords="350,139,669,209"/>
+<area shape="rect" id="node4" href="$object__interface__test_8h.html" title="Defines unit tests for the Object class." alt="" coords="693,139,1011,209"/>
+<area shape="rect" id="node5" href="$object__interface__test_8cc.html" title="Defines unit tests for the Object class." alt="" coords="693,257,1011,328"/>
 </map>

@@ -1,5 +1,7 @@
 <map id="masscalculator::core::materials::Crtp&lt; TMaterial &gt;" name="masscalculator::core::materials::Crtp&lt; TMaterial &gt;">
-<area shape="rect" id="node1" title="Writing repeated static_casts in CRTP base classes quickly becomes cumbersome, as it does not add muc..." alt="" coords="5,5,224,47"/>
-<area shape="rect" id="node2" href="$classmasscalculator_1_1core_1_1materials_1_1Material.html" title=" " alt="" coords="36,95,193,151"/>
-<area shape="rect" id="node3" href="$classmasscalculator_1_1core_1_1materials_1_1AlloyCoppers.html" title="Class AlloyCoppers, that holds all the nessesary information for AlloyCoppers and it&#39;s types therefor..." alt="" coords="21,199,208,240"/>
+<area shape="rect" id="node1" title="Writing repeated static_casts in CRTP base classes quickly becomes cumbersome, as it does not add muc..." alt="" coords="5,53,224,94"/>
+<area shape="rect" id="node2" href="$classmasscalculator_1_1core_1_1materials_1_1Material.html" title=" " alt="" coords="272,5,429,61"/>
+<area shape="rect" id="node4" href="$classmasscalculator_1_1core_1_1materials_1_1Material.html" title=" " alt="" coords="272,85,429,141"/>
+<area shape="rect" id="node3" href="$classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html" title="Class AlloySteels, that holds all the nessesary information for AlloySteels and it&#39;s types therefore ..." alt="" coords="484,13,657,54"/>
+<area shape="rect" id="node5" href="$classmasscalculator_1_1core_1_1materials_1_1AlloyCoppers.html" title="Class AlloyCoppers, that holds all the nessesary information for AlloyCoppers and it&#39;s types therefor..." alt="" coords="477,93,664,134"/>
 </map>

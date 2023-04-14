@@ -1,12 +1,13 @@
 <map id="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/masscalculator/masscalculator&#45;core/shapes/constants/shape.h" name="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/masscalculator/masscalculator&#45;core/shapes/constants/shape.h">
-<area shape="rect" id="node1" title="This file contains constant expressions that define the keys to get the the different types of shapes..." alt="" coords="481,5,800,91"/>
-<area shape="rect" id="node2" href="$cylinder_8h.html" title="This file contains the definition for the cylinder class. The cylinder class holds all the specific p..." alt="" coords="383,272,701,357"/>
-<area shape="rect" id="node9" href="$shape_8h.html" title="This file contains the base class for Shapes. This class is inherited by all Shape types and provides..." alt="" coords="580,139,899,224"/>
-<area shape="rect" id="node3" href="$shapes_8hh.html" title="This file contains the includes for all types of shapes." alt="" coords="185,405,504,491"/>
-<area shape="rect" id="node7" href="$cylinder__test_8cc.html" title="Defines unit tests for the Cylinder class." alt="" coords="553,546,872,617"/>
-<area shape="rect" id="node8" href="$cylinder__test_8h.html" title="Defines unit tests for the Cylinder class." alt="" coords="580,413,899,483"/>
-<area shape="rect" id="node4" href="$object__interface_8hpp.html" title="Interface class, that interacts with all other classes to get the result we need." alt="" coords="185,539,504,624"/>
-<area shape="rect" id="node5" href="$example__1_8cpp.html" title="The example that uses interface, creates material and shape objects, and combines to get the weight T..." alt="" coords="5,679,335,735"/>
-<area shape="rect" id="node6" href="$object__interface__test_8hpp.html" title="This file contains all the tests for the class ObjectInterface, it tests all the functions and the co..." alt="" coords="359,672,682,743"/>
-<area shape="rect" id="node10" href="$shape_8cc.html" title="This file is left here for convenience, but the implementation is done with templates in the header f..." alt="" coords="725,279,1044,350"/>
+<area shape="rect" id="node1" title="This file contains constant expressions that define the keys to get the the different types of shapes..." alt="" coords="705,5,1024,91"/>
+<area shape="rect" id="node2" href="$cylinder_8h.html" title="This file contains the definition for the cylinder class. The cylinder class holds all the specific p..." alt="" coords="607,272,925,357"/>
+<area shape="rect" id="node11" href="$shape_8h.html" title="This file contains the base class for Shapes. This class is inherited by all Shape types and provides..." alt="" coords="804,139,1123,224"/>
+<area shape="rect" id="node3" href="$shapes_8hh.html" title="This file contains the includes for all types of shapes." alt="" coords="692,405,1011,491"/>
+<area shape="rect" id="node9" href="$cylinder__test_8cc.html" title="Defines unit tests for the Cylinder class." alt="" coords="5,539,324,609"/>
+<area shape="rect" id="node10" href="$cylinder__test_8h.html" title="Defines unit tests for the Cylinder class." alt="" coords="313,413,632,483"/>
+<area shape="rect" id="node4" href="$example__1_8cc.html" title="This file contains an example for using the Object Interface class." alt="" coords="691,546,1011,602"/>
+<area shape="rect" id="node5" href="$object__interface_8cc.html" title="This file contains the implementation for the Object class. The Object class holds all the properties..." alt="" coords="1036,539,1355,609"/>
+<area shape="rect" id="node6" href="$shape_8cc.html" title="This file is left here for convenience, but the implementation is done with templates in the header f..." alt="" coords="1379,539,1697,609"/>
+<area shape="rect" id="node7" href="$object__interface__test_8h.html" title="Defines unit tests for the Object class." alt="" coords="348,539,667,609"/>
+<area shape="rect" id="node8" href="$object__interface__test_8cc.html" title="Defines unit tests for the Object class." alt="" coords="348,657,667,728"/>
 </map>
