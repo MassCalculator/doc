@@ -1,10 +1,10 @@
-<map id="/home/jimmyhalimi/ws/masscalculator/masscalculator&#45;core/examples/example_1.cpp" name="/home/jimmyhalimi/ws/masscalculator/masscalculator&#45;core/examples/example_1.cpp">
-<area shape="rect" id="node1" title="The example that uses interface, creates material and shape objects, and combines to get the weight T..." alt="" coords="1240,5,1468,61"/>
+<map id="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/examples/example_1.cpp" name="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/examples/example_1.cpp">
+<area shape="rect" id="node1" title="The example that uses interface, creates material and shape objects, and combines to get the weight T..." alt="" coords="1189,5,1519,61"/>
 <area shape="rect" id="node2" href="$object__interface_8hpp.html" title="Interface class, that interacts with all other classes to get the result we need." alt="" coords="1245,109,1463,136"/>
 <area shape="rect" id="node3" title=" " alt="" coords="814,184,891,211"/>
 <area shape="rect" id="node4" href="$materials_8hh.html" title="This header contains all the headers for Materials, if this header is included, you include all the h..." alt="" coords="915,184,1086,211"/>
 <area shape="rect" id="node19" href="$shapes_8hh.html" title="This header contains all the headers for Materials, if this header is included, you include all the h..." alt="" coords="1638,184,1777,211"/>
-<area shape="rect" id="node24" title=" " alt="" coords="1981,408,2133,449"/>
+<area shape="rect" id="node24" title=" " alt="" coords="1980,408,2131,449"/>
 <area shape="rect" id="node5" title=" " alt="" coords="5,259,145,285"/>
 <area shape="rect" id="node6" href="$alloy__steels_8hpp.html" title="AlloySteels class that holds the parameters for all the types." alt="" coords="170,259,298,285"/>
 <area shape="rect" id="node8" href="$aluminium_8hpp.html" title="Aluminium class that holds the parameters for all the types." alt="" coords="322,259,442,285"/>
@@ -20,10 +20,10 @@
 <area shape="rect" id="node18" href="$zinc_8hpp.html" title="Zinc class that holds the parameters for all the types." alt="" coords="1593,259,1669,285"/>
 <area shape="rect" id="node7" title=" " alt="" coords="883,333,988,360"/>
 <area shape="rect" id="node20" href="$shape_8hpp.html" title="This class is the base class for the Shapes, this will be inherited from all the Shape types,..." alt="" coords="1663,333,1752,360"/>
-<area shape="rect" id="node27" href="$cylinder_8hpp.html" title="Cylinder class that holds the parameters for the shape." alt="" coords="1745,259,1848,285"/>
-<area shape="rect" id="node21" title=" " alt="" coords="1229,408,1375,449"/>
-<area shape="rect" id="node22" title=" " alt="" coords="1400,415,1463,442"/>
-<area shape="rect" id="node23" title=" " alt="" coords="1487,415,1602,442"/>
+<area shape="rect" id="node27" href="$cylinder_8hpp.html" title="Cylinder class that holds the parameters for the shape." alt="" coords="1745,259,1846,285"/>
+<area shape="rect" id="node21" title=" " alt="" coords="1230,408,1377,449"/>
+<area shape="rect" id="node22" title=" " alt="" coords="1401,415,1464,442"/>
+<area shape="rect" id="node23" title=" " alt="" coords="1488,415,1601,442"/>
 <area shape="rect" id="node25" title=" " alt="" coords="1626,408,1789,449"/>
 <area shape="rect" id="node26" title=" " alt="" coords="1813,408,1956,449"/>
 </map>

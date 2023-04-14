@@ -1,6 +1,6 @@
-<map id="/home/jimmyhalimi/ws/masscalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/materials/material.h" name="/home/jimmyhalimi/ws/masscalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/materials/material.h">
-<area shape="rect" id="node1" title="This file contains the base class for Materials. This class is inherited by all Material types and pr..." alt="" coords="123,5,366,76"/>
-<area shape="rect" id="node2" href="$alloy__coppers_8h.html" title="This file contains the class definition for alloy_coppers. The alloy_coppers class holds all the spec..." alt="" coords="131,124,359,209"/>
-<area shape="rect" id="node3" href="$alloy__coppers__test_8h.html" title="Defines unit tests for the AlloyCoppers class." alt="" coords="5,257,300,328"/>
-<area shape="rect" id="node4" href="$alloy__coppers__test_8cc.html" title="Defines unit tests for the AlloyCoppers class." alt="" coords="94,376,395,447"/>
+<map id="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/materials/material.h" name="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/materials/material.h">
+<area shape="rect" id="node1" title="This file contains the base class for Materials. This class is inherited by all Material types and pr..." alt="" coords="5,5,324,76"/>
+<area shape="rect" id="node2" href="$alloy__coppers_8h.html" title="This file contains the class definition for alloy_coppers. The alloy_coppers class holds all the spec..." alt="" coords="5,124,324,195"/>
+<area shape="rect" id="node3" href="$alloy__coppers__test_8cc.html" title="Defines unit tests for the AlloyCoppers class." alt="" coords="5,361,324,432"/>
+<area shape="rect" id="node4" href="$alloy__coppers__test_8h.html" title="Defines unit tests for the AlloyCoppers class." alt="" coords="104,243,423,313"/>
 </map>

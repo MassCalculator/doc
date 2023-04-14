@@ -1,8 +1,4 @@
-<map id="/home/jimmyhalimi/ws/masscalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/masscalculator/masscalculator&#45;core/materials/zinc.hpp" name="/home/jimmyhalimi/ws/masscalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/masscalculator/masscalculator&#45;core/materials/zinc.hpp">
-<area shape="rect" id="node1" title="Zinc class that holds the parameters for all the types." alt="" coords="265,5,577,91"/>
-<area shape="rect" id="node2" href="$materials_8hh.html" title="This header contains all the headers for Materials, if this header is included, you include all the h..." alt="" coords="113,139,425,224"/>
-<area shape="rect" id="node6" href="$zinc__test_8hpp.html" title="This file contains all the tests for the class Zinc, it tests all the functions and the constructors ..." alt="" coords="449,146,696,217"/>
-<area shape="rect" id="node3" href="$object__interface_8hpp.html" title="Interface class, that interacts with all other classes to get the result we need." alt="" coords="113,272,425,357"/>
-<area shape="rect" id="node4" href="$example__1_8cpp.html" title="The example that uses interface, creates material and shape objects, and combines to get the weight T..." alt="" coords="5,413,233,469"/>
-<area shape="rect" id="node5" href="$object__interface__test_8hpp.html" title="This file contains all the tests for the class ObjectInterface, it tests all the functions and the co..." alt="" coords="258,405,581,476"/>
+<map id="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/masscalculator/masscalculator&#45;core/materials/zinc.hpp" name="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/masscalculator/masscalculator&#45;core/materials/zinc.hpp">
+<area shape="rect" id="node1" title="Zinc class that holds the parameters for all the types." alt="" coords="5,5,324,91"/>
+<area shape="rect" id="node2" href="$zinc__test_8hpp.html" title="This file contains all the tests for the class Zinc, it tests all the functions and the constructors ..." alt="" coords="5,139,324,209"/>
 </map>

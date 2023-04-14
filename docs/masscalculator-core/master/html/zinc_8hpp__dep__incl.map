@@ -1,8 +1,8 @@
-<map id="/home/jimmyhalimi/ws/masscalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/materials/zinc.hpp" name="/home/jimmyhalimi/ws/masscalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/materials/zinc.hpp">
-<area shape="rect" id="node1" title="Zinc class that holds the parameters for all the types." alt="" coords="291,5,521,76"/>
-<area shape="rect" id="node2" href="$materials_8hh.html" title="This header contains all the headers for Materials, if this header is included, you include all the h..." alt="" coords="139,124,398,195"/>
-<area shape="rect" id="node6" href="$zinc__test_8hpp.html" title="This file contains all the tests for the class Zinc, it tests all the functions and the constructors ..." alt="" coords="421,124,668,195"/>
-<area shape="rect" id="node3" href="$object__interface_8hpp.html" title="Interface class, that interacts with all other classes to get the result we need." alt="" coords="155,243,383,328"/>
-<area shape="rect" id="node4" href="$example__1_8cpp.html" title="The example that uses interface, creates material and shape objects, and combines to get the weight T..." alt="" coords="5,383,233,439"/>
-<area shape="rect" id="node5" href="$object__interface__test_8hpp.html" title="This file contains all the tests for the class ObjectInterface, it tests all the functions and the co..." alt="" coords="258,376,581,447"/>
+<map id="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/materials/zinc.hpp" name="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/materials/zinc.hpp">
+<area shape="rect" id="node1" title="Zinc class that holds the parameters for all the types." alt="" coords="356,5,675,76"/>
+<area shape="rect" id="node2" href="$materials_8hh.html" title="This header contains all the headers for Materials, if this header is included, you include all the h..." alt="" coords="185,124,504,195"/>
+<area shape="rect" id="node6" href="$zinc__test_8hpp.html" title="This file contains all the tests for the class Zinc, it tests all the functions and the constructors ..." alt="" coords="528,124,847,195"/>
+<area shape="rect" id="node3" href="$object__interface_8hpp.html" title="Interface class, that interacts with all other classes to get the result we need." alt="" coords="185,243,504,313"/>
+<area shape="rect" id="node4" href="$example__1_8cpp.html" title="The example that uses interface, creates material and shape objects, and combines to get the weight T..." alt="" coords="5,369,335,425"/>
+<area shape="rect" id="node5" href="$object__interface__test_8hpp.html" title="This file contains all the tests for the class ObjectInterface, it tests all the functions and the co..." alt="" coords="359,361,682,432"/>
 </map>

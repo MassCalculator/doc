@@ -1,7 +1,12 @@
-<map id="/home/jimmyhalimi/ws/masscalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/masscalculator/masscalculator&#45;core/materials/constants/color.h" name="/home/jimmyhalimi/ws/masscalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/masscalculator/masscalculator&#45;core/materials/constants/color.h">
-<area shape="rect" id="node1" title="This file contains constant expressions that define the keys to get the values of the different color..." alt="" coords="39,5,351,91"/>
-<area shape="rect" id="node2" href="$alloy__coppers_8h.html" title="This file contains the class definition for alloy_coppers. The alloy_coppers class holds all the spec..." alt="" coords="18,272,330,357"/>
-<area shape="rect" id="node4" href="$alloy__coppers__test_8cc.html" title="Defines unit tests for the AlloyCoppers class." alt="" coords="187,524,489,595"/>
-<area shape="rect" id="node5" href="$material_8h.html" title="This file contains the base class for Materials. This class is inherited by all Material types and pr..." alt="" coords="39,139,351,224"/>
-<area shape="rect" id="node3" href="$alloy__coppers__test_8h.html" title="Defines unit tests for the AlloyCoppers class." alt="" coords="5,405,300,476"/>
+<map id="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/masscalculator/masscalculator&#45;core/materials/constants/color.h" name="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/masscalculator/masscalculator&#45;core/materials/constants/color.h">
+<area shape="rect" id="node1" title="This file contains constant expressions that define the keys to get the values of the different color..." alt="" coords="215,5,534,91"/>
+<area shape="rect" id="node2" href="$alloy__coppers_8h.html" title="This file contains the class definition for alloy_coppers. The alloy_coppers class holds all the spec..." alt="" coords="314,272,632,357"/>
+<area shape="rect" id="node8" href="$alloy__coppers__test_8cc.html" title="Defines unit tests for the AlloyCoppers class." alt="" coords="31,546,350,617"/>
+<area shape="rect" id="node10" href="$material_8h.html" title="This file contains the base class for Materials. This class is inherited by all Material types and pr..." alt="" coords="412,139,731,224"/>
+<area shape="rect" id="node3" href="$materials_8hh.html" title="This file contains the includes for all types of materials." alt="" coords="426,405,744,491"/>
+<area shape="rect" id="node7" href="$alloy__coppers_8cc.html" title="This file contains the implementation for the alloy_coppers class. The alloy_coppers class holds all ..." alt="" coords="768,413,1087,483"/>
+<area shape="rect" id="node9" href="$alloy__coppers__test_8h.html" title="Defines unit tests for the AlloyCoppers class." alt="" coords="31,413,350,483"/>
+<area shape="rect" id="node4" href="$object__interface_8hpp.html" title="Interface class, that interacts with all other classes to get the result we need." alt="" coords="426,539,744,624"/>
+<area shape="rect" id="node5" href="$example__1_8cpp.html" title="The example that uses interface, creates material and shape objects, and combines to get the weight T..." alt="" coords="246,679,575,735"/>
+<area shape="rect" id="node6" href="$object__interface__test_8hpp.html" title="This file contains all the tests for the class ObjectInterface, it tests all the functions and the co..." alt="" coords="600,672,922,743"/>
 </map>

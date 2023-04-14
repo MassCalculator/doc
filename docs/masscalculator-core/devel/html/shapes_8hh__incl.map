@@ -1,11 +1,15 @@
-<map id="/home/jimmyhalimi/ws/masscalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/masscalculator/masscalculator&#45;core/shapes/shapes.hh" name="/home/jimmyhalimi/ws/masscalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/masscalculator/masscalculator&#45;core/shapes/shapes.hh">
-<area shape="rect" id="node1" title="This header contains all the headers for Materials, if this header is included, you include all the h..." alt="" coords="244,5,556,91"/>
-<area shape="rect" id="node2" href="$shape_8hpp.html" title="This class is the base class for the Shapes, this will be inherited from all the Shape types,..." alt="" coords="355,213,445,240"/>
-<area shape="rect" id="node9" href="$cylinder_8hpp.html" title="Cylinder class that holds the parameters for the shape." alt="" coords="394,139,497,165"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,288,152,329"/>
-<area shape="rect" id="node4" title=" " alt="" coords="177,295,239,322"/>
-<area shape="rect" id="node5" title=" " alt="" coords="264,295,379,322"/>
-<area shape="rect" id="node6" title=" " alt="" coords="403,288,555,329"/>
-<area shape="rect" id="node7" title=" " alt="" coords="579,288,741,329"/>
-<area shape="rect" id="node8" title=" " alt="" coords="766,288,909,329"/>
+<map id="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/masscalculator/masscalculator&#45;core/shapes/shapes.hh" name="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/masscalculator/masscalculator&#45;core/shapes/shapes.hh">
+<area shape="rect" id="node1" title="This file contains the includes for all types of shapes." alt="" coords="174,5,493,91"/>
+<area shape="rect" id="node2" href="$cylinder_8h.html" title="This file contains the definition for the cylinder class. The cylinder class holds all the specific p..." alt="" coords="291,139,376,165"/>
+<area shape="rect" id="node3" title=" " alt="" coords="117,221,195,247"/>
+<area shape="rect" id="node4" title=" " alt="" coords="219,221,295,247"/>
+<area shape="rect" id="node5" href="$constants_2shape_8h.html" title="This file contains constant expressions that define the keys to get the the different types of shapes..." alt="" coords="5,303,232,344"/>
+<area shape="rect" id="node6" href="$shape_8h.html" title="This file contains the base class for Shapes. This class is inherited by all Shape types and provides..." alt="" coords="371,213,595,255"/>
+<area shape="rect" id="node13" title=" " alt="" coords="885,310,952,337"/>
+<area shape="rect" id="node7" title=" " alt="" coords="257,310,343,337"/>
+<area shape="rect" id="node8" title=" " alt="" coords="367,310,465,337"/>
+<area shape="rect" id="node9" title=" " alt="" coords="489,310,613,337"/>
+<area shape="rect" id="node10" href="$immutable__map_8h.html" title="Defines the ImmutableMap template class, which is a simple map structure that can be declared as cons..." alt="" coords="637,303,861,344"/>
+<area shape="rect" id="node11" title=" " alt="" coords="660,392,745,419"/>
+<area shape="rect" id="node12" title=" " alt="" coords="769,392,825,419"/>
 </map>
