@@ -52,4 +52,4 @@ jobs:
           branch: master
           repository: "masscalculator.github.io"
         env:
-          GITHUB_TOKEN: ${{secrets.UPDATE_DOCS_TOKEN}}
+          GITHUB_TOKEN: ${{secrets.MASSCALCULATOR_SECRET}}
