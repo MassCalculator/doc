@@ -75,25 +75,23 @@ $(function() {
 <p>Implementation of the LuaScriptHandler class, which encapsulates the definition and specializations for handling Lua scripts. It provides an interface to interact with Lua scripts and execute Lua functions from C++ code.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="lua__handler_8h_source.html">masscalculator/masscalculator-base/lua_handler.h</a>&quot;</code><br />
+<code>#include &lt;lua.hpp&gt;</code><br />
+<code>#include &lt;stdexcept&gt;</code><br />
 <code>#include &quot;<a class="el" href="macro__logger_8h_source.html">masscalculator/masscalculator-base/macro_logger.h</a>&quot;</code><br />
-<code>#include &quot;lua5.1/lauxlib.h&quot;</code><br />
-<code>#include &quot;lua5.1/lua.h&quot;</code><br />
-<code>#include &quot;lua5.1/lualib.h&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for lua_handler.cc:</div>
 <div class="dyncontent">
 <div class="center"><img src="lua__handler_8cc__incl.png" border="0" usemap="#a_2home_2runner_2work_2masscalculator_8github_8io_2masscalculator_8github_8io_2MassCalculator_2masscalculator-core_2libraries_2masscalculator-base_2src_2lua__handler_8cc" alt=""/></div>
 <map name="a_2home_2runner_2work_2masscalculator_8github_8io_2masscalculator_8github_8io_2MassCalculator_2masscalculator-core_2libraries_2masscalculator-base_2src_2lua__handler_8cc" id="a_2home_2runner_2work_2masscalculator_8github_8io_2masscalculator_8github_8io_2MassCalculator_2masscalculator-core_2libraries_2masscalculator-base_2src_2lua__handler_8cc">
-<area shape="rect" title="Implementation of the LuaScriptHandler class, which encapsulates the definition and specializations f..." alt="" coords="371,5,690,76"/>
-<area shape="rect" href="lua__handler_8h.html" title="Definition of the LuaScriptHandler class, which encapsulates the definition and specializations for h..." alt="" coords="269,124,493,165"/>
-<area shape="rect" href="macro__logger_8h.html" title="This file contains logger macros that are used throughout the codebase. The macro_logger...." alt="" coords="5,213,229,255"/>
-<area shape="rect" title=" " alt="" coords="424,221,547,247"/>
-<area shape="rect" title=" " alt="" coords="571,221,669,247"/>
-<area shape="rect" title=" " alt="" coords="693,221,808,247"/>
-<area shape="rect" title=" " alt="" coords="253,221,312,247"/>
-<area shape="rect" title=" " alt="" coords="337,221,399,247"/>
-<area shape="rect" title=" " alt="" coords="41,303,108,329"/>
-<area shape="rect" title=" " alt="" coords="132,303,191,329"/>
+<area shape="rect" title="Implementation of the LuaScriptHandler class, which encapsulates the definition and specializations f..." alt="" coords="124,5,443,76"/>
+<area shape="rect" href="lua__handler_8h.html" title="Definition of the LuaScriptHandler class, which encapsulates the definition and specializations for h..." alt="" coords="97,124,321,165"/>
+<area shape="rect" title=" " alt="" coords="5,221,76,247"/>
+<area shape="rect" href="macro__logger_8h.html" title="This file contains logger macros that are used throughout the codebase. The macro_logger...." alt="" coords="270,213,494,255"/>
+<area shape="rect" title=" " alt="" coords="396,131,483,158"/>
+<area shape="rect" title=" " alt="" coords="101,221,159,247"/>
+<area shape="rect" title=" " alt="" coords="184,221,247,247"/>
+<area shape="rect" title=" " alt="" coords="306,303,373,329"/>
+<area shape="rect" title=" " alt="" coords="397,303,455,329"/>
 </map>
 </div>
 </div><table class="memberdecls">

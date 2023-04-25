@@ -1,9 +1,11 @@
 <map id="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/libraries/masscalculator&#45;base" name="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/libraries/masscalculator&#45;base">
 <area shape="rect" id="node2" href="dir_7fbc103f192077c0f21a11f821c551d2.html" title="include" alt="" coords="85,159,157,207"/>
-<area shape="rect" id="node3" href="dir_80cb2b21c2e555d1c79a1c38a1859862.html" title="src" alt="" coords="133,63,205,111"/>
-<area shape="rect" id="edge2-headlabel" href="dir_000020_000017.html" title="2" alt="" coords="144,139,154,154"/>
-<area shape="rect" id="node4" href="dir_921377593bb9d6022a128640928bb0c9.html" title="tests" alt="" coords="37,63,109,111"/>
-<area shape="rect" id="edge1-headlabel" href="dir_000021_000017.html" title="1" alt="" coords="104,131,113,146"/>
+<area shape="rect" id="node3" href="dir_80cb2b21c2e555d1c79a1c38a1859862.html" title="src" alt="" coords="37,63,109,111"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000024_000021.html" title="2" alt="" coords="104,131,113,146"/>
+<area shape="rect" id="node4" href="dir_921377593bb9d6022a128640928bb0c9.html" title="tests" alt="" coords="133,63,205,111"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000025_000021.html" title="1" alt="" coords="144,139,154,154"/>
+<area shape="rect" id="node5" href="dir_1ae88c8401ea3f0b6de39bb14b4b388c.html" title="libraries" alt="" coords="419,159,493,207"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000025_000004.html" title="1" alt="" coords="400,143,409,158"/>
 <area shape="rect" id="clust2" href="dir_c79e8f01f899f9b9fae2be594870b4e4.html" alt="" coords="27,52,397,217"/>
 <area shape="rect" id="clust1" href="dir_bc0718b08fb2015b8e59c47b2805f60c.html" title="libraries" alt="" coords="16,16,408,228"/>
 </map>

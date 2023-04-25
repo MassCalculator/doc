@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['objectproperties_854',['ObjectProperties',['../classmasscalculator_1_1core_1_1interface_1_1Object.html#a5746503d3193fa742f6b7ef81921500c',1,'masscalculator::core::interface::Object']]]
+  ['base_5funit_5fof_1211',['base_unit_of',['../namespaceunits_1_1traits.html#ae7756e0f6e8322f5c6150be2b871e544',1,'units::traits']]]
 ];

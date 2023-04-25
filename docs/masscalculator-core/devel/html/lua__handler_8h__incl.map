@@ -1,11 +1,9 @@
 <map id="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/libraries/masscalculator&#45;base/include/masscalculator/masscalculator&#45;base/lua_handler.h" name="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/libraries/masscalculator&#45;base/include/masscalculator/masscalculator&#45;base/lua_handler.h">
-<area shape="rect" id="node1" title="Definition of the LuaScriptHandler class, which encapsulates the definition and specializations for h..." alt="" coords="226,5,545,91"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,146,64,173"/>
-<area shape="rect" id="node3" title=" " alt="" coords="89,146,151,173"/>
-<area shape="rect" id="node4" href="$macro__logger_8h.html" title="This file contains logger macros that are used throughout the codebase. The macro_logger...." alt="" coords="175,139,399,180"/>
-<area shape="rect" id="node7" title=" " alt="" coords="423,146,545,173"/>
-<area shape="rect" id="node8" title=" " alt="" coords="569,146,668,173"/>
-<area shape="rect" id="node9" title=" " alt="" coords="692,146,807,173"/>
-<area shape="rect" id="node5" title=" " alt="" coords="209,228,276,255"/>
-<area shape="rect" id="node6" title=" " alt="" coords="300,228,359,255"/>
+<area shape="rect" id="node1" title="Definition of the LuaScriptHandler class, which encapsulates the definition and specializations for h..." alt="" coords="13,5,332,91"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,146,76,173"/>
+<area shape="rect" id="node3" title=" " alt="" coords="101,146,159,173"/>
+<area shape="rect" id="node4" title=" " alt="" coords="184,146,247,173"/>
+<area shape="rect" id="node5" href="$macro__logger_8h.html" title="This file contains logger macros that are used throughout the codebase. The macro_logger...." alt="" coords="270,139,494,180"/>
+<area shape="rect" id="node6" title=" " alt="" coords="305,228,371,255"/>
+<area shape="rect" id="node7" title=" " alt="" coords="395,228,454,255"/>
 </map>

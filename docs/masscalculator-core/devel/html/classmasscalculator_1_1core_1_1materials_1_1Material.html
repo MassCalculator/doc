@@ -69,6 +69,8 @@ $(function() {
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="classmasscalculator_1_1core_1_1materials_1_1Material-members.html">List of all members</a>  </div>
@@ -217,6 +219,23 @@ units::pressure::pascal_t&#160;</td><td class="memItemRight" valign="bottom"><a 
 <tr class="memdesc:a4bbb3c03399529e89a1ba8bbc694d3bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">pascal_t Parameter to save specific modulus of elasticity tension <br /></td></tr>
 <tr class="separator:a4bbb3c03399529e89a1ba8bbc694d3bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a860e2574599283cc92a174197d7f5552"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html#a860e2574599283cc92a174197d7f5552">SetProperties</a> (const <a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html#a5b571424d920d11254d59e3532984bdf">Properties</a> &amp;properties)</td></tr>
+<tr class="memdesc:a860e2574599283cc92a174197d7f5552"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to set the static propertie values.  <a href="classmasscalculator_1_1core_1_1materials_1_1Material.html#a860e2574599283cc92a174197d7f5552">More...</a><br /></td></tr>
+<tr class="separator:a860e2574599283cc92a174197d7f5552"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a3553a3843b7d23780d246cd046b4c483"><td class="memItemLeft" align="right" valign="top"><a id="a3553a3843b7d23780d246cd046b4c483"></a>
+std::unique_ptr&lt; <a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html#a5b571424d920d11254d59e3532984bdf">Properties</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html#a3553a3843b7d23780d246cd046b4c483">specific_properties</a></td></tr>
+<tr class="memdesc:a3553a3843b7d23780d246cd046b4c483"><td class="mdescLeft">&#160;</td><td class="mdescRight">Properties struct to hold the specific object properties. <br /></td></tr>
+<tr class="separator:a3553a3843b7d23780d246cd046b4c483"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86a69d7d1fa2c59eb4a1a8deac16dd02"><td class="memItemLeft" align="right" valign="top"><a id="a86a69d7d1fa2c59eb4a1a8deac16dd02"></a>
+std::unique_ptr&lt; <a class="el" href="classmasscalculator_1_1base_1_1LuaScriptHandler.html">base::LuaScriptHandler</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html#a86a69d7d1fa2c59eb4a1a8deac16dd02">lua_state</a></td></tr>
+<tr class="memdesc:a86a69d7d1fa2c59eb4a1a8deac16dd02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lua Handler object to get the config for metals from LuaScript is necessary. <br /></td></tr>
+<tr class="separator:a86a69d7d1fa2c59eb4a1a8deac16dd02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-attribs"></a>
 Static Protected Attributes</h2></td></tr>
 <tr class="memitem:a1f494ebac23e5def0c80b7aa1619cd5f"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="structmasscalculator_1_1base_1_1ImmutableMap.html">base::ImmutableMap</a>&lt; std::string_view, <a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html#aaa4cf6ee5c0e506ec02a7efc344e1281">Color</a>, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html#a1f494ebac23e5def0c80b7aa1619cd5f">kColor</a></td></tr>
@@ -232,6 +251,10 @@ Friends</h2></td></tr>
 std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html#a52d8e17452ee4c9a4e46c8c0595502a2">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html">Material</a>&lt; TMaterialType &gt; &amp;obj)</td></tr>
 <tr class="memdesc:a52d8e17452ee4c9a4e46c8c0595502a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shift operator template overload, for the base class <a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html" title="Template base class Material.">Material</a>. <br /></td></tr>
 <tr class="separator:a52d8e17452ee4c9a4e46c8c0595502a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e686c7aff7631371c5a75394d759279"><td class="memItemLeft" align="right" valign="top"><a id="a9e686c7aff7631371c5a75394d759279"></a>
+std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html#a9e686c7aff7631371c5a75394d759279">operator&lt;&lt;</a> (std::ostream &amp;os, const TMaterialType &amp;obj)</td></tr>
+<tr class="memdesc:a9e686c7aff7631371c5a75394d759279"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shift operator overload for class TMaterialType, this will print all the nessesery informations. <br /></td></tr>
+<tr class="separator:a9e686c7aff7631371c5a75394d759279"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b8a4246b0c9a80317c7306821b7b553"><td class="memItemLeft" align="right" valign="top"><a id="a4b8a4246b0c9a80317c7306821b7b553"></a>
 std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html#a4b8a4246b0c9a80317c7306821b7b553">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html">Material</a>&lt; TMaterialType &gt;::<a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html#aaa4cf6ee5c0e506ec02a7efc344e1281">Color</a> &amp;<a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html#ac7f76f283fb4dc6cf8f97174837c5cc1">color</a>)</td></tr>
 <tr class="memdesc:a4b8a4246b0c9a80317c7306821b7b553"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shift operator template overload, for the class Color. <br /></td></tr>
@@ -306,7 +329,7 @@ template&lt;typename TMaterialType &gt; </div>
 </div><div class="memdoc">
 
 <p>Get the Specific Color object. </p>
-<dl class="section return"><dt>Returns</dt><dd>Color Color of the material from Derived class </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Color Color of the material </dd></dl>
 
 </div>
 </div>
@@ -336,7 +359,7 @@ template&lt;typename TMaterialType &gt; </div>
 </div><div class="memdoc">
 
 <p>Get the Specific Density object. </p>
-<dl class="section return"><dt>Returns</dt><dd>kilograms_per_cubic_meter_t Density of the material from Derived class </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>kilograms_per_cubic_meter_t Density of the material </dd></dl>
 
 </div>
 </div>
@@ -366,7 +389,7 @@ template&lt;typename TMaterialType &gt; </div>
 </div><div class="memdoc">
 
 <p>Get the Specific Melting Point object. </p>
-<dl class="section return"><dt>Returns</dt><dd>kelvin_t The specific melting point of <a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html" title="Template base class Material.">Material</a> type from Derived class </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>kelvin_t The specific melting point of TMaterialType type </dd></dl>
 
 </div>
 </div>
@@ -396,7 +419,7 @@ template&lt;typename TMaterialType &gt; </div>
 </div><div class="memdoc">
 
 <p>Get the Specific Modulus of Elasticity Tension object. </p>
-<dl class="section return"><dt>Returns</dt><dd>pascal_t The specific modulus of elasticity tension point of <a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html" title="Template base class Material.">Material</a> type from Derived class </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>pascal_t The specific modulus of elasticity tension point of TMaterialType type </dd></dl>
 
 </div>
 </div>
@@ -426,7 +449,7 @@ template&lt;typename TMaterialType &gt; </div>
 </div><div class="memdoc">
 
 <p>Get the Specific PoissonsRatio object. </p>
-<dl class="section return"><dt>Returns</dt><dd>double The specific poissons ratio of <a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html" title="Template base class Material.">Material</a> type from Derived class </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>double The specific poissons ratio of TMaterialType type </dd></dl>
 
 </div>
 </div>
@@ -456,7 +479,7 @@ template&lt;typename TMaterialType &gt; </div>
 </div><div class="memdoc">
 
 <p>Get the Specific Thermal Conductivity object. </p>
-<dl class="section return"><dt>Returns</dt><dd>watt_t The specific thermal conductivity of <a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html" title="Template base class Material.">Material</a> type from Derived class </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>watt_t The specific thermal conductivity of TMaterialType type </dd></dl>
 
 </div>
 </div>
@@ -486,7 +509,46 @@ template&lt;typename TMaterialType &gt; </div>
 </div><div class="memdoc">
 
 <p>Get the Type object. </p>
-<dl class="section return"><dt>Returns</dt><dd>const std::string_view Type of the <a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html" title="Template base class Material.">Material</a> from Derived class </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>std::string_view Type of the <a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html" title="Template base class Material.">Material</a> </dd></dl>
+
+</div>
+</div>
+<a id="a860e2574599283cc92a174197d7f5552"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a860e2574599283cc92a174197d7f5552">&#9670;&nbsp;</a></span>SetProperties()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TMaterialType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html">masscalculator::core::materials::Material</a>&lt; TMaterialType &gt;::SetProperties </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html#a5b571424d920d11254d59e3532984bdf">Properties</a> &amp;&#160;</td>
+          <td class="paramname"><em>properties</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Function to set the static propertie values. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">properties</td><td>Structure of the constant properties </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true If properties are correctly set </dd>
+<dd>
+false If properties have failed to set </dd></dl>
 
 </div>
 </div>
@@ -519,7 +581,7 @@ template&lt;typename TMaterialType &gt; </div>
 <p>Set the Propertie Specs object. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">type</td><td>Type of <a class="el" href="classmasscalculator_1_1core_1_1materials_1_1AlloyCoppers.html" title="Class AlloyCoppers, that holds all the nessesary information for AlloyCoppers and it&#39;s types therefor...">AlloyCoppers</a> </td></tr>
+    <tr><td class="paramname">type</td><td>Type of TMaterialType </td></tr>
   </table>
   </dd>
 </dl>

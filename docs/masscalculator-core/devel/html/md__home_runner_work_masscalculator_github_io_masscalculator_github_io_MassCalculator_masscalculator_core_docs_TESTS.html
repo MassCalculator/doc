@@ -81,7 +81,7 @@ Link Tests to googletest</h1>
 </div><!-- fragment --><p>Link your test executable to the required libraries they are using, e.g.,</p>
 <div class="fragment"><div class="line">target_link_libraries(demo_test</div>
 <div class="line">  PUBLIC</div>
-<div class="line">    ${GTEST_BOTH_LIBRARIES}</div>
+<div class="line">    gtest::gtest</div>
 <div class="line">  PRIVATE</div>
 <div class="line">    pthread</div>
 <div class="line">    lib_1</div>

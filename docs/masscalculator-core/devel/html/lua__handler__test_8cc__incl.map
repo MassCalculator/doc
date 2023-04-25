@@ -4,13 +4,11 @@
 <area shape="rect" id="node3" title=" " alt="" coords="55,206,159,233"/>
 <area shape="rect" id="node4" title=" " alt="" coords="183,206,261,233"/>
 <area shape="rect" id="node5" href="$lua__handler_8h.html" title="Definition of the LuaScriptHandler class, which encapsulates the definition and specializations for h..." alt="" coords="285,199,509,240"/>
-<area shape="rect" id="node14" title=" " alt="" coords="533,199,757,240"/>
-<area shape="rect" id="node6" title=" " alt="" coords="17,295,75,322"/>
-<area shape="rect" id="node7" title=" " alt="" coords="100,295,163,322"/>
-<area shape="rect" id="node8" href="$macro__logger_8h.html" title="This file contains logger macros that are used throughout the codebase. The macro_logger...." alt="" coords="186,288,410,329"/>
-<area shape="rect" id="node11" title=" " alt="" coords="434,295,557,322"/>
-<area shape="rect" id="node12" title=" " alt="" coords="581,295,679,322"/>
-<area shape="rect" id="node13" title=" " alt="" coords="703,295,818,322"/>
-<area shape="rect" id="node9" title=" " alt="" coords="221,377,287,404"/>
-<area shape="rect" id="node10" title=" " alt="" coords="311,377,370,404"/>
+<area shape="rect" id="node12" href="$lua__handler__data_8h.html" title="Specifies the path to the test data used by the LuaScriptHandler class." alt="" coords="533,199,757,240"/>
+<area shape="rect" id="node6" title=" " alt="" coords="229,295,300,322"/>
+<area shape="rect" id="node7" title=" " alt="" coords="325,295,383,322"/>
+<area shape="rect" id="node8" title=" " alt="" coords="408,295,471,322"/>
+<area shape="rect" id="node9" href="$macro__logger_8h.html" title="This file contains logger macros that are used throughout the codebase. The macro_logger...." alt="" coords="494,288,718,329"/>
+<area shape="rect" id="node10" title=" " alt="" coords="529,377,595,404"/>
+<area shape="rect" id="node11" title=" " alt="" coords="619,377,678,404"/>
 </map>

@@ -1,5 +1,7 @@
 <map id="masscalculator::core::materials::AlloyCoppers" name="masscalculator::core::materials::AlloyCoppers">
-<area shape="rect" id="node1" title="Class AlloyCoppers, that holds all the nessesary information for AlloyCoppers and it&#39;s types therefor..." alt="" coords="21,199,208,240"/>
-<area shape="rect" id="node2" href="$classmasscalculator_1_1core_1_1materials_1_1Material.html" title=" " alt="" coords="36,95,193,151"/>
-<area shape="rect" id="node3" href="$structmasscalculator_1_1core_1_1materials_1_1Crtp.html" title="Writing repeated static_casts in CRTP base classes quickly becomes cumbersome, as it does not add muc..." alt="" coords="5,5,224,47"/>
+<area shape="rect" id="node1" title="Class AlloyCoppers, that holds all the nessesary information for AlloyCoppers and it&#39;s types therefor..." alt="" coords="633,93,820,134"/>
+<area shape="rect" id="node2" href="$classmasscalculator_1_1core_1_1materials_1_1Material.html" title=" " alt="" coords="310,5,467,61"/>
+<area shape="rect" id="node3" href="$structmasscalculator_1_1core_1_1materials_1_1Crtp.html" title="Writing repeated static_casts in CRTP base classes quickly becomes cumbersome, as it does not add muc..." alt="" coords="5,13,224,54"/>
+<area shape="rect" id="node4" href="$structmasscalculator_1_1base_1_1ImmutableMap.html" title=" " alt="" coords="273,85,504,141"/>
+<area shape="rect" id="node5" href="$structmasscalculator_1_1base_1_1ImmutableMap.html" title=" " alt="" coords="293,166,484,237"/>
 </map>

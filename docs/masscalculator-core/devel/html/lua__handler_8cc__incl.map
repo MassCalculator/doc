@@ -1,12 +1,11 @@
 <map id="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/libraries/masscalculator&#45;base/src/lua_handler.cc" name="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/libraries/masscalculator&#45;base/src/lua_handler.cc">
-<area shape="rect" id="node1" title="Implementation of the LuaScriptHandler class, which encapsulates the definition and specializations f..." alt="" coords="371,5,690,76"/>
-<area shape="rect" id="node2" href="$lua__handler_8h.html" title="Definition of the LuaScriptHandler class, which encapsulates the definition and specializations for h..." alt="" coords="269,124,493,165"/>
-<area shape="rect" id="node5" href="$macro__logger_8h.html" title="This file contains logger macros that are used throughout the codebase. The macro_logger...." alt="" coords="5,213,229,255"/>
-<area shape="rect" id="node8" title=" " alt="" coords="424,221,547,247"/>
-<area shape="rect" id="node9" title=" " alt="" coords="571,221,669,247"/>
-<area shape="rect" id="node10" title=" " alt="" coords="693,221,808,247"/>
-<area shape="rect" id="node3" title=" " alt="" coords="253,221,312,247"/>
-<area shape="rect" id="node4" title=" " alt="" coords="337,221,399,247"/>
-<area shape="rect" id="node6" title=" " alt="" coords="41,303,108,329"/>
-<area shape="rect" id="node7" title=" " alt="" coords="132,303,191,329"/>
+<area shape="rect" id="node1" title="Implementation of the LuaScriptHandler class, which encapsulates the definition and specializations f..." alt="" coords="124,5,443,76"/>
+<area shape="rect" id="node2" href="$lua__handler_8h.html" title="Definition of the LuaScriptHandler class, which encapsulates the definition and specializations for h..." alt="" coords="97,124,321,165"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,221,76,247"/>
+<area shape="rect" id="node6" href="$macro__logger_8h.html" title="This file contains logger macros that are used throughout the codebase. The macro_logger...." alt="" coords="270,213,494,255"/>
+<area shape="rect" id="node9" title=" " alt="" coords="396,131,483,158"/>
+<area shape="rect" id="node4" title=" " alt="" coords="101,221,159,247"/>
+<area shape="rect" id="node5" title=" " alt="" coords="184,221,247,247"/>
+<area shape="rect" id="node7" title=" " alt="" coords="306,303,373,329"/>
+<area shape="rect" id="node8" title=" " alt="" coords="397,303,455,329"/>
 </map>

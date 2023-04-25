@@ -68,7 +68,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#friends">Friends</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">masscalculator::core::materials::AlloySteels Class Reference</div>  </div>
@@ -94,9 +94,11 @@ Collaboration diagram for masscalculator::core::materials::AlloySteels:</div>
 <div class="dyncontent">
 <div class="center"><img src="classmasscalculator_1_1core_1_1materials_1_1AlloySteels__coll__graph.png" border="0" usemap="#amasscalculator_1_1core_1_1materials_1_1AlloySteels_coll__map" alt="Collaboration graph"/></div>
 <map name="amasscalculator_1_1core_1_1materials_1_1AlloySteels_coll__map" id="amasscalculator_1_1core_1_1materials_1_1AlloySteels_coll__map">
-<area shape="rect" title="Class AlloySteels, that holds all the nessesary information for AlloySteels and it&#39;s types therefore ..." alt="" coords="28,199,201,240"/>
-<area shape="rect" href="classmasscalculator_1_1core_1_1materials_1_1Material.html" title=" " alt="" coords="36,95,193,151"/>
-<area shape="rect" href="structmasscalculator_1_1core_1_1materials_1_1Crtp.html" title="Writing repeated static_casts in CRTP base classes quickly becomes cumbersome, as it does not add muc..." alt="" coords="5,5,224,47"/>
+<area shape="rect" title="Class AlloySteels, that holds all the nessesary information for AlloySteels and it&#39;s types therefore ..." alt="" coords="620,93,793,134"/>
+<area shape="rect" href="classmasscalculator_1_1core_1_1materials_1_1Material.html" title=" " alt="" coords="303,5,461,61"/>
+<area shape="rect" href="structmasscalculator_1_1core_1_1materials_1_1Crtp.html" title="Writing repeated static_casts in CRTP base classes quickly becomes cumbersome, as it does not add muc..." alt="" coords="5,13,224,54"/>
+<area shape="rect" href="structmasscalculator_1_1base_1_1ImmutableMap.html" title=" " alt="" coords="273,85,491,141"/>
+<area shape="rect" href="structmasscalculator_1_1base_1_1ImmutableMap.html" title=" " alt="" coords="293,166,471,237"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -129,27 +131,6 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html#ac7e40f3e58f99c6b83bdcada1391671e">AlloySteels</a> (const std::string_view &amp;type)</td></tr>
 <tr class="memdesc:ac7e40f3e58f99c6b83bdcada1391671e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html" title="Class AlloySteels, that holds all the nessesary information for AlloySteels and it&#39;s types therefore ...">AlloySteels</a> object and specify the type. <br /></td></tr>
 <tr class="separator:ac7e40f3e58f99c6b83bdcada1391671e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac0c560f419dfa8aecccfa63ecc95d25"><td class="memItemLeft" align="right" valign="top">std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html#aac0c560f419dfa8aecccfa63ecc95d25">GetType</a> () const</td></tr>
-<tr class="memdesc:aac0c560f419dfa8aecccfa63ecc95d25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Type object.  <a href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html#aac0c560f419dfa8aecccfa63ecc95d25">More...</a><br /></td></tr>
-<tr class="separator:aac0c560f419dfa8aecccfa63ecc95d25"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff01cd62869126d7940e8ee9d6fce8ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html#aaa4cf6ee5c0e506ec02a7efc344e1281">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html#aff01cd62869126d7940e8ee9d6fce8ea">GetSpecificColor</a> () const</td></tr>
-<tr class="memdesc:aff01cd62869126d7940e8ee9d6fce8ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Specific color object.  <a href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html#aff01cd62869126d7940e8ee9d6fce8ea">More...</a><br /></td></tr>
-<tr class="separator:aff01cd62869126d7940e8ee9d6fce8ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a580cf85a77715488350d1326a060db3a"><td class="memItemLeft" align="right" valign="top">units::density::kilograms_per_cubic_meter_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html#a580cf85a77715488350d1326a060db3a">GetSpecificDensity</a> () const</td></tr>
-<tr class="memdesc:a580cf85a77715488350d1326a060db3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Specific Density object.  <a href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html#a580cf85a77715488350d1326a060db3a">More...</a><br /></td></tr>
-<tr class="separator:a580cf85a77715488350d1326a060db3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c1bcbd0f39a7e6878b6a3da19912341"><td class="memItemLeft" align="right" valign="top">units::temperature::kelvin_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html#a6c1bcbd0f39a7e6878b6a3da19912341">GetSpecificMeltingPoint</a> () const</td></tr>
-<tr class="memdesc:a6c1bcbd0f39a7e6878b6a3da19912341"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Specific Melting Point object.  <a href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html#a6c1bcbd0f39a7e6878b6a3da19912341">More...</a><br /></td></tr>
-<tr class="separator:a6c1bcbd0f39a7e6878b6a3da19912341"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a7893fc6de3a6ee7ad6338d7a52cd20"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html#a8a7893fc6de3a6ee7ad6338d7a52cd20">GetSpecificPoissonsRatio</a> () const</td></tr>
-<tr class="memdesc:a8a7893fc6de3a6ee7ad6338d7a52cd20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Specific PoissonsRatio object.  <a href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html#a8a7893fc6de3a6ee7ad6338d7a52cd20">More...</a><br /></td></tr>
-<tr class="separator:a8a7893fc6de3a6ee7ad6338d7a52cd20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7604321f0724b3101f54dead674f75ae"><td class="memItemLeft" align="right" valign="top">units::power::watt_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html#a7604321f0724b3101f54dead674f75ae">GetSpecificThermalConductivity</a> () const</td></tr>
-<tr class="memdesc:a7604321f0724b3101f54dead674f75ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Specific Thermal Conductivity object.  <a href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html#a7604321f0724b3101f54dead674f75ae">More...</a><br /></td></tr>
-<tr class="separator:a7604321f0724b3101f54dead674f75ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8026b320d8f253f3787c4baeaf66e891"><td class="memItemLeft" align="right" valign="top">units::pressure::pascal_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html#a8026b320d8f253f3787c4baeaf66e891">GetSpecificModOfElasticityTension</a> () const</td></tr>
-<tr class="memdesc:a8026b320d8f253f3787c4baeaf66e891"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Specific Modulus of Elasticity Tension object.  <a href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html#a8026b320d8f253f3787c4baeaf66e891">More...</a><br /></td></tr>
-<tr class="separator:a8026b320d8f253f3787c4baeaf66e891"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a875037e4393698cfde9e1e8df04645db"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html#a875037e4393698cfde9e1e8df04645db">SetType</a> (const std::string_view &amp;type)</td></tr>
 <tr class="memdesc:a875037e4393698cfde9e1e8df04645db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Propertie Specs object.  <a href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html#a875037e4393698cfde9e1e8df04645db">More...</a><br /></td></tr>
 <tr class="separator:a875037e4393698cfde9e1e8df04645db"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -173,6 +154,9 @@ Public Member Functions</h2></td></tr>
 <a class="el" href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html">AlloySteels</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html#a77e689a70abc452b16bc4684f35ab57e">operator=</a> (<a class="el" href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html">AlloySteels</a> &amp;&amp;)=default</td></tr>
 <tr class="memdesc:a77e689a70abc452b16bc4684f35ab57e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allow move assignment operator. <br /></td></tr>
 <tr class="separator:a77e689a70abc452b16bc4684f35ab57e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a2b58c5b3575169c1ee41d105a88822"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html#a2a2b58c5b3575169c1ee41d105a88822">GetClassName</a> () const</td></tr>
+<tr class="memdesc:a2a2b58c5b3575169c1ee41d105a88822"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to return the class name, not the pointer of the class.  <a href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html#a2a2b58c5b3575169c1ee41d105a88822">More...</a><br /></td></tr>
+<tr class="separator:a2a2b58c5b3575169c1ee41d105a88822"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classmasscalculator_1_1core_1_1materials_1_1Material"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classmasscalculator_1_1core_1_1materials_1_1Material')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html">masscalculator::core::materials::Material&lt; AlloySteels &gt;</a></td></tr>
 <tr class="memitem:acf2fc93ad822e6b2d9ded2d16d27bd81 inherit pub_methods_classmasscalculator_1_1core_1_1materials_1_1Material"><td class="memItemLeft" align="right" valign="top"><a id="acf2fc93ad822e6b2d9ded2d16d27bd81"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html#acf2fc93ad822e6b2d9ded2d16d27bd81">Properties</a> ()</td></tr>
@@ -242,12 +226,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:affca09f5d82cc5db3d52ecc659a833d3 inherit pub_methods_structmasscalculator_1_1core_1_1materials_1_1Crtp"><td class="memItemLeft" align="right" valign="top">TMaterial const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmasscalculator_1_1core_1_1materials_1_1Crtp.html#affca09f5d82cc5db3d52ecc659a833d3">MaterialType</a> () const</td></tr>
 <tr class="separator:affca09f5d82cc5db3d52ecc659a833d3 inherit pub_methods_structmasscalculator_1_1core_1_1materials_1_1Crtp"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
-Friends</h2></td></tr>
-<tr class="memitem:a49b9604fb393f5be79ebd82a915584c0"><td class="memItemLeft" align="right" valign="top"><a id="a49b9604fb393f5be79ebd82a915584c0"></a>
-std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html#a49b9604fb393f5be79ebd82a915584c0">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html">AlloySteels</a> &amp;obj)</td></tr>
-<tr class="memdesc:a49b9604fb393f5be79ebd82a915584c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shift operator overload for class <a class="el" href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html" title="Class AlloySteels, that holds all the nessesary information for AlloySteels and it&#39;s types therefore ...">AlloySteels</a>, this will print all the nessesery informations. <br /></td></tr>
-<tr class="separator:a49b9604fb393f5be79ebd82a915584c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a3dabcbf879d18959f49590397b2de1f3"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="structmasscalculator_1_1base_1_1ImmutableMap.html">base::ImmutableMap</a>&lt; std::string_view, <a class="el" href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html#a2bcfe4c877f2eaae8d00e84a6dad62dd">AlloySteels::Type</a>, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html#a3dabcbf879d18959f49590397b2de1f3">kType</a></td></tr>
+<tr class="memdesc:a3dabcbf879d18959f49590397b2de1f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">A map used to convert a string representation of a type to an enum value.  <a href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html#a3dabcbf879d18959f49590397b2de1f3">More...</a><br /></td></tr>
+<tr class="separator:a3dabcbf879d18959f49590397b2de1f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71a5065db500b17d19d4c52fe5a2e59f"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="structmasscalculator_1_1base_1_1ImmutableMap.html">base::ImmutableMap</a>&lt; <a class="el" href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html#a2bcfe4c877f2eaae8d00e84a6dad62dd">AlloySteels::Type</a>, std::string_view, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html#a71a5065db500b17d19d4c52fe5a2e59f">kTypeString</a></td></tr>
+<tr class="memdesc:a71a5065db500b17d19d4c52fe5a2e59f"><td class="mdescLeft">&#160;</td><td class="mdescRight">A map used to convert an enum value of type Type to its string representation.  <a href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html#a71a5065db500b17d19d4c52fe5a2e59f">More...</a><br /></td></tr>
+<tr class="separator:a71a5065db500b17d19d4c52fe5a2e59f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -276,6 +262,19 @@ units::power::watt_t&#160;</td><td class="memItemRight" valign="bottom"><a class
 units::pressure::pascal_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html#a4bbb3c03399529e89a1ba8bbc694d3bd">mod_of_elasticity_tension</a></td></tr>
 <tr class="memdesc:a4bbb3c03399529e89a1ba8bbc694d3bd inherit pub_attribs_classmasscalculator_1_1core_1_1materials_1_1Material"><td class="mdescLeft">&#160;</td><td class="mdescRight">pascal_t Parameter to save specific modulus of elasticity tension <br /></td></tr>
 <tr class="separator:a4bbb3c03399529e89a1ba8bbc694d3bd inherit pub_attribs_classmasscalculator_1_1core_1_1materials_1_1Material"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classmasscalculator_1_1core_1_1materials_1_1Material"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classmasscalculator_1_1core_1_1materials_1_1Material')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html">masscalculator::core::materials::Material&lt; AlloySteels &gt;</a></td></tr>
+<tr class="memitem:a860e2574599283cc92a174197d7f5552 inherit pro_methods_classmasscalculator_1_1core_1_1materials_1_1Material"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html#a860e2574599283cc92a174197d7f5552">SetProperties</a> (const <a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html#a5b571424d920d11254d59e3532984bdf">Properties</a> &amp;properties)</td></tr>
+<tr class="memdesc:a860e2574599283cc92a174197d7f5552 inherit pro_methods_classmasscalculator_1_1core_1_1materials_1_1Material"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to set the static propertie values.  <a href="classmasscalculator_1_1core_1_1materials_1_1Material.html#a860e2574599283cc92a174197d7f5552">More...</a><br /></td></tr>
+<tr class="separator:a860e2574599283cc92a174197d7f5552 inherit pro_methods_classmasscalculator_1_1core_1_1materials_1_1Material"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classmasscalculator_1_1core_1_1materials_1_1Material"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classmasscalculator_1_1core_1_1materials_1_1Material')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html">masscalculator::core::materials::Material&lt; AlloySteels &gt;</a></td></tr>
+<tr class="memitem:a3553a3843b7d23780d246cd046b4c483 inherit pro_attribs_classmasscalculator_1_1core_1_1materials_1_1Material"><td class="memItemLeft" align="right" valign="top"><a id="a3553a3843b7d23780d246cd046b4c483"></a>
+std::unique_ptr&lt; <a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html#a5b571424d920d11254d59e3532984bdf">Properties</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html#a3553a3843b7d23780d246cd046b4c483">specific_properties</a></td></tr>
+<tr class="memdesc:a3553a3843b7d23780d246cd046b4c483 inherit pro_attribs_classmasscalculator_1_1core_1_1materials_1_1Material"><td class="mdescLeft">&#160;</td><td class="mdescRight">Properties struct to hold the specific object properties. <br /></td></tr>
+<tr class="separator:a3553a3843b7d23780d246cd046b4c483 inherit pro_attribs_classmasscalculator_1_1core_1_1materials_1_1Material"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86a69d7d1fa2c59eb4a1a8deac16dd02 inherit pro_attribs_classmasscalculator_1_1core_1_1materials_1_1Material"><td class="memItemLeft" align="right" valign="top"><a id="a86a69d7d1fa2c59eb4a1a8deac16dd02"></a>
+std::unique_ptr&lt; <a class="el" href="classmasscalculator_1_1base_1_1LuaScriptHandler.html">base::LuaScriptHandler</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html#a86a69d7d1fa2c59eb4a1a8deac16dd02">lua_state</a></td></tr>
+<tr class="memdesc:a86a69d7d1fa2c59eb4a1a8deac16dd02 inherit pro_attribs_classmasscalculator_1_1core_1_1materials_1_1Material"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lua Handler object to get the config for metals from LuaScript is necessary. <br /></td></tr>
+<tr class="separator:a86a69d7d1fa2c59eb4a1a8deac16dd02 inherit pro_attribs_classmasscalculator_1_1core_1_1materials_1_1Material"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_static_attribs_classmasscalculator_1_1core_1_1materials_1_1Material"><td colspan="2" onclick="javascript:toggleInherit('pro_static_attribs_classmasscalculator_1_1core_1_1materials_1_1Material')"><img src="closed.png" alt="-"/>&#160;Static Protected Attributes inherited from <a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html">masscalculator::core::materials::Material&lt; AlloySteels &gt;</a></td></tr>
 <tr class="memitem:a1f494ebac23e5def0c80b7aa1619cd5f inherit pro_static_attribs_classmasscalculator_1_1core_1_1materials_1_1Material"><td class="memItemLeft" align="right" valign="top"><a id="a1f494ebac23e5def0c80b7aa1619cd5f"></a>
 static constexpr <a class="el" href="structmasscalculator_1_1base_1_1ImmutableMap.html">base::ImmutableMap</a>&lt; std::string_view, <a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html#aaa4cf6ee5c0e506ec02a7efc344e1281">Color</a>, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html#a1f494ebac23e5def0c80b7aa1619cd5f">kColor</a></td></tr>
@@ -327,143 +326,31 @@ static constexpr <a class="el" href="structmasscalculator_1_1base_1_1ImmutableMa
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="aff01cd62869126d7940e8ee9d6fce8ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff01cd62869126d7940e8ee9d6fce8ea">&#9670;&nbsp;</a></span>GetSpecificColor()</h2>
+<a id="a2a2b58c5b3575169c1ee41d105a88822"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a2b58c5b3575169c1ee41d105a88822">&#9670;&nbsp;</a></span>GetClassName()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html#aaa4cf6ee5c0e506ec02a7efc344e1281">AlloySteels::Color</a> masscalculator::core::materials::AlloySteels::GetSpecificColor </td>
+          <td class="memname">constexpr auto masscalculator::core::materials::AlloySteels::GetClassName </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Get the Specific color object. </p>
-<dl class="section return"><dt>Returns</dt><dd>Color color of the material </dd></dl>
-
-</div>
-</div>
-<a id="a580cf85a77715488350d1326a060db3a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a580cf85a77715488350d1326a060db3a">&#9670;&nbsp;</a></span>GetSpecificDensity()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">units::density::kilograms_per_cubic_meter_t masscalculator::core::materials::AlloySteels::GetSpecificDensity </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get the Specific Density object. </p>
-<dl class="section return"><dt>Returns</dt><dd>kilograms_per_cubic_meter_t Density of the material </dd></dl>
-
-</div>
-</div>
-<a id="a6c1bcbd0f39a7e6878b6a3da19912341"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6c1bcbd0f39a7e6878b6a3da19912341">&#9670;&nbsp;</a></span>GetSpecificMeltingPoint()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">units::temperature::kelvin_t masscalculator::core::materials::AlloySteels::GetSpecificMeltingPoint </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get the Specific Melting Point object. </p>
-<dl class="section return"><dt>Returns</dt><dd>kelvin_t The specific melting point of <a class="el" href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html" title="Class AlloySteels, that holds all the nessesary information for AlloySteels and it&#39;s types therefore ...">AlloySteels</a> type </dd></dl>
-
-</div>
-</div>
-<a id="a8026b320d8f253f3787c4baeaf66e891"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8026b320d8f253f3787c4baeaf66e891">&#9670;&nbsp;</a></span>GetSpecificModOfElasticityTension()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">units::pressure::pascal_t masscalculator::core::materials::AlloySteels::GetSpecificModOfElasticityTension </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get the Specific Modulus of Elasticity Tension object. </p>
-<dl class="section return"><dt>Returns</dt><dd>pascal_t The specific modulus of elasticity tension point of <a class="el" href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html" title="Class AlloySteels, that holds all the nessesary information for AlloySteels and it&#39;s types therefore ...">AlloySteels</a> type </dd></dl>
-
-</div>
-</div>
-<a id="a8a7893fc6de3a6ee7ad6338d7a52cd20"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8a7893fc6de3a6ee7ad6338d7a52cd20">&#9670;&nbsp;</a></span>GetSpecificPoissonsRatio()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double masscalculator::core::materials::AlloySteels::GetSpecificPoissonsRatio </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get the Specific PoissonsRatio object. </p>
-<dl class="section return"><dt>Returns</dt><dd>double The specific poissons ratio of <a class="el" href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html" title="Class AlloySteels, that holds all the nessesary information for AlloySteels and it&#39;s types therefore ...">AlloySteels</a> type </dd></dl>
-
-</div>
-</div>
-<a id="a7604321f0724b3101f54dead674f75ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7604321f0724b3101f54dead674f75ae">&#9670;&nbsp;</a></span>GetSpecificThermalConductivity()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">units::power::watt_t masscalculator::core::materials::AlloySteels::GetSpecificThermalConductivity </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get the Specific Thermal Conductivity object. </p>
-<dl class="section return"><dt>Returns</dt><dd>watt_t The specific thermal conductivity of <a class="el" href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html" title="Class AlloySteels, that holds all the nessesary information for AlloySteels and it&#39;s types therefore ...">AlloySteels</a> type </dd></dl>
-
-</div>
-</div>
-<a id="aac0c560f419dfa8aecccfa63ecc95d25"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac0c560f419dfa8aecccfa63ecc95d25">&#9670;&nbsp;</a></span>GetType()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string_view masscalculator::core::materials::AlloySteels::GetType </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get the Type object. </p>
-<dl class="section return"><dt>Returns</dt><dd>Type Type enumeration of the material </dd></dl>
+<p>Function to return the class name, not the pointer of the class. </p>
+<dl class="section return"><dt>Returns</dt><dd>std::string Class name as a string </dd></dl>
 
 </div>
 </div>
@@ -493,6 +380,69 @@ static constexpr <a class="el" href="structmasscalculator_1_1base_1_1ImmutableMa
 <dl class="section return"><dt>Returns</dt><dd>true If the specifications of propertie are successfully set </dd>
 <dd>
 false If the specifications of propertie failed to set </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a3dabcbf879d18959f49590397b2de1f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3dabcbf879d18959f49590397b2de1f3">&#9670;&nbsp;</a></span>kType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="structmasscalculator_1_1base_1_1ImmutableMap.html">base::ImmutableMap</a>&lt;std::string_view, <a class="el" href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html#a2bcfe4c877f2eaae8d00e84a6dad62dd">AlloySteels::Type</a>, 4&gt; masscalculator::core::materials::AlloySteels::kType</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">{{{{constants::alloysteel::k4135, <a class="code" href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html#a2bcfe4c877f2eaae8d00e84a6dad62dda52b1c8606a6b22251d089358605964d9">AlloySteels::Type::k4135</a>},</div>
+<div class="line">              {constants::alloysteel::k4140, <a class="code" href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html#a2bcfe4c877f2eaae8d00e84a6dad62dda0064dc08e44584f28e6e7bc6b66ad36e">AlloySteels::Type::k4140</a>},</div>
+<div class="line">              {constants::alloysteel::k4340, <a class="code" href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html#a2bcfe4c877f2eaae8d00e84a6dad62ddad7ce5c546e08c1cd2b34fa5f1501871e">AlloySteels::Type::k4340</a>},</div>
+<div class="line">              {constants::alloysteel::kUnspecified,</div>
+<div class="line">               <a class="code" href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html#a2bcfe4c877f2eaae8d00e84a6dad62dda8536661e94a42d4d95dcb9058b9936b5">AlloySteels::Type::kUnspecified</a>}}}}</div>
+<div class="ttc" id="aclassmasscalculator_1_1core_1_1materials_1_1AlloySteels_html_a2bcfe4c877f2eaae8d00e84a6dad62dda0064dc08e44584f28e6e7bc6b66ad36e"><div class="ttname"><a href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html#a2bcfe4c877f2eaae8d00e84a6dad62dda0064dc08e44584f28e6e7bc6b66ad36e">masscalculator::core::materials::AlloySteels::Type::k4140</a></div><div class="ttdeci">@ k4140</div></div>
+<div class="ttc" id="aclassmasscalculator_1_1core_1_1materials_1_1AlloySteels_html_a2bcfe4c877f2eaae8d00e84a6dad62dda52b1c8606a6b22251d089358605964d9"><div class="ttname"><a href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html#a2bcfe4c877f2eaae8d00e84a6dad62dda52b1c8606a6b22251d089358605964d9">masscalculator::core::materials::AlloySteels::Type::k4135</a></div><div class="ttdeci">@ k4135</div></div>
+<div class="ttc" id="aclassmasscalculator_1_1core_1_1materials_1_1AlloySteels_html_a2bcfe4c877f2eaae8d00e84a6dad62dda8536661e94a42d4d95dcb9058b9936b5"><div class="ttname"><a href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html#a2bcfe4c877f2eaae8d00e84a6dad62dda8536661e94a42d4d95dcb9058b9936b5">masscalculator::core::materials::AlloySteels::Type::kUnspecified</a></div><div class="ttdeci">@ kUnspecified</div><div class="ttdoc">Unspecified metal alloy.</div></div>
+<div class="ttc" id="aclassmasscalculator_1_1core_1_1materials_1_1AlloySteels_html_a2bcfe4c877f2eaae8d00e84a6dad62ddad7ce5c546e08c1cd2b34fa5f1501871e"><div class="ttname"><a href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html#a2bcfe4c877f2eaae8d00e84a6dad62ddad7ce5c546e08c1cd2b34fa5f1501871e">masscalculator::core::materials::AlloySteels::Type::k4340</a></div><div class="ttdeci">@ k4340</div></div>
+</div><!-- fragment -->
+<p>A map used to convert a string representation of a type to an enum value. </p>
+
+</div>
+</div>
+<a id="a71a5065db500b17d19d4c52fe5a2e59f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71a5065db500b17d19d4c52fe5a2e59f">&#9670;&nbsp;</a></span>kTypeString</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="structmasscalculator_1_1base_1_1ImmutableMap.html">base::ImmutableMap</a>&lt;<a class="el" href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html#a2bcfe4c877f2eaae8d00e84a6dad62dd">AlloySteels::Type</a>, std::string_view, 4&gt; masscalculator::core::materials::AlloySteels::kTypeString</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">{{{{<a class="code" href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html#a2bcfe4c877f2eaae8d00e84a6dad62dda52b1c8606a6b22251d089358605964d9">AlloySteels::Type::k4135</a>, constants::alloysteel::k4135},</div>
+<div class="line">                    {<a class="code" href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html#a2bcfe4c877f2eaae8d00e84a6dad62dda0064dc08e44584f28e6e7bc6b66ad36e">AlloySteels::Type::k4140</a>, constants::alloysteel::k4140},</div>
+<div class="line">                    {<a class="code" href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html#a2bcfe4c877f2eaae8d00e84a6dad62ddad7ce5c546e08c1cd2b34fa5f1501871e">AlloySteels::Type::k4340</a>, constants::alloysteel::k4340},</div>
+<div class="line">                    {<a class="code" href="classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html#a2bcfe4c877f2eaae8d00e84a6dad62dda8536661e94a42d4d95dcb9058b9936b5">AlloySteels::Type::kUnspecified</a>,</div>
+<div class="line">                     constants::alloysteel::kUnspecified}}}}</div>
+</div><!-- fragment -->
+<p>A map used to convert an enum value of type Type to its string representation. </p>
 
 </div>
 </div>
