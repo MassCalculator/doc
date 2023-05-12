@@ -1,15 +1,15 @@
-name: Update MassCalculator Core Docs
+name: Update MassCalculator Docker Docs
 
 on:
   repository_dispatch:
-    types: [masscalculator-core-pr-merged]
+    types: [masscalculator-docker-pr-merged]
 
 jobs:
-  update-masscalculator-core-docs:
+  update-masscalculator-docker-docs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        repository: ['MassCalculator/masscalculator-core']
+        repository: ['MassCalculator/masscalculator-docker']
         ref: ['devel', 'master']
 
     steps:
@@ -35,10 +35,10 @@ jobs:
         run: cmake --build ${{matrix.repository}}/build -t Doxygen
 
       - name: Remove old HTML
-        run: rm -rf masscalculator.github.io/docs/masscalculator-core/${{matrix.ref}}/html
+        run: rm -rf masscalculator.github.io/docs/masscalculator-docker/${{matrix.ref}}/html
 
       - name: Copy new HTML
-        run: cp -r ${{matrix.repository}}/build/docs/docs/doxygen/html masscalculator.github.io/docs/masscalculator-core/${{matrix.ref}}/html
+        run: cp -r ${{matrix.repository}}/build/docs/docs/doxygen/html masscalculator.github.io/docs/masscalculator-docker/${{matrix.ref}}/html
 
       - name: Pull changes from remote repository
         run: git -C masscalculator.github.io pull origin master
@@ -46,7 +46,7 @@ jobs:
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "Update documentation for masscalculator-core"
+          commit_message: "Update documentation for masscalculator-docker"
           commit_user_name: "Mergim Halimi"
           commit_user_email: "m.halimi123@gmail.com"
           branch: master
