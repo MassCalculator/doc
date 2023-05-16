@@ -38,7 +38,7 @@ jobs:
         run: rm -rf masscalculator.github.io/docs/masscalculator-docker/${{matrix.ref}}/html
 
       - name: Copy new HTML
-        run: cp -r ${{matrix.repository}}/build/docs/docs/doxygen/html masscalculator.github.io/docs/masscalculator-docker/${{matrix.ref}}/html
+        run: cp -r ${{matrix.repository}}/build/docs/doxygen/html masscalculator.github.io/docs/masscalculator-docker/${{matrix.ref}}/html
 
       - name: Pull changes from remote repository
         run: git -C masscalculator.github.io pull origin master
