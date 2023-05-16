@@ -67,10 +67,10 @@ $(function() {
 <div class="contents">
 <div class="textblock"><p>Tests for the MassCalculator core codebase are created using the <a href="https://github.com/google/googletest"><code>googletest</code></a> framework. <br  />
  <code>googletest</code> is added to the codebase as a third-party.</p>
-<h1><a class="anchor" id="autotoc_md22"></a>
+<h1><a class="anchor" id="autotoc_md21"></a>
 Project Structure</h1>
 <p>Every library under the <code>$MASSCALCULATOR_SOURCE/libraries</code> folder has to contain a <code>tests</code> subfolder which will contain its <code>CMakeLists.txt</code> file, defining all the tests, and all the necessary source files.</p>
-<h1><a class="anchor" id="autotoc_md23"></a>
+<h1><a class="anchor" id="autotoc_md22"></a>
 Link Tests to googletest</h1>
 <p>First of all, CMake functions that support <code>googlestest</code> have to be made available with:</p>
 <div class="fragment"><div class="line">include(GoogleTest)</div>
@@ -97,13 +97,13 @@ Link Tests to googletest</h1>
 <div class="line">  NAME DemoTestName</div>
 <div class="line">  COMMAND demo_test</div>
 <div class="line">)</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md24"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md23"></a>
 CTest</h1>
 <p>If the build was configured to build any of the test, you can call CTest from the build directory to run them.</p>
-<h2><a class="anchor" id="autotoc_md25"></a>
+<h2><a class="anchor" id="autotoc_md24"></a>
 Run all the tests</h2>
 <div class="fragment"><div class="line">ctest</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md26"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md25"></a>
 Run only the tests for the library called "DemoTestName"</h2>
 <p>This will use a regular expression to find all tests targets with the name that contains "DemoTestName". If you added that tag to the <code>add_gest</code> calls, CTest will find the right tests for you.</p>
 <div class="fragment"><div class="line">ctest -R DemoTestName</div>
