@@ -71,33 +71,29 @@ CMake Configuration</h1>
 <p>Create a build directory, anywhere but inside the source directory. Call CMake using the following commands:</p>
 <h2><a class="anchor" id="autotoc_md5"></a>
 Basic Configuration, Debug, no Extra Tools, no Tests, no Documentation</h2>
-<div class="fragment"><div class="line">cmake -S $MASSCALCULATOR_DOCKER_SOURCE -B &lt;BUILD DIRECTORY&gt; -t &lt;TARGET&gt;</div>
+<div class="fragment"><div class="line">cmake -S $MASSCALCULATOR_DOCKER_SOURCE -B &lt;BUILD DIRECTORY&gt; -t &lt;TARGET&gt; -G Ninja -DCMAKE_BUILD_TYPE=&lt;Debug|Release&gt;</div>
 </div><!-- fragment --><h2><a class="anchor" id="autotoc_md6"></a>
 Configure Build with Doxygen Documentation</h2>
-<div class="fragment"><div class="line">cmake -S $MASSCALCULATOR_DOCKER_SOURCE -B &lt;BUILD DIRECTORY&gt; -t &lt;TARGET&gt; -DBUILD_DOCS=ON</div>
+<div class="fragment"><div class="line">cmake -S $MASSCALCULATOR_DOCKER_SOURCE -B &lt;BUILD DIRECTORY&gt; -t &lt;TARGET&gt; -G Ninja -DBUILD_DOCS=ON -DCMAKE_BUILD_TYPE=&lt;Debug|Release&gt;</div>
 </div><!-- fragment --><h1><a class="anchor" id="autotoc_md7"></a>
 Build</h1>
 <p>From the build directory call</p>
 <h2><a class="anchor" id="autotoc_md8"></a>
-Build everything</h2>
-<blockquote class="doxtable">
-<p>Note: Currently in progress. </p>
+Build targets</h2>
+<div class="fragment"><div class="line">sudo cmake --build &lt;BUILD DIRECTORY&gt; -t &lt;Target&gt; --config &lt;Debug|Release&gt;</div>
+</div><!-- fragment --><blockquote class="doxtable">
+<p>Note: Sudo is needed to give permission to docker for Dockerfile build. </p>
 </blockquote>
-<div class="fragment"><div class="line">cmake --build .</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md9"></a>
-Old way build</h2>
-<div class="fragment"><div class="line">cd $MASSCALCULATOR_DOCKER_SOURCE</div>
-<div class="line">mkdir build &amp;&amp; cd build</div>
-<div class="line">cmake .. -DBUILD_TESTS=ON </div>
-<div class="line">sudo cmake --build . -t &lt;TARGET&gt;</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md10"></a>
-Available targets</h1>
+<h3><a class="anchor" id="autotoc_md9"></a>
+Available targets</h3>
 <ul>
+<li>build-conan-masscalculator-core-docker</li>
+<li>run-conan-masscalculator-core-docker</li>
 <li>build-masscalculator-core-docker</li>
 <li>run-masscalculator-core-docker</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md11"></a>
-Documentation</h2>
+<h1><a class="anchor" id="autotoc_md10"></a>
+Documentation</h1>
 <p>The Doxygen documentation will be available under the subdirectory <code>docs/html</code> of your build directory. E.g., in <code>build/docs/html</code>. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
