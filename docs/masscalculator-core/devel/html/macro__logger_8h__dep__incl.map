@@ -1,22 +1,23 @@
 <map id="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/libraries/masscalculator&#45;base/include/masscalculator/masscalculator&#45;base/macro_logger.h" name="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/libraries/masscalculator&#45;base/include/masscalculator/masscalculator&#45;base/macro_logger.h">
-<area shape="rect" id="node1" title="This file contains logger macros that are used throughout the codebase. The macro_logger...." alt="" coords="1723,5,2041,91"/>
-<area shape="rect" id="node2" href="$example__1_8cc.html" title="This file contains an example for using the Object Interface class." alt="" coords="1823,679,2143,735"/>
-<area shape="rect" id="node3" href="$lua__handler_8h.html" title="Definition of the LuaScriptHandler class, which encapsulates the definition and specializations for h..." alt="" coords="1133,139,1452,224"/>
-<area shape="rect" id="node4" href="$lua__handler_8cc.html" title="Implementation of the LuaScriptHandler class, which encapsulates the definition and specializations f..." alt="" coords="1575,279,1893,350"/>
-<area shape="rect" id="node13" href="$alloy__coppers_8cc.html" title="This file contains the implementation for the alloy_coppers class. The alloy_coppers class holds all ..." alt="" coords="1480,546,1799,617"/>
-<area shape="rect" id="node17" href="$alloy__steels_8cc.html" title="This file contains the implementation for the alloy_steels class. The alloy_steels class holds all th..." alt="" coords="5,546,324,617"/>
-<area shape="rect" id="node20" href="$object__interface_8h.html" title="This file contains the definition for the Object class. The Object class holds all the properties for..." alt="" coords="1823,539,2141,624"/>
-<area shape="rect" id="node5" href="$lua__handler__test_8h.html" title="Defines unit tests for the LuaScriptHandler class." alt="" coords="1232,279,1551,350"/>
-<area shape="rect" id="node7" href="$material_8h.html" title="This file contains the base class for Materials. This class is inherited by all Material types and pr..." alt="" coords="837,272,1156,357"/>
-<area shape="rect" id="node6" href="$lua__handler__test_8cc.html" title="Defines unit tests for the LuaScriptHandler class." alt="" coords="1232,413,1551,483"/>
-<area shape="rect" id="node8" href="$alloy__coppers_8h.html" title="This file contains the class definition for alloy_coppers. The alloy_coppers class holds all the spec..." alt="" coords="837,405,1156,491"/>
-<area shape="rect" id="node16" href="$alloy__steels_8h.html" title="This file contains the class definition for alloy_steels. The alloy_steels class holds all the specif..." alt="" coords="381,405,700,491"/>
-<area shape="rect" id="node9" href="$materials_8hh.html" title="This file contains the includes for all types of materials." alt="" coords="1137,539,1456,624"/>
-<area shape="rect" id="node14" href="$alloy__coppers__test_8cc.html" title="Defines unit tests for the AlloyCoppers class." alt="" coords="768,672,1087,743"/>
-<area shape="rect" id="node15" href="$alloy__coppers__test_8h.html" title="Defines unit tests for the AlloyCoppers class." alt="" coords="743,546,1061,617"/>
-<area shape="rect" id="node10" href="$object__interface_8cc.html" title="This file contains the implementation for the Object class. The Object class holds all the properties..." alt="" coords="1137,672,1456,743"/>
-<area shape="rect" id="node11" href="$object__interface__test_8h.html" title="Defines unit tests for the Object class." alt="" coords="1480,672,1799,743"/>
-<area shape="rect" id="node12" href="$object__interface__test_8cc.html" title="Defines unit tests for the Object class." alt="" coords="1480,791,1799,861"/>
-<area shape="rect" id="node18" href="$alloy__steels__test_8cc.html" title="Defines unit tests for the AlloySteels class." alt="" coords="301,672,620,743"/>
-<area shape="rect" id="node19" href="$alloy__steels__test_8h.html" title="Defines unit tests for the AlloySteels class." alt="" coords="400,546,719,617"/>
+<area shape="rect" id="node1" title="This file contains logger macros that are used throughout the codebase. The macro_logger...." alt="" coords="963,5,1282,91"/>
+<area shape="rect" id="node2" href="$example__1_8cc.html" title="This file contains an example for using the Object Interface class." alt="" coords="5,679,325,735"/>
+<area shape="rect" id="node3" href="$lua__handler_8h.html" title="Definition of the LuaScriptHandler class, which encapsulates the definition and specializations for h..." alt="" coords="1309,139,1627,224"/>
+<area shape="rect" id="node4" href="$lua__handler_8cc.html" title="Implementation of the LuaScriptHandler class, which encapsulates the definition and specializations f..." alt="" coords="1947,279,2266,350"/>
+<area shape="rect" id="node14" href="$alloy__coppers_8cc.html" title="This file contains the implementation for the alloy_coppers class. The alloy_coppers class holds all ..." alt="" coords="2093,546,2411,617"/>
+<area shape="rect" id="node18" href="$alloy__steels_8cc.html" title="This file contains the implementation for the alloy_steels class. The alloy_steels class holds all th..." alt="" coords="546,546,865,617"/>
+<area shape="rect" id="node21" href="$object__interface_8h.html" title="This file contains the definition for the Object class. The Object class holds all the properties for..." alt="" coords="203,539,522,624"/>
+<area shape="rect" id="node5" href="$lua__handler__test_8h.html" title="Defines unit tests for the LuaScriptHandler class." alt="" coords="1605,279,1923,350"/>
+<area shape="rect" id="node7" href="$material_8h.html" title="This file contains the base class for Materials. This class is inherited by all Material types and pr..." alt="" coords="1210,272,1529,357"/>
+<area shape="rect" id="node6" href="$lua__handler__test_8cc.html" title="Defines unit tests for the LuaScriptHandler class." alt="" coords="1947,413,2266,483"/>
+<area shape="rect" id="node8" href="$alloy__coppers_8h.html" title="This file contains the class definition for alloy_coppers. The alloy_coppers class holds all the spec..." alt="" coords="1553,405,1871,491"/>
+<area shape="rect" id="node11" href="$material_8cc.html" title="This file is left here for convenience, but the implementation is done with templates in the header f..." alt="" coords="1035,672,1354,743"/>
+<area shape="rect" id="node17" href="$alloy__steels_8h.html" title="This file contains the class definition for alloy_steels. The alloy_steels class holds all the specif..." alt="" coords="1210,405,1529,491"/>
+<area shape="rect" id="node9" href="$materials_8hh.html" title="This file contains the includes for all types of materials." alt="" coords="889,539,1207,624"/>
+<area shape="rect" id="node15" href="$alloy__coppers__test_8cc.html" title="Defines unit tests for the AlloyCoppers class." alt="" coords="1735,672,2054,743"/>
+<area shape="rect" id="node16" href="$alloy__coppers__test_8h.html" title="Defines unit tests for the AlloyCoppers class." alt="" coords="1750,546,2069,617"/>
+<area shape="rect" id="node10" href="$object__interface_8cc.html" title="This file contains the implementation for the Object class. The Object class holds all the properties..." alt="" coords="350,672,669,743"/>
+<area shape="rect" id="node12" href="$object__interface__test_8h.html" title="Defines unit tests for the Object class." alt="" coords="693,672,1011,743"/>
+<area shape="rect" id="node13" href="$object__interface__test_8cc.html" title="Defines unit tests for the Object class." alt="" coords="693,791,1011,861"/>
+<area shape="rect" id="node19" href="$alloy__steels__test_8cc.html" title="Defines unit tests for the AlloySteels class." alt="" coords="1378,672,1697,743"/>
+<area shape="rect" id="node20" href="$alloy__steels__test_8h.html" title="Defines unit tests for the AlloySteels class." alt="" coords="1355,546,1674,617"/>
 </map>

@@ -71,30 +71,20 @@ CMake Configuration</h1>
 <p>Create a build directory, anywhere but inside the source directory. Call CMake using the following commands:</p>
 <h2><a class="anchor" id="autotoc_md6"></a>
 Basic Configuration, Debug, no Extra Tools, no Tests, no Documentation</h2>
-<div class="fragment"><div class="line">cmake -S $MASSCALCULATOR_SOURCE -B &lt;BUILD DIRECTORY&gt;</div>
+<div class="fragment"><div class="line">cmake -S $MASSCALCULATOR_SOURCE -B &lt;BUILD DIRECTORY&gt; -G Ninja -DCMAKE_BUILD_TYPE=&lt;Debug|Release&gt;</div>
 </div><!-- fragment --><h2><a class="anchor" id="autotoc_md7"></a>
 Configure Build with all Tests</h2>
-<div class="fragment"><div class="line">cmake -S $MASSCALCULATOR_SOURCE -B &lt;BUILD DIRECTORY&gt; -DBUILD_TESTS=ON`</div>
+<div class="fragment"><div class="line">cmake -S $MASSCALCULATOR_SOURCE -B &lt;BUILD DIRECTORY&gt; -G Ninja -DBUILD_TESTS=ON -DCMAKE_BUILD_TYPE=&lt;Debug|Release&gt;</div>
 </div><!-- fragment --><h2><a class="anchor" id="autotoc_md8"></a>
 Configure Build with Doxygen Documentation</h2>
-<div class="fragment"><div class="line">cmake -S $MASSCALCULATOR_SOURCE -B &lt;BUILD DIRECTORY&gt; -DBUILD_DOCS=ON</div>
+<div class="fragment"><div class="line">cmake -S $MASSCALCULATOR_SOURCE -B &lt;BUILD DIRECTORY&gt; -G Ninja -DBUILD_DOCS=ON -DCMAKE_BUILD_TYPE=&lt;Debug|Release&gt;</div>
 </div><!-- fragment --><h1><a class="anchor" id="autotoc_md9"></a>
 Build</h1>
 <p>From the build directory call</p>
 <h2><a class="anchor" id="autotoc_md10"></a>
 Build everything</h2>
-<div class="fragment"><div class="line">cmake --build .</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md11"></a>
-Old way build</h2>
-<div class="fragment"><div class="line">cd $MASSCALCULATOR_SOURCE</div>
-<div class="line">mkdir build &amp;&amp; cd build</div>
-<div class="line">cmake .. -DBUILD_TESTS=ON </div>
-<div class="line">cmake --build .</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md12"></a>
-Alias</h1>
-<p>These are a bit long commands, but an alias can be used</p>
-<div class="fragment"><div class="line">alias build_masscalculator_core=&#39;cd &lt;BUILD DIRECTORY&gt; &amp;&amp; cmake -DBUILD_TESTS=ON $MASSCALCULATOR_SOURCE &amp;&amp; cmake --build . &amp;&amp; cd -&#39;</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md13"></a>
+<div class="fragment"><div class="line">cmake --build &lt;BUILD DIRECTORY&gt; --config &lt;Debug|Release&gt;</div>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md11"></a>
 Documentation</h1>
 <p>The Doxygen documentation will be available under the subdirectory <code>docs/html</code> of your build directory. E.g., in <code>build/docs/html</code>. </p>
 </div></div><!-- contents -->

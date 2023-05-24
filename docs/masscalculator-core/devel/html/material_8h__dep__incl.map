@@ -1,16 +1,17 @@
 <map id="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/masscalculator/masscalculator&#45;core/materials/material.h" name="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/masscalculator/masscalculator&#45;core/materials/material.h">
-<area shape="rect" id="node1" title="This file contains the base class for Materials. This class is inherited by all Material types and pr..." alt="" coords="1159,5,1478,91"/>
-<area shape="rect" id="node2" href="$alloy__coppers_8h.html" title="This file contains the class definition for alloy_coppers. The alloy_coppers class holds all the spec..." alt="" coords="890,139,1209,224"/>
-<area shape="rect" id="node11" href="$alloy__steels_8h.html" title="This file contains the class definition for alloy_steels. The alloy_steels class holds all the specif..." alt="" coords="1529,139,1847,224"/>
-<area shape="rect" id="node3" href="$materials_8hh.html" title="This file contains the includes for all types of materials." alt="" coords="350,272,669,357"/>
-<area shape="rect" id="node8" href="$alloy__coppers_8cc.html" title="This file contains the implementation for the alloy_coppers class. The alloy_coppers class holds all ..." alt="" coords="693,279,1011,350"/>
-<area shape="rect" id="node9" href="$alloy__coppers__test_8cc.html" title="Defines unit tests for the AlloyCoppers class." alt="" coords="1062,405,1381,476"/>
-<area shape="rect" id="node10" href="$alloy__coppers__test_8h.html" title="Defines unit tests for the AlloyCoppers class." alt="" coords="1087,279,1406,350"/>
-<area shape="rect" id="node4" href="$example__1_8cc.html" title="This file contains an example for using the Object Interface class." alt="" coords="5,413,325,469"/>
-<area shape="rect" id="node5" href="$object__interface_8cc.html" title="This file contains the implementation for the Object class. The Object class holds all the properties..." alt="" coords="350,405,669,476"/>
-<area shape="rect" id="node6" href="$object__interface__test_8h.html" title="Defines unit tests for the Object class." alt="" coords="693,405,1011,476"/>
-<area shape="rect" id="node7" href="$object__interface__test_8cc.html" title="Defines unit tests for the Object class." alt="" coords="693,524,1011,595"/>
-<area shape="rect" id="node12" href="$alloy__steels_8cc.html" title="This file contains the implementation for the alloy_steels class. The alloy_steels class holds all th..." alt="" coords="1430,279,1749,350"/>
-<area shape="rect" id="node13" href="$alloy__steels__test_8cc.html" title="Defines unit tests for the AlloySteels class." alt="" coords="1726,405,2045,476"/>
-<area shape="rect" id="node14" href="$alloy__steels__test_8h.html" title="Defines unit tests for the AlloySteels class." alt="" coords="1825,279,2143,350"/>
+<area shape="rect" id="node1" title="This file contains the base class for Materials. This class is inherited by all Material types and pr..." alt="" coords="1083,5,1401,91"/>
+<area shape="rect" id="node2" href="$alloy__coppers_8h.html" title="This file contains the class definition for alloy_coppers. The alloy_coppers class holds all the spec..." alt="" coords="1083,139,1401,224"/>
+<area shape="rect" id="node6" href="$material_8cc.html" title="This file is left here for convenience, but the implementation is done with templates in the header f..." alt="" coords="5,405,324,476"/>
+<area shape="rect" id="node12" href="$alloy__steels_8h.html" title="This file contains the class definition for alloy_steels. The alloy_steels class holds all the specif..." alt="" coords="1892,139,2211,224"/>
+<area shape="rect" id="node3" href="$materials_8hh.html" title="This file contains the includes for all types of materials." alt="" coords="641,272,960,357"/>
+<area shape="rect" id="node9" href="$alloy__coppers_8cc.html" title="This file contains the implementation for the alloy_coppers class. The alloy_coppers class holds all ..." alt="" coords="984,279,1303,350"/>
+<area shape="rect" id="node10" href="$alloy__coppers__test_8cc.html" title="Defines unit tests for the AlloyCoppers class." alt="" coords="1379,405,1697,476"/>
+<area shape="rect" id="node11" href="$alloy__coppers__test_8h.html" title="Defines unit tests for the AlloyCoppers class." alt="" coords="1379,279,1697,350"/>
+<area shape="rect" id="node4" href="$example__1_8cc.html" title="This file contains an example for using the Object Interface class." alt="" coords="349,413,669,469"/>
+<area shape="rect" id="node5" href="$object__interface_8cc.html" title="This file contains the implementation for the Object class. The Object class holds all the properties..." alt="" coords="693,405,1012,476"/>
+<area shape="rect" id="node7" href="$object__interface__test_8h.html" title="Defines unit tests for the Object class." alt="" coords="1036,405,1355,476"/>
+<area shape="rect" id="node8" href="$object__interface__test_8cc.html" title="Defines unit tests for the Object class." alt="" coords="1036,524,1355,595"/>
+<area shape="rect" id="node13" href="$alloy__steels_8cc.html" title="This file contains the implementation for the alloy_steels class. The alloy_steels class holds all th..." alt="" coords="2064,279,2383,350"/>
+<area shape="rect" id="node14" href="$alloy__steels__test_8cc.html" title="Defines unit tests for the AlloySteels class." alt="" coords="1991,405,2309,476"/>
+<area shape="rect" id="node15" href="$alloy__steels__test_8h.html" title="Defines unit tests for the AlloySteels class." alt="" coords="1721,279,2040,350"/>
 </map>
