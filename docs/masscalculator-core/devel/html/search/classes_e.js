@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['unexpectederror_466',['UnexpectedError',['../classrun-clang-format_1_1UnexpectedError.html',1,'run-clang-format']]]
+  ['unexpectederror_487',['UnexpectedError',['../classrun-clang-format_1_1UnexpectedError.html',1,'run-clang-format']]]
 ];

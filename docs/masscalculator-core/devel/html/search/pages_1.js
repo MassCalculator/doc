@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['developer_20environment_937',['Developer Environment',['../md__home_runner_work_masscalculator_github_io_masscalculator_github_io_MassCalculator_masscalculator_core_docs_SETUP.html',1,'']]]
+  ['developer_20environment_958',['Developer Environment',['../md__home_runner_work_masscalculator_github_io_masscalculator_github_io_MassCalculator_masscalculator_core_docs_SETUP.html',1,'']]]
 ];

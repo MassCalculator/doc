@@ -1,0 +1,7 @@
+<map id="masscalculator::core::materials::Aluminium" name="masscalculator::core::materials::Aluminium">
+<area shape="rect" id="node1" title="Class Aluminium, that holds all the nessesary information for Aluminium and it&#39;s types therefore we c..." alt="" coords="661,101,832,142"/>
+<area shape="rect" id="node2" href="$classmasscalculator_1_1core_1_1materials_1_1Material.html" title=" " alt="" coords="312,5,469,61"/>
+<area shape="rect" id="node3" href="$structmasscalculator_1_1core_1_1materials_1_1Crtp.html" title="Writing repeated static_casts in CRTP base classes quickly becomes cumbersome, as it does not add muc..." alt="" coords="5,13,224,54"/>
+<area shape="rect" id="node4" href="$structmasscalculator_1_1base_1_1ImmutableMap.html" title=" " alt="" coords="303,86,479,157"/>
+<area shape="rect" id="node5" href="$structmasscalculator_1_1base_1_1ImmutableMap.html" title=" " alt="" coords="273,181,508,237"/>
+</map>

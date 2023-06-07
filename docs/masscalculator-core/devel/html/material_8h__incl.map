@@ -1,13 +1,14 @@
 <map id="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/masscalculator/masscalculator&#45;core/materials/material.h" name="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/masscalculator/masscalculator&#45;core/materials/material.h">
-<area shape="rect" id="node1" title="This file contains the base class for Materials. This class is inherited by all Material types and pr..." alt="" coords="463,5,781,91"/>
+<area shape="rect" id="node1" title="This file contains the base class for Materials. This class is inherited by all Material types and pr..." alt="" coords="587,5,905,91"/>
 <area shape="rect" id="node2" title=" " alt="" coords="5,153,92,180"/>
 <area shape="rect" id="node3" title=" " alt="" coords="116,153,213,180"/>
 <area shape="rect" id="node4" title=" " alt="" coords="237,153,361,180"/>
 <area shape="rect" id="node5" href="$immutable__map_8h.html" title="Defines the ImmutableMap template class, which is a simple map structure that can be declared as cons..." alt="" coords="386,146,610,187"/>
 <area shape="rect" id="node8" href="$lua__handler_8h.html" title="Definition of the LuaScriptHandler class, which encapsulates the definition and specializations for h..." alt="" coords="634,146,858,187"/>
 <area shape="rect" id="node15" href="$color_8h.html" title="This file contains constant expressions that define the keys to get the values of the different color..." alt="" coords="882,139,1106,195"/>
-<area shape="rect" id="node16" href="$properties_8h.html" title="This file contains constant expressions that define the keys to get the values of the different prope..." alt="" coords="1130,139,1354,195"/>
-<area shape="rect" id="node17" title=" " alt="" coords="1378,146,1533,187"/>
+<area shape="rect" id="node16" href="$constants_2material_8h.html" title="This file contains constant expressions that define the keys to get the different types of materials." alt="" coords="1130,139,1354,195"/>
+<area shape="rect" id="node17" href="$properties_8h.html" title="This file contains constant expressions that define the keys to get the values of the different prope..." alt="" coords="1378,139,1602,195"/>
+<area shape="rect" id="node18" title=" " alt="" coords="1626,146,1781,187"/>
 <area shape="rect" id="node6" title=" " alt="" coords="378,250,463,277"/>
 <area shape="rect" id="node7" title=" " alt="" coords="487,250,543,277"/>
 <area shape="rect" id="node9" title=" " alt="" coords="603,250,673,277"/>
