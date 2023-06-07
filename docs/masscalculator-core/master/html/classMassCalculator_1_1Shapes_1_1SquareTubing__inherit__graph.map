@@ -1,5 +1,4 @@
 <map id="MassCalculator::Shapes::SquareTubing" name="MassCalculator::Shapes::SquareTubing">
-<area shape="rect" id="node1" title="Class SquareTubing, that holds all the nessesary information for SquareTubing and it&#39;s details theref..." alt="" coords="10,184,187,225"/>
-<area shape="rect" id="node2" href="$classMassCalculator_1_1Shapes_1_1Shape.html" title=" " alt="" coords="5,95,192,136"/>
-<area shape="rect" id="node3" href="$structMassCalculator_1_1Shapes_1_1crtp.html" title="Writing repeated static_casts in CRTP base classes quickly becomes cumbersome, as it does not add muc..." alt="" coords="10,5,187,47"/>
+<area shape="rect" id="node1" title="Class SquareTubing, that holds all the nessesary information for SquareTubing and it&#39;s details theref..." alt="" coords="6,80,183,121"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,184,32"/>
 </map>

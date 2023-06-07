@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>masscalculator-core: /home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator-core/libraries/lua-handler/src/lua_handler.cc File Reference</title>
+<title>masscalculator-core: /home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator-core/libraries/masscalculator-base/src/lua_handler.cc File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_bc0718b08fb2015b8e59c47b2805f60c.html">libraries</a></li><li class="navelem"><a class="el" href="dir_2b09e477dc96cfead3e65918ee059472.html">lua-handler</a></li><li class="navelem"><a class="el" href="dir_a99fa1ba303110014f61a625d9a1bf64.html">src</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_bc0718b08fb2015b8e59c47b2805f60c.html">libraries</a></li><li class="navelem"><a class="el" href="dir_c79e8f01f899f9b9fae2be594870b4e4.html">masscalculator-base</a></li><li class="navelem"><a class="el" href="dir_80cb2b21c2e555d1c79a1c38a1859862.html">src</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -74,33 +74,31 @@ $(function() {
 
 <p>Implementation of the LuaScriptHandler class, which encapsulates the definition and specializations for handling Lua scripts. It provides an interface to interact with Lua scripts and execute Lua functions from C++ code.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &quot;<a class="el" href="lua__handler_8h_source.html">lua_handler.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="macro__logger_8h_source.html">masscalculator/base/macro_logger.h</a>&quot;</code><br />
-<code>#include &quot;lua5.1/lauxlib.h&quot;</code><br />
-<code>#include &quot;lua5.1/lua.h&quot;</code><br />
-<code>#include &quot;lua5.1/lualib.h&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="lua__handler_8h_source.html">masscalculator/masscalculator-base/lua_handler.h</a>&quot;</code><br />
+<code>#include &lt;lua.hpp&gt;</code><br />
+<code>#include &lt;stdexcept&gt;</code><br />
+<code>#include &quot;<a class="el" href="macro__logger_8h_source.html">masscalculator/masscalculator-base/macro_logger.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for lua_handler.cc:</div>
 <div class="dyncontent">
-<div class="center"><img src="lua__handler_8cc__incl.png" border="0" usemap="#a_2home_2runner_2work_2masscalculator_8github_8io_2masscalculator_8github_8io_2MassCalculator_2masscalculator-core_2libraries_2lua-handler_2src_2lua__handler_8cc" alt=""/></div>
-<map name="a_2home_2runner_2work_2masscalculator_8github_8io_2masscalculator_8github_8io_2MassCalculator_2masscalculator-core_2libraries_2lua-handler_2src_2lua__handler_8cc" id="a_2home_2runner_2work_2masscalculator_8github_8io_2masscalculator_8github_8io_2MassCalculator_2masscalculator-core_2libraries_2lua-handler_2src_2lua__handler_8cc">
-<area shape="rect" title="Implementation of the LuaScriptHandler class, which encapsulates the definition and specializations f..." alt="" coords="285,5,593,76"/>
-<area shape="rect" href="lua__handler_8h.html" title="Definition of the LuaScriptHandler class, which encapsulates the definition and specializations for h..." alt="" coords="293,124,402,151"/>
-<area shape="rect" href="macro__logger_8h.html" title="This file contains logger macros that are used throughout the codebase. The macro_logger...." alt="" coords="5,199,161,240"/>
-<area shape="rect" title=" " alt="" coords="357,206,479,233"/>
-<area shape="rect" title=" " alt="" coords="503,206,602,233"/>
-<area shape="rect" title=" " alt="" coords="626,206,741,233"/>
-<area shape="rect" title=" " alt="" coords="186,206,245,233"/>
-<area shape="rect" title=" " alt="" coords="269,206,332,233"/>
-<area shape="rect" title=" " alt="" coords="7,288,74,315"/>
-<area shape="rect" title=" " alt="" coords="98,288,157,315"/>
+<div class="center"><img src="lua__handler_8cc__incl.png" border="0" usemap="#a_2home_2runner_2work_2masscalculator_8github_8io_2masscalculator_8github_8io_2MassCalculator_2masscalculator-core_2libraries_2masscalculator-base_2src_2lua__handler_8cc" alt=""/></div>
+<map name="a_2home_2runner_2work_2masscalculator_8github_8io_2masscalculator_8github_8io_2MassCalculator_2masscalculator-core_2libraries_2masscalculator-base_2src_2lua__handler_8cc" id="a_2home_2runner_2work_2masscalculator_8github_8io_2masscalculator_8github_8io_2MassCalculator_2masscalculator-core_2libraries_2masscalculator-base_2src_2lua__handler_8cc">
+<area shape="rect" title="Implementation of the LuaScriptHandler class, which encapsulates the definition and specializations f..." alt="" coords="124,5,443,76"/>
+<area shape="rect" href="lua__handler_8h.html" title="Definition of the LuaScriptHandler class, which encapsulates the definition and specializations for h..." alt="" coords="97,124,321,165"/>
+<area shape="rect" title=" " alt="" coords="5,221,76,247"/>
+<area shape="rect" href="macro__logger_8h.html" title="This file contains logger macros that are used throughout the codebase. The macro_logger...." alt="" coords="270,213,494,255"/>
+<area shape="rect" title=" " alt="" coords="396,131,483,158"/>
+<area shape="rect" title=" " alt="" coords="101,221,159,247"/>
+<area shape="rect" title=" " alt="" coords="184,221,247,247"/>
+<area shape="rect" title=" " alt="" coords="306,303,373,329"/>
+<area shape="rect" title=" " alt="" coords="397,303,455,329"/>
 </map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespacemasscalculator"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemasscalculator.html">masscalculator</a></td></tr>
-<tr class="memdesc:namespacemasscalculator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default namespace. <br /></td></tr>
+<tr class="memitem:namespacemasscalculator_1_1base"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemasscalculator_1_1base.html">masscalculator::base</a></td></tr>
+<tr class="memdesc:namespacemasscalculator_1_1base"><td class="mdescLeft">&#160;</td><td class="mdescRight">MassCalculator Base namespace. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>

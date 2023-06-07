@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>masscalculator-core: /home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator-core/libraries/masscalculator-core/include/materials/constants/properties.h Source File</title>
+<title>masscalculator-core: /home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator-core/libraries/masscalculator-core/include/masscalculator/masscalculator-core/materials/constants/properties.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_bc0718b08fb2015b8e59c47b2805f60c.html">libraries</a></li><li class="navelem"><a class="el" href="dir_7cfca9b165e3886c5d9673c8214d7c02.html">masscalculator-core</a></li><li class="navelem"><a class="el" href="dir_1d0d6a4ca67e634bebd4949af67c16ea.html">include</a></li><li class="navelem"><a class="el" href="dir_aaa9c84747b764e1c9bed9403a619241.html">materials</a></li><li class="navelem"><a class="el" href="dir_911325754ed02f712db2a4e4c5a5617d.html">constants</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_bc0718b08fb2015b8e59c47b2805f60c.html">libraries</a></li><li class="navelem"><a class="el" href="dir_7cfca9b165e3886c5d9673c8214d7c02.html">masscalculator-core</a></li><li class="navelem"><a class="el" href="dir_1d0d6a4ca67e634bebd4949af67c16ea.html">include</a></li><li class="navelem"><a class="el" href="dir_950937db7f6e61b2fb3cd239ba4fd847.html">masscalculator</a></li><li class="navelem"><a class="el" href="dir_86e0949541c3cda9c236adfc32733e21.html">masscalculator-core</a></li><li class="navelem"><a class="el" href="dir_9476f5ba1291365011187dd15d3088a3.html">materials</a></li><li class="navelem"><a class="el" href="dir_e5b575bb83fe9548e3cfa5580bb1a6fb.html">constants</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -70,28 +70,29 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <a href="properties_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#ifndef MASSCALCULATOR_LIBRARIES_MASSCALCULATOR_CORE_INCLUDE_MATERIALS_CONSTANTS_PROPERTIES_H_</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#define MASSCALCULATOR_LIBRARIES_MASSCALCULATOR_CORE_INCLUDE_MATERIALS_CONSTANTS_PROPERTIES_H_</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#ifndef MASSCALCULATOR_CORE_LIBRARIES_MASSCALCULATOR_CORE_MATERIALS_CONSTANTS_PROPERTIES_H_</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#define MASSCALCULATOR_CORE_LIBRARIES_MASSCALCULATOR_CORE_MATERIALS_CONSTANTS_PROPERTIES_H_</span></div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keyword">namespace </span>masscalculator::materials::constants::properties {</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment">// ! Key to get the type.</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;constexpr <span class="keyword">auto</span> kTypeKey{<span class="stringliteral">&quot;type&quot;</span>};</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment">// ! Key to get the color.</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;constexpr <span class="keyword">auto</span> kColorKey{<span class="stringliteral">&quot;color&quot;</span>};</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment">// ! Key to get the density.</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;constexpr <span class="keyword">auto</span> kDensityKey{<span class="stringliteral">&quot;density&quot;</span>};</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment">// ! Key to get the gravity.</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;constexpr <span class="keyword">auto</span> kGravityKey{<span class="stringliteral">&quot;gravity&quot;</span>};</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="comment">// ! Key to get the melting point.</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;constexpr <span class="keyword">auto</span> kMeltingPointKey{<span class="stringliteral">&quot;melting_point&quot;</span>};</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="comment">// ! Key to get the poissons ratio.</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;constexpr <span class="keyword">auto</span> kPoissonsRatioKey{<span class="stringliteral">&quot;poissons_ratio&quot;</span>};</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment">// ! Key to get the thermal conductivity.</span></div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;constexpr <span class="keyword">auto</span> kThermalConductivityKey{<span class="stringliteral">&quot;thermal_conductivity&quot;</span>};</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment">// ! Key to get the modulus of elasticity tension.</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;constexpr <span class="keyword">auto</span> kModOfElasticityTensionKey{<span class="stringliteral">&quot;mod_of_elasticity_tension&quot;</span>};</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;} <span class="comment">// namespace masscalculator::materials::constants::properties</span></div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// MASSCALCULATOR_LIBRARIES_MASSCALCULATOR_CORE_INCLUDE_MATERIALS_CONSTANTS_PROPERTIES_H_</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="namespacemasscalculator_1_1core_1_1materials_1_1constants_1_1properties.html">   36</a></span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacemasscalculator_1_1core_1_1materials_1_1constants_1_1properties.html">masscalculator::core::materials::constants::properties</a> {</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment">// ! Key to get the type.</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;constexpr <span class="keyword">auto</span> kTypeKey{<span class="stringliteral">&quot;type&quot;</span>};</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="comment">// ! Key to get the color.</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;constexpr <span class="keyword">auto</span> kColorKey{<span class="stringliteral">&quot;color&quot;</span>};</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment">// ! Key to get the density.</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;constexpr <span class="keyword">auto</span> kDensityKey{<span class="stringliteral">&quot;density&quot;</span>};</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="comment">// ! Key to get the gravity.</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;constexpr <span class="keyword">auto</span> kGravityKey{<span class="stringliteral">&quot;gravity&quot;</span>};</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="comment">// ! Key to get the melting point.</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;constexpr <span class="keyword">auto</span> kMeltingPointKey{<span class="stringliteral">&quot;melting_point&quot;</span>};</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment">// ! Key to get the poissons ratio.</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;constexpr <span class="keyword">auto</span> kPoissonsRatioKey{<span class="stringliteral">&quot;poissons_ratio&quot;</span>};</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment">// ! Key to get the thermal conductivity.</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;constexpr <span class="keyword">auto</span> kThermalConductivityKey{<span class="stringliteral">&quot;thermal_conductivity&quot;</span>};</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="comment">// ! Key to get the modulus of elasticity tension.</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;constexpr <span class="keyword">auto</span> kModOfElasticityTensionKey{<span class="stringliteral">&quot;mod_of_elasticity_tension&quot;</span>};</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;} <span class="comment">// namespace masscalculator::core::materials::constants::properties</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// MASSCALCULATOR_CORE_LIBRARIES_MASSCALCULATOR_CORE_MATERIALS_CONSTANTS_PROPERTIES_H_</span></div>
+<div class="ttc" id="anamespacemasscalculator_1_1core_1_1materials_1_1constants_1_1properties_html"><div class="ttname"><a href="namespacemasscalculator_1_1core_1_1materials_1_1constants_1_1properties.html">masscalculator::core::materials::constants::properties</a></div><div class="ttdoc">MassCalculator Core Materials Constants Properties namespace.</div><div class="ttdef"><b>Definition:</b> properties.h:36</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

@@ -1,6 +1,5 @@
 <map id="MassCalculator::Shapes::Angle" name="MassCalculator::Shapes::Angle">
-<area shape="rect" id="node1" title="Class Angle, that holds all the nessesary information for Angle and it&#39;s details therefore we can use..." alt="" coords="156,200,333,241"/>
-<area shape="rect" id="node2" href="$classMassCalculator_1_1Shapes_1_1Shape.html" title=" " alt="" coords="5,96,183,137"/>
-<area shape="rect" id="node3" href="$structMassCalculator_1_1Shapes_1_1crtp.html" title="Writing repeated static_casts in CRTP base classes quickly becomes cumbersome, as it does not add muc..." alt="" coords="5,5,183,47"/>
-<area shape="rect" id="node4" href="$structMassCalculator_1_1Shapes_1_1Angle_1_1Properties.html" title="Struct with material specific properties TODO:Check if this can be moved to the base class." alt="" coords="207,96,384,137"/>
+<area shape="rect" id="node1" title="Class Angle, that holds all the nessesary information for Angle and it&#39;s details therefore we can use..." alt="" coords="69,109,247,151"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,13,135,39"/>
+<area shape="rect" id="node3" href="$structMassCalculator_1_1Shapes_1_1Angle_1_1Properties.html" title="Struct with material specific properties TODO:Check if this can be moved to the base class." alt="" coords="159,5,336,47"/>
 </map>

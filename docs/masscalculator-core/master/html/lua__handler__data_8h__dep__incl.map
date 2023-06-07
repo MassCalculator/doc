@@ -1,5 +1,5 @@
-<map id="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/build/libraries/lua&#45;handler/tests/include/masscalculator/lua/lua_handler_data.h" name="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/build/libraries/lua&#45;handler/tests/include/masscalculator/lua/lua_handler_data.h">
-<area shape="rect" id="node1" title="Specifies the path to the test data used by the LuaScriptHandler class." alt="" coords="5,5,313,91"/>
-<area shape="rect" id="node2" href="$lua__handler__test_8h.html" title="Defines unit tests for the LuaScriptHandler class." alt="" coords="5,139,313,209"/>
-<area shape="rect" id="node3" href="$lua__handler__test_8cc.html" title="Defines unit tests for the LuaScriptHandler class." alt="" coords="5,257,313,328"/>
+<map id="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/build/libraries/masscalculator&#45;base/tests/include/masscalculator/masscalculator&#45;base/lua_handler_data.h" name="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/build/libraries/masscalculator&#45;base/tests/include/masscalculator/masscalculator&#45;base/lua_handler_data.h">
+<area shape="rect" id="node1" title="Specifies the path to the test data used by the LuaScriptHandler class." alt="" coords="5,5,356,91"/>
+<area shape="rect" id="node2" href="$lua__handler__test_8h.html" title="Defines unit tests for the LuaScriptHandler class." alt="" coords="21,139,340,209"/>
+<area shape="rect" id="node3" href="$lua__handler__test_8cc.html" title="Defines unit tests for the LuaScriptHandler class." alt="" coords="21,257,340,328"/>
 </map>

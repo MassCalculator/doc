@@ -1,0 +1,12 @@
+<map id="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/masscalculator/masscalculator&#45;core/shapes/shape.h" name="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/masscalculator/masscalculator&#45;core/shapes/shape.h">
+<area shape="rect" id="node1" title="This file contains the base class for Shapes. This class is inherited by all Shape types and provides..." alt="" coords="705,5,1024,91"/>
+<area shape="rect" id="node2" href="$cylinder_8h.html" title="This file contains the definition for the cylinder class. The cylinder class holds all the specific p..." alt="" coords="607,139,925,224"/>
+<area shape="rect" id="node6" href="$shape_8cc.html" title="This file is left here for convenience, but the implementation is done with templates in the header f..." alt="" coords="1379,405,1697,476"/>
+<area shape="rect" id="node3" href="$shapes_8hh.html" title="This file contains the includes for all types of shapes." alt="" coords="692,272,1011,357"/>
+<area shape="rect" id="node9" href="$cylinder__test_8cc.html" title="Defines unit tests for the Cylinder class." alt="" coords="5,405,324,476"/>
+<area shape="rect" id="node10" href="$cylinder__test_8h.html" title="Defines unit tests for the Cylinder class." alt="" coords="313,279,632,350"/>
+<area shape="rect" id="node4" href="$example__1_8cc.html" title="This file contains an example for using the Object Interface class." alt="" coords="691,413,1011,469"/>
+<area shape="rect" id="node5" href="$object__interface_8cc.html" title="This file contains the implementation for the Object class. The Object class holds all the properties..." alt="" coords="1036,405,1355,476"/>
+<area shape="rect" id="node7" href="$object__interface__test_8h.html" title="Defines unit tests for the Object class." alt="" coords="348,405,667,476"/>
+<area shape="rect" id="node8" href="$object__interface__test_8cc.html" title="Defines unit tests for the Object class." alt="" coords="348,524,667,595"/>
+</map>
