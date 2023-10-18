@@ -1,9 +1,11 @@
 <map id="masscalculator::core::materials::Crtp&lt; TMaterial &gt;" name="masscalculator::core::materials::Crtp&lt; TMaterial &gt;">
-<area shape="rect" id="node1" title="Writing repeated static_casts in CRTP base classes quickly becomes cumbersome, as it does not add muc..." alt="" coords="5,93,224,134"/>
+<area shape="rect" id="node1" title="Writing repeated static_casts in CRTP base classes quickly becomes cumbersome, as it does not add muc..." alt="" coords="5,133,224,174"/>
 <area shape="rect" id="node2" href="$classmasscalculator_1_1core_1_1materials_1_1Material.html" title=" " alt="" coords="272,5,429,61"/>
 <area shape="rect" id="node4" href="$classmasscalculator_1_1core_1_1materials_1_1Material.html" title=" " alt="" coords="272,85,429,141"/>
 <area shape="rect" id="node6" href="$classmasscalculator_1_1core_1_1materials_1_1Material.html" title=" " alt="" coords="272,165,429,221"/>
-<area shape="rect" id="node3" href="$classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html" title="Class AlloySteels, that holds all the nessesary information for AlloySteels and it&#39;s types therefore ..." alt="" coords="484,13,657,54"/>
-<area shape="rect" id="node5" href="$classmasscalculator_1_1core_1_1materials_1_1AlloyCoppers.html" title="Class AlloyCoppers, that holds all the nessesary information for AlloyCoppers and it&#39;s types therefor..." alt="" coords="477,93,664,134"/>
-<area shape="rect" id="node7" href="$classmasscalculator_1_1core_1_1materials_1_1Aluminium.html" title="Class Aluminium, that holds all the nessesary information for Aluminium and it&#39;s types therefore we c..." alt="" coords="485,173,656,214"/>
+<area shape="rect" id="node8" href="$classmasscalculator_1_1core_1_1materials_1_1Material.html" title=" " alt="" coords="272,245,429,301"/>
+<area shape="rect" id="node3" href="$classmasscalculator_1_1core_1_1materials_1_1Brass.html" title="Class Brass, that holds all the nessesary information for Brass and it&#39;s types therefore we can use i..." alt="" coords="492,13,649,54"/>
+<area shape="rect" id="node5" href="$classmasscalculator_1_1core_1_1materials_1_1AlloySteels.html" title="Class AlloySteels, that holds all the nessesary information for AlloySteels and it&#39;s types therefore ..." alt="" coords="484,93,657,134"/>
+<area shape="rect" id="node7" href="$classmasscalculator_1_1core_1_1materials_1_1AlloyCoppers.html" title="Class AlloyCoppers, that holds all the nessesary information for AlloyCoppers and it&#39;s types therefor..." alt="" coords="477,173,664,214"/>
+<area shape="rect" id="node9" href="$classmasscalculator_1_1core_1_1materials_1_1Aluminium.html" title="Class Aluminium, that holds all the nessesary information for Aluminium and it&#39;s types therefore we c..." alt="" coords="485,253,656,294"/>
 </map>
