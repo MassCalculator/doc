@@ -30,7 +30,7 @@ jobs:
         run: sudo ${{matrix.repository}}/tools/installers/essentials.sh
 
       - name: Configure CMake
-        run: cmake -S ${{matrix.repository}} -B ${{matrix.repository}}/build -G Ninja  -DCMAKE_BUILD_TYPE=Release -DBUILD_DOCS=ON
+        run: cmake -S ${{matrix.repository}} -B ${{matrix.repository}}/build -G Ninja -DCMAKE_BUILD_TYPE=Release -DBUILD_DOCS=ON
 
       - name: Build documentation
         run: cmake --build ${{matrix.repository}}/build -t Doxygen --config Release
