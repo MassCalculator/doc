@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>masscalculator-core: /home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator-core/libraries/masscalculator-core/include/materials/material.h File Reference</title>
+<title>masscalculator-core: /home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator-core/libraries/masscalculator-core/include/masscalculator/masscalculator-core/materials/material.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_bc0718b08fb2015b8e59c47b2805f60c.html">libraries</a></li><li class="navelem"><a class="el" href="dir_7cfca9b165e3886c5d9673c8214d7c02.html">masscalculator-core</a></li><li class="navelem"><a class="el" href="dir_1d0d6a4ca67e634bebd4949af67c16ea.html">include</a></li><li class="navelem"><a class="el" href="dir_aaa9c84747b764e1c9bed9403a619241.html">materials</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_bc0718b08fb2015b8e59c47b2805f60c.html">libraries</a></li><li class="navelem"><a class="el" href="dir_7cfca9b165e3886c5d9673c8214d7c02.html">masscalculator-core</a></li><li class="navelem"><a class="el" href="dir_1d0d6a4ca67e634bebd4949af67c16ea.html">include</a></li><li class="navelem"><a class="el" href="dir_950937db7f6e61b2fb3cd239ba4fd847.html">masscalculator</a></li><li class="navelem"><a class="el" href="dir_86e0949541c3cda9c236adfc32733e21.html">masscalculator-core</a></li><li class="navelem"><a class="el" href="dir_9476f5ba1291365011187dd15d3088a3.html">materials</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -78,44 +78,55 @@ $(function() {
 <div class="textblock"><code>#include &lt;functional&gt;</code><br />
 <code>#include &lt;string_view&gt;</code><br />
 <code>#include &lt;unordered_map&gt;</code><br />
-<code>#include &quot;<a class="el" href="immutable__map_8h_source.html">masscalculator/base/immutable_map.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="color_8h_source.html">materials/constants/color.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="units_8h_source.html">units.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="immutable__map_8h_source.html">masscalculator/masscalculator-base/immutable_map.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="lua__handler_8h_source.html">masscalculator/masscalculator-base/lua_handler.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="color_8h_source.html">masscalculator/masscalculator-core/materials/constants/color.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="properties_8h_source.html">masscalculator/masscalculator-core/materials/constants/properties.h</a>&quot;</code><br />
+<code>#include &quot;masscalculator/third_party/units/units.h&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for material.h:</div>
 <div class="dyncontent">
-<div class="center"><img src="material_8h__incl.png" border="0" usemap="#a_2home_2runner_2work_2masscalculator_8github_8io_2masscalculator_8github_8io_2MassCalculator_2masscalculator-core_2libraries_2masscalculator-core_2include_2materials_2material_8h" alt=""/></div>
-<map name="a_2home_2runner_2work_2masscalculator_8github_8io_2masscalculator_8github_8io_2MassCalculator_2masscalculator-core_2libraries_2masscalculator-core_2include_2materials_2material_8h" id="a_2home_2runner_2work_2masscalculator_8github_8io_2masscalculator_8github_8io_2MassCalculator_2masscalculator-core_2libraries_2masscalculator-core_2include_2materials_2material_8h">
-<area shape="rect" title="This file contains the base class for Materials. This class is inherited by all Material types and pr..." alt="" coords="221,5,540,76"/>
-<area shape="rect" title=" " alt="" coords="5,131,92,158"/>
-<area shape="rect" title=" " alt="" coords="116,131,213,158"/>
-<area shape="rect" title=" " alt="" coords="237,131,361,158"/>
-<area shape="rect" href="immutable__map_8h.html" title="Defines the ImmutableMap template class, which is a simple map structure that can be declared as cons..." alt="" coords="385,124,541,165"/>
-<area shape="rect" href="color_8h.html" title="This file contains constant expressions that define the keys to get the values of the different color..." alt="" coords="565,124,716,165"/>
-<area shape="rect" href="units_8h.html" title="Complete implementation of units &#45; a compile&#45;time, header&#45;only, unit conversion library built on c++1..." alt="" coords="894,131,961,158"/>
-<area shape="rect" title=" " alt="" coords="326,213,411,240"/>
-<area shape="rect" title=" " alt="" coords="435,213,491,240"/>
-<area shape="rect" title=" " alt="" coords="515,213,582,240"/>
-<area shape="rect" title=" " alt="" coords="607,213,677,240"/>
-<area shape="rect" title=" " alt="" coords="701,213,753,240"/>
-<area shape="rect" title=" " alt="" coords="777,213,869,240"/>
-<area shape="rect" title=" " alt="" coords="894,213,961,240"/>
-<area shape="rect" title=" " alt="" coords="985,213,1048,240"/>
-<area shape="rect" title=" " alt="" coords="1073,213,1131,240"/>
-<area shape="rect" title=" " alt="" coords="1155,213,1235,240"/>
-<area shape="rect" title=" " alt="" coords="1259,213,1318,240"/>
-<area shape="rect" title=" " alt="" coords="1342,213,1403,240"/>
+<div class="center"><img src="material_8h__incl.png" border="0" usemap="#a_2home_2runner_2work_2masscalculator_8github_8io_2masscalculator_8github_8io_2MassCalculator_2masscalculator-core_2libraries_2masscalculator-core_2include_2masscalculator_2masscalculator-core_2materials_2material_8h" alt=""/></div>
+<map name="a_2home_2runner_2work_2masscalculator_8github_8io_2masscalculator_8github_8io_2MassCalculator_2masscalculator-core_2libraries_2masscalculator-core_2include_2masscalculator_2masscalculator-core_2materials_2material_8h" id="a_2home_2runner_2work_2masscalculator_8github_8io_2masscalculator_8github_8io_2MassCalculator_2masscalculator-core_2libraries_2masscalculator-core_2include_2masscalculator_2masscalculator-core_2materials_2material_8h">
+<area shape="rect" title="This file contains the base class for Materials. This class is inherited by all Material types and pr..." alt="" coords="463,5,781,91"/>
+<area shape="rect" title=" " alt="" coords="5,153,92,180"/>
+<area shape="rect" title=" " alt="" coords="116,153,213,180"/>
+<area shape="rect" title=" " alt="" coords="237,153,361,180"/>
+<area shape="rect" href="immutable__map_8h.html" title="Defines the ImmutableMap template class, which is a simple map structure that can be declared as cons..." alt="" coords="386,146,610,187"/>
+<area shape="rect" href="lua__handler_8h.html" title="Definition of the LuaScriptHandler class, which encapsulates the definition and specializations for h..." alt="" coords="634,146,858,187"/>
+<area shape="rect" href="color_8h.html" title="This file contains constant expressions that define the keys to get the values of the different color..." alt="" coords="882,139,1106,195"/>
+<area shape="rect" href="properties_8h.html" title="This file contains constant expressions that define the keys to get the values of the different prope..." alt="" coords="1130,139,1354,195"/>
+<area shape="rect" title=" " alt="" coords="1378,146,1533,187"/>
+<area shape="rect" title=" " alt="" coords="378,250,463,277"/>
+<area shape="rect" title=" " alt="" coords="487,250,543,277"/>
+<area shape="rect" title=" " alt="" coords="603,250,673,277"/>
+<area shape="rect" title=" " alt="" coords="698,250,757,277"/>
+<area shape="rect" title=" " alt="" coords="781,250,844,277"/>
+<area shape="rect" href="macro__logger_8h.html" title="This file contains logger macros that are used throughout the codebase. The macro_logger...." alt="" coords="867,243,1091,284"/>
+<area shape="rect" title=" " alt="" coords="902,332,969,359"/>
+<area shape="rect" title=" " alt="" coords="993,332,1051,359"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="material_8h__dep__incl.png" border="0" usemap="#a_2home_2runner_2work_2masscalculator_8github_8io_2masscalculator_8github_8io_2MassCalculator_2masscalculator-core_2libraries_2masscalculator-core_2include_2materials_2material_8hdep" alt=""/></div>
-<map name="a_2home_2runner_2work_2masscalculator_8github_8io_2masscalculator_8github_8io_2MassCalculator_2masscalculator-core_2libraries_2masscalculator-core_2include_2materials_2material_8hdep" id="a_2home_2runner_2work_2masscalculator_8github_8io_2masscalculator_8github_8io_2MassCalculator_2masscalculator-core_2libraries_2masscalculator-core_2include_2materials_2material_8hdep">
-<area shape="rect" title="This file contains the base class for Materials. This class is inherited by all Material types and pr..." alt="" coords="5,5,324,76"/>
-<area shape="rect" href="alloy__coppers_8h.html" title="This file contains the class definition for alloy_coppers. The alloy_coppers class holds all the spec..." alt="" coords="5,124,324,195"/>
-<area shape="rect" href="alloy__coppers__test_8cc.html" title="Defines unit tests for the AlloyCoppers class." alt="" coords="5,361,324,432"/>
-<area shape="rect" href="alloy__coppers__test_8h.html" title="Defines unit tests for the AlloyCoppers class." alt="" coords="104,243,423,313"/>
+<div class="center"><img src="material_8h__dep__incl.png" border="0" usemap="#a_2home_2runner_2work_2masscalculator_8github_8io_2masscalculator_8github_8io_2MassCalculator_2masscalculator-core_2libraries_2masscalculator-core_2include_2masscalculator_2masscalculator-core_2materials_2material_8hdep" alt=""/></div>
+<map name="a_2home_2runner_2work_2masscalculator_8github_8io_2masscalculator_8github_8io_2MassCalculator_2masscalculator-core_2libraries_2masscalculator-core_2include_2masscalculator_2masscalculator-core_2materials_2material_8hdep" id="a_2home_2runner_2work_2masscalculator_8github_8io_2masscalculator_8github_8io_2MassCalculator_2masscalculator-core_2libraries_2masscalculator-core_2include_2masscalculator_2masscalculator-core_2materials_2material_8hdep">
+<area shape="rect" title="This file contains the base class for Materials. This class is inherited by all Material types and pr..." alt="" coords="1083,5,1401,91"/>
+<area shape="rect" href="alloy__coppers_8h.html" title="This file contains the class definition for alloy_coppers. The alloy_coppers class holds all the spec..." alt="" coords="1083,139,1401,224"/>
+<area shape="rect" href="material_8cc.html" title="This file is left here for convenience, but the implementation is done with templates in the header f..." alt="" coords="5,405,324,476"/>
+<area shape="rect" href="alloy__steels_8h.html" title="This file contains the class definition for alloy_steels. The alloy_steels class holds all the specif..." alt="" coords="1892,139,2211,224"/>
+<area shape="rect" href="materials_8hh.html" title="This file contains the includes for all types of materials." alt="" coords="641,272,960,357"/>
+<area shape="rect" href="alloy__coppers_8cc.html" title="This file contains the implementation for the alloy_coppers class. The alloy_coppers class holds all ..." alt="" coords="984,279,1303,350"/>
+<area shape="rect" href="alloy__coppers__test_8cc.html" title="Defines unit tests for the AlloyCoppers class." alt="" coords="1379,405,1697,476"/>
+<area shape="rect" href="alloy__coppers__test_8h.html" title="Defines unit tests for the AlloyCoppers class." alt="" coords="1379,279,1697,350"/>
+<area shape="rect" href="example__1_8cc.html" title="This file contains an example for using the Object Interface class." alt="" coords="349,413,669,469"/>
+<area shape="rect" href="object__interface_8cc.html" title="This file contains the implementation for the Object class. The Object class holds all the properties..." alt="" coords="693,405,1012,476"/>
+<area shape="rect" href="object__interface__test_8h.html" title="Defines unit tests for the Object class." alt="" coords="1036,405,1355,476"/>
+<area shape="rect" href="object__interface__test_8cc.html" title="Defines unit tests for the Object class." alt="" coords="1036,524,1355,595"/>
+<area shape="rect" href="alloy__steels_8cc.html" title="This file contains the implementation for the alloy_steels class. The alloy_steels class holds all th..." alt="" coords="2064,279,2383,350"/>
+<area shape="rect" href="alloy__steels__test_8cc.html" title="Defines unit tests for the AlloySteels class." alt="" coords="1991,405,2309,476"/>
+<area shape="rect" href="alloy__steels__test_8h.html" title="Defines unit tests for the AlloySteels class." alt="" coords="1721,279,2040,350"/>
 </map>
 </div>
 </div>
@@ -123,20 +134,17 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmasscalculator_1_1materials_1_1Crtp.html">masscalculator::materials::Crtp&lt; TMaterial &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writing repeated static_casts in CRTP base classes quickly becomes cumbersome, as it does not add much meaning to the code. With this template struct, I get rid of it and handled both const and non-const cases.  <a href="structmasscalculator_1_1materials_1_1Crtp.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmasscalculator_1_1core_1_1materials_1_1Crtp.html">masscalculator::core::materials::Crtp&lt; TMaterial &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writing repeated static_casts in CRTP base classes quickly becomes cumbersome, as it does not add much meaning to the code. With this template struct, I get rid of it and handled both const and non-const cases.  <a href="structmasscalculator_1_1core_1_1materials_1_1Crtp.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmasscalculator_1_1materials_1_1Material.html">masscalculator::materials::Material&lt; TMaterialType &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template base class <a class="el" href="classmasscalculator_1_1materials_1_1Material.html" title="Template base class Material.">Material</a>.  <a href="classmasscalculator_1_1materials_1_1Material.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html">masscalculator::core::materials::Material&lt; TMaterialType &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template base class <a class="el" href="classmasscalculator_1_1core_1_1materials_1_1Material.html" title="Template base class Material.">Material</a>.  <a href="classmasscalculator_1_1core_1_1materials_1_1Material.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespacemasscalculator"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemasscalculator.html">masscalculator</a></td></tr>
-<tr class="memdesc:namespacemasscalculator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default namespace. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespacemasscalculator_1_1materials"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemasscalculator_1_1materials.html">masscalculator::materials</a></td></tr>
-<tr class="memdesc:namespacemasscalculator_1_1materials"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default Materials namespace. <br /></td></tr>
+<tr class="memitem:namespacemasscalculator_1_1core_1_1materials"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemasscalculator_1_1core_1_1materials.html">masscalculator::core::materials</a></td></tr>
+<tr class="memdesc:namespacemasscalculator_1_1core_1_1materials"><td class="mdescLeft">&#160;</td><td class="mdescRight">MassCalculator Core Materials namespace. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>

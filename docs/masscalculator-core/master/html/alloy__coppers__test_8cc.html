@@ -81,88 +81,78 @@ $(function() {
 <code>#include &lt;sstream&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
 <code>#include &lt;utility&gt;</code><br />
-<code>#include &quot;<a class="el" href="alloy__coppers_8h_source.html">materials/alloy_coppers.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="constants_2alloy__coppers_8h_source.html">materials/constants/alloy_coppers.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="color_8h_source.html">materials/constants/color.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="units_8h_source.html">units.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="alloy__coppers_8h_source.html">masscalculator/masscalculator-core/materials/alloy_coppers.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="constants_2alloy__coppers_8h_source.html">masscalculator/masscalculator-core/materials/constants/alloy_coppers.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="color_8h_source.html">masscalculator/masscalculator-core/materials/constants/color.h</a>&quot;</code><br />
+<code>#include &quot;masscalculator/third_party/units/units.h&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for alloy_coppers_test.cc:</div>
 <div class="dyncontent">
 <div class="center"><img src="alloy__coppers__test_8cc__incl.png" border="0" usemap="#a_2home_2runner_2work_2masscalculator_8github_8io_2masscalculator_8github_8io_2MassCalculator_2masscalculator-core_2libraries_2masscalculator-core_2tests_2materials_2alloy__coppers__test_8cc" alt=""/></div>
 <map name="a_2home_2runner_2work_2masscalculator_8github_8io_2masscalculator_8github_8io_2MassCalculator_2masscalculator-core_2libraries_2masscalculator-core_2tests_2materials_2alloy__coppers__test_8cc" id="a_2home_2runner_2work_2masscalculator_8github_8io_2masscalculator_8github_8io_2MassCalculator_2masscalculator-core_2libraries_2masscalculator-core_2tests_2materials_2alloy__coppers__test_8cc">
-<area shape="rect" title="Defines unit tests for the AlloyCoppers class." alt="" coords="1091,5,1409,76"/>
-<area shape="rect" href="alloy__coppers__test_8h.html" title="Defines unit tests for the AlloyCoppers class." alt="" coords="917,124,1073,151"/>
-<area shape="rect" title=" " alt="" coords="721,199,825,225"/>
-<area shape="rect" title=" " alt="" coords="350,281,427,307"/>
-<area shape="rect" href="alloy__coppers_8h.html" title="This file contains the class definition for alloy_coppers. The alloy_coppers class holds all the spec..." alt="" coords="900,199,1091,225"/>
-<area shape="rect" title=" " alt="" coords="1502,452,1561,479"/>
-<area shape="rect" title=" " alt="" coords="1748,281,1808,307"/>
-<area shape="rect" href="constants_2alloy__coppers_8h.html" title="This file contains constant expressions that define the keys to get the values of the different types..." alt="" coords="1363,273,1513,315"/>
-<area shape="rect" href="color_8h.html" title="This file contains constant expressions that define the keys to get the values of the different color..." alt="" coords="1113,363,1264,404"/>
-<area shape="rect" href="units_8h.html" title="Complete implementation of units &#45; a compile&#45;time, header&#45;only, unit conversion library built on c++1..." alt="" coords="411,370,478,397"/>
-<area shape="rect" title=" " alt="" coords="2166,124,2241,151"/>
-<area shape="rect" title=" " alt="" coords="743,452,810,479"/>
-<area shape="rect" title=" " alt="" coords="553,370,640,397"/>
-<area shape="rect" title=" " alt="" coords="935,281,1011,307"/>
-<area shape="rect" title=" " alt="" coords="664,370,761,397"/>
-<area shape="rect" title=" " alt="" coords="785,370,909,397"/>
-<area shape="rect" href="lua__handler_8h.html" title="Definition of the LuaScriptHandler class, which encapsulates the definition and specializations for h..." alt="" coords="1614,281,1723,307"/>
-<area shape="rect" href="immutable__map_8h.html" title="Defines the ImmutableMap template class, which is a simple map structure that can be declared as cons..." alt="" coords="933,363,1089,404"/>
-<area shape="rect" href="constants_2material_8h.html" title="This file contains constant expressions that define the keys to get the the different types of materi..." alt="" coords="1035,273,1185,315"/>
-<area shape="rect" href="material_8h.html" title="This file contains the base class for Materials. This class is inherited by all Material types and pr..." alt="" coords="654,281,809,307"/>
-<area shape="rect" title=" " alt="" coords="1881,370,1944,397"/>
-<area shape="rect" href="macro__logger_8h.html" title="This file contains logger macros that are used throughout the codebase. The macro_logger...." alt="" coords="2167,363,2323,404"/>
-<area shape="rect" title=" " alt="" coords="1969,370,2091,397"/>
-<area shape="rect" title=" " alt="" coords="1619,370,1718,397"/>
-<area shape="rect" title=" " alt="" coords="1742,370,1857,397"/>
-<area shape="rect" title=" " alt="" coords="2167,452,2234,479"/>
-<area shape="rect" title=" " alt="" coords="2258,452,2317,479"/>
-<area shape="rect" title=" " alt="" coords="1017,452,1102,479"/>
-<area shape="rect" title=" " alt="" coords="937,452,993,479"/>
-<area shape="rect" href="resources_8h.html" title="This file defines the path to the resources directory, which is configured from CMake during the buil..." alt="" coords="1340,363,1493,404"/>
-<area shape="rect" title=" " alt="" coords="365,452,431,479"/>
-<area shape="rect" title=" " alt="" coords="456,452,527,479"/>
-<area shape="rect" title=" " alt="" coords="551,452,603,479"/>
-<area shape="rect" title=" " alt="" coords="627,452,719,479"/>
-<area shape="rect" title=" " alt="" coords="5,452,68,479"/>
-<area shape="rect" title=" " alt="" coords="93,452,151,479"/>
-<area shape="rect" title=" " alt="" coords="175,452,255,479"/>
-<area shape="rect" title=" " alt="" coords="279,452,341,479"/>
+<area shape="rect" title="Defines unit tests for the AlloyCoppers class." alt="" coords="1357,5,1675,76"/>
+<area shape="rect" href="alloy__coppers__test_8h.html" title="Defines unit tests for the AlloyCoppers class." alt="" coords="1262,124,1418,151"/>
+<area shape="rect" title=" " alt="" coords="997,206,1101,233"/>
+<area shape="rect" title=" " alt="" coords="1125,206,1203,233"/>
+<area shape="rect" href="alloy__coppers_8h.html" title="This file contains the class definition for alloy_coppers. The alloy_coppers class holds all the spec..." alt="" coords="1227,199,1453,240"/>
+<area shape="rect" title=" " alt="" coords="1388,503,1447,530"/>
+<area shape="rect" title=" " alt="" coords="1677,303,1737,329"/>
+<area shape="rect" href="constants_2alloy__coppers_8h.html" title="This file contains constant expressions that define the keys to get the values of the different types..." alt="" coords="1429,288,1653,344"/>
+<area shape="rect" href="color_8h.html" title="This file contains constant expressions that define the keys to get the values of the different color..." alt="" coords="5,392,229,448"/>
+<area shape="rect" title=" " alt="" coords="1480,399,1635,441"/>
+<area shape="rect" title=" " alt="" coords="1957,124,2032,151"/>
+<area shape="rect" title=" " alt="" coords="640,303,707,329"/>
+<area shape="rect" title=" " alt="" coords="998,407,1085,433"/>
+<area shape="rect" title=" " alt="" coords="1109,407,1206,433"/>
+<area shape="rect" title=" " alt="" coords="1230,407,1354,433"/>
+<area shape="rect" href="immutable__map_8h.html" title="Defines the ImmutableMap template class, which is a simple map structure that can be declared as cons..." alt="" coords="253,399,477,441"/>
+<area shape="rect" href="constants_2material_8h.html" title="This file contains constant expressions that define the keys to get the different types of materials." alt="" coords="1029,288,1253,344"/>
+<area shape="rect" href="material_8h.html" title="This file contains the base class for Materials. This class is inherited by all Material types and pr..." alt="" coords="731,295,955,337"/>
+<area shape="rect" title=" " alt="" coords="275,503,360,530"/>
+<area shape="rect" title=" " alt="" coords="384,503,440,530"/>
+<area shape="rect" href="resources_8h.html" title="This file defines the path to the resources directory, which is configured from CMake during the buil..." alt="" coords="1659,399,1883,441"/>
+<area shape="rect" href="lua__handler_8h.html" title="Definition of the LuaScriptHandler class, which encapsulates the definition and specializations for h..." alt="" coords="749,399,973,441"/>
+<area shape="rect" href="properties_8h.html" title="This file contains constant expressions that define the keys to get the values of the different prope..." alt="" coords="501,392,725,448"/>
+<area shape="rect" title=" " alt="" coords="826,503,897,530"/>
+<area shape="rect" title=" " alt="" coords="921,503,983,530"/>
+<area shape="rect" href="macro__logger_8h.html" title="This file contains logger macros that are used throughout the codebase. The macro_logger...." alt="" coords="579,496,803,537"/>
+<area shape="rect" title=" " alt="" coords="615,585,681,612"/>
+<area shape="rect" title=" " alt="" coords="705,585,764,612"/>
 </map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespacemasscalculator__test_1_1materials__test"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemasscalculator__test_1_1materials__test.html">masscalculator_test::materials_test</a></td></tr>
-<tr class="memdesc:namespacemasscalculator__test_1_1materials__test"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default Materials test namespace. <br /></td></tr>
+<tr class="memitem:namespacemasscalculator__test_1_1core__test_1_1materials__test"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemasscalculator__test_1_1core__test_1_1materials__test.html">masscalculator_test::core_test::materials_test</a></td></tr>
+<tr class="memdesc:namespacemasscalculator__test_1_1core__test_1_1materials__test"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default Materials test namespace. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ae08dd2d1f5691c3ec986b3b5dc6d866d"><td class="memItemLeft" align="right" valign="top"><a id="ae08dd2d1f5691c3ec986b3b5dc6d866d"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>masscalculator_test::materials_test::TEST_F</b> (AlloyCoppersTest, GetSpecificTypeTest)</td></tr>
-<tr class="separator:ae08dd2d1f5691c3ec986b3b5dc6d866d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab32dba7531fa38c68db65a5d34264ce0"><td class="memItemLeft" align="right" valign="top"><a id="ab32dba7531fa38c68db65a5d34264ce0"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>masscalculator_test::materials_test::TEST_F</b> (AlloyCoppersTest, GetSpecificColorTest)</td></tr>
-<tr class="separator:ab32dba7531fa38c68db65a5d34264ce0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b99d4a878da09fe940192745b3fa07a"><td class="memItemLeft" align="right" valign="top"><a id="a8b99d4a878da09fe940192745b3fa07a"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>masscalculator_test::materials_test::TEST_F</b> (AlloyCoppersTest, GetSpecificDensityTest)</td></tr>
-<tr class="separator:a8b99d4a878da09fe940192745b3fa07a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1edb61f6d399da135eb6d1e91d0ed762"><td class="memItemLeft" align="right" valign="top"><a id="a1edb61f6d399da135eb6d1e91d0ed762"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>masscalculator_test::materials_test::TEST_F</b> (AlloyCoppersTest, GetSpecificMeltingPointTest)</td></tr>
-<tr class="separator:a1edb61f6d399da135eb6d1e91d0ed762"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8341f7f643e6a79658043998de525a7d"><td class="memItemLeft" align="right" valign="top"><a id="a8341f7f643e6a79658043998de525a7d"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>masscalculator_test::materials_test::TEST_F</b> (AlloyCoppersTest, GetSpecificPoissonsRatioTest)</td></tr>
-<tr class="separator:a8341f7f643e6a79658043998de525a7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c63ade76fb3b72f66e14689abc80b6a"><td class="memItemLeft" align="right" valign="top"><a id="a2c63ade76fb3b72f66e14689abc80b6a"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>masscalculator_test::materials_test::TEST_F</b> (AlloyCoppersTest, GetSpecificThermalConductivityTest)</td></tr>
-<tr class="separator:a2c63ade76fb3b72f66e14689abc80b6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7adc5a6d23ee60e0177bf14702d5f7d"><td class="memItemLeft" align="right" valign="top"><a id="ac7adc5a6d23ee60e0177bf14702d5f7d"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>masscalculator_test::materials_test::TEST_F</b> (AlloyCoppersTest, GetSpecificModOfElasticityTensionTest)</td></tr>
-<tr class="separator:ac7adc5a6d23ee60e0177bf14702d5f7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3ef37eb554cb7d98094a137cefdedfd"><td class="memItemLeft" align="right" valign="top"><a id="ad3ef37eb554cb7d98094a137cefdedfd"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>masscalculator_test::materials_test::TEST_F</b> (AlloyCoppersTest, OstreamOperatorAlloyCoppersColor)</td></tr>
-<tr class="separator:ad3ef37eb554cb7d98094a137cefdedfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cde48f742efedafbc7db8d6a7f18ec2"><td class="memItemLeft" align="right" valign="top"><a id="a5cde48f742efedafbc7db8d6a7f18ec2"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>masscalculator_test::core_test::materials_test::TEST_F</b> (AlloyCoppersTest, GetSpecificTypeTest)</td></tr>
+<tr class="separator:a5cde48f742efedafbc7db8d6a7f18ec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8efd44ffe6fbd66d4256c426e08aa2df"><td class="memItemLeft" align="right" valign="top"><a id="a8efd44ffe6fbd66d4256c426e08aa2df"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>masscalculator_test::core_test::materials_test::TEST_F</b> (AlloyCoppersTest, GetSpecificColorTest)</td></tr>
+<tr class="separator:a8efd44ffe6fbd66d4256c426e08aa2df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa00229d6fdec47de6ff9c47e21cf5db"><td class="memItemLeft" align="right" valign="top"><a id="afa00229d6fdec47de6ff9c47e21cf5db"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>masscalculator_test::core_test::materials_test::TEST_F</b> (AlloyCoppersTest, GetSpecificDensityTest)</td></tr>
+<tr class="separator:afa00229d6fdec47de6ff9c47e21cf5db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b38f2b3ff546a01158654739bf80929"><td class="memItemLeft" align="right" valign="top"><a id="a3b38f2b3ff546a01158654739bf80929"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>masscalculator_test::core_test::materials_test::TEST_F</b> (AlloyCoppersTest, GetSpecificMeltingPointTest)</td></tr>
+<tr class="separator:a3b38f2b3ff546a01158654739bf80929"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac00efc67d48d2c4924423d4336e2ab53"><td class="memItemLeft" align="right" valign="top"><a id="ac00efc67d48d2c4924423d4336e2ab53"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>masscalculator_test::core_test::materials_test::TEST_F</b> (AlloyCoppersTest, GetSpecificPoissonsRatioTest)</td></tr>
+<tr class="separator:ac00efc67d48d2c4924423d4336e2ab53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa7db9e868c426c821ad149a70d1864f"><td class="memItemLeft" align="right" valign="top"><a id="aaa7db9e868c426c821ad149a70d1864f"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>masscalculator_test::core_test::materials_test::TEST_F</b> (AlloyCoppersTest, GetSpecificThermalConductivityTest)</td></tr>
+<tr class="separator:aaa7db9e868c426c821ad149a70d1864f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b63b631fe4e181c36ac9f2b1b2ebc42"><td class="memItemLeft" align="right" valign="top"><a id="a2b63b631fe4e181c36ac9f2b1b2ebc42"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>masscalculator_test::core_test::materials_test::TEST_F</b> (AlloyCoppersTest, GetSpecificModOfElasticityTensionTest)</td></tr>
+<tr class="separator:a2b63b631fe4e181c36ac9f2b1b2ebc42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7784c440a2e45ec7dd0ae5f2d2db219f"><td class="memItemLeft" align="right" valign="top"><a id="a7784c440a2e45ec7dd0ae5f2d2db219f"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>masscalculator_test::core_test::materials_test::TEST_F</b> (AlloyCoppersTest, OstreamOperatorAlloyCoppersColorTest)</td></tr>
+<tr class="separator:a7784c440a2e45ec7dd0ae5f2d2db219f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c04138a5bfe5d72780bb7e82a18e627"><td class="memItemLeft" align="right" valign="top"><a id="a3c04138a5bfe5d72780bb7e82a18e627"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>main</b> (int argc, char **argv)</td></tr>
 <tr class="separator:a3c04138a5bfe5d72780bb7e82a18e627"><td class="memSeparator" colspan="2">&#160;</td></tr>

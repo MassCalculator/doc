@@ -1,5 +1,5 @@
-<map id="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/materials/constants/alloy_coppers.h" name="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/materials/constants/alloy_coppers.h">
-<area shape="rect" id="node1" title="This file contains constant expressions that define the keys to get the values of the different types..." alt="" coords="5,5,351,76"/>
-<area shape="rect" id="node2" title=" " alt="" coords="83,131,142,158"/>
-<area shape="rect" id="node3" href="$resources_8h.html" title="This file defines the path to the resources directory, which is configured from CMake during the buil..." alt="" coords="167,124,320,165"/>
+<map id="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/masscalculator/masscalculator&#45;core/materials/constants/alloy_coppers.h" name="/home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator&#45;core/libraries/masscalculator&#45;core/include/masscalculator/masscalculator&#45;core/materials/constants/alloy_coppers.h">
+<area shape="rect" id="node1" title="This file contains constant expressions that define the keys to get the values of the different types..." alt="" coords="5,5,324,91"/>
+<area shape="rect" id="node2" title=" " alt="" coords="53,146,111,173"/>
+<area shape="rect" id="node3" href="$resources_8h.html" title="This file defines the path to the resources directory, which is configured from CMake during the buil..." alt="" coords="135,139,359,180"/>
 </map>

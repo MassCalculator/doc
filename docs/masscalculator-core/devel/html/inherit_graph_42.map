@@ -1,0 +1,21 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" title=" " alt="" coords="5,585,107,611"/>
+<area shape="rect" id="node2" href="$classMassCalculatorTest_1_1MaterialsTest_1_1BronzTest.html" title="The test fixture for testing class Bronz." alt="" coords="180,5,368,47"/>
+<area shape="rect" id="node3" href="$classMassCalculatorTest_1_1MaterialsTest_1_1CopperTest.html" title="The test fixture for testing class Copper." alt="" coords="175,71,373,112"/>
+<area shape="rect" id="node4" href="$classMassCalculatorTest_1_1MaterialsTest_1_1MagnesiumTest.html" title="The test fixture for testing class Magnesium." alt="" coords="161,136,387,177"/>
+<area shape="rect" id="node5" href="$classMassCalculatorTest_1_1MaterialsTest_1_1NickelTest.html" title="The test fixture for testing class Nickel." alt="" coords="179,201,369,243"/>
+<area shape="rect" id="node6" href="$classMassCalculatorTest_1_1MaterialsTest_1_1StainlessSteelTest.html" title="The test fixture for testing class StainlessSteel." alt="" coords="182,267,366,323"/>
+<area shape="rect" id="node7" href="$classMassCalculatorTest_1_1MaterialsTest_1_1SteelTest.html" title="The test fixture for testing class Steel." alt="" coords="182,348,366,389"/>
+<area shape="rect" id="node8" href="$classMassCalculatorTest_1_1MaterialsTest_1_1ZincTest.html" title="The test fixture for testing class Zinc." alt="" coords="185,413,363,455"/>
+<area shape="rect" id="node9" href="$classMassCalculatorTest_1_1PlasticTest.html" title="The test fixture for testing class Plastic." alt="" coords="200,479,348,520"/>
+<area shape="rect" id="node10" href="$classMassCalculatorTest_1_1ShapesTest_1_1SquareBarTest.html" title="The test fixture for testing class SquareBar." alt="" coords="172,544,376,585"/>
+<area shape="rect" id="node11" href="$classMassCalculatorTest_1_1ShapesTest_1_1SquareTubingTest.html" title="The test fixture for testing class SquareTubing." alt="" coords="162,609,386,651"/>
+<area shape="rect" id="node12" href="$classMassCalculatorTest_1_1TitaniumTest.html" title="The test fixture for testing class Titanium." alt="" coords="200,675,348,716"/>
+<area shape="rect" id="node13" href="$classmasscalculator__test_1_1base__test_1_1LuaScriptHandlerTest.html" title=" " alt="" coords="155,740,393,781"/>
+<area shape="rect" id="node14" href="$classmasscalculator__test_1_1core__test_1_1interface__test_1_1ObjectInterfaceTest.html" title="The test fixture for testing class ObjectInterface." alt="" coords="180,806,368,862"/>
+<area shape="rect" id="node15" href="$classmasscalculator__test_1_1core__test_1_1materials__test_1_1AlloyCoppersTest.html" title="The test fixture for testing class AlloyCoppers." alt="" coords="187,886,361,942"/>
+<area shape="rect" id="node16" href="$classmasscalculator__test_1_1core__test_1_1materials__test_1_1AlloySteelsTest.html" title="The test fixture for testing class AlloySteels." alt="" coords="193,966,355,1022"/>
+<area shape="rect" id="node17" href="$classmasscalculator__test_1_1core__test_1_1materials__test_1_1AluminiumTest.html" title="The test fixture for testing class Aluminium." alt="" coords="194,1046,354,1102"/>
+<area shape="rect" id="node18" href="$classmasscalculator__test_1_1core__test_1_1materials__test_1_1BrassTest.html" title="The test fixture for testing class Brass." alt="" coords="194,1126,354,1182"/>
+<area shape="rect" id="node19" href="$classmasscalculator__test_1_1core__test_1_1shapes__test_1_1CylinderTest.html" title="The test fixture for testing class AlloyCoppers." alt="" coords="197,1206,351,1262"/>
+</map>

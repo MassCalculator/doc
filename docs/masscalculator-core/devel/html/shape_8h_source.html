@@ -180,45 +180,44 @@ $(function() {
 <div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    <span class="keywordflow">return</span> os;</div>
 <div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;  }</div>
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160; </div>
-<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160; <span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00247"></a><span class="lineno"><a class="line" href="classmasscalculator_1_1core_1_1shapes_1_1Shape.html#a4e7d5ea8447342063e8d619fff21e1dc">  247</a></span>&#160;  <span class="keyword">static</span> constexpr <a class="code" href="structmasscalculator_1_1base_1_1ImmutableMap.html">base::ImmutableMap&lt;std::string_view, Type, 16&gt;</a> kType{</div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;      {{{constants::shape::kAngle, Type::kAngle},</div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;        {constants::shape::kBar, Type::kBar},</div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;        {constants::shape::kBeam, Type::kBeam},</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        {constants::shape::kChannel, Type::kChannel},</div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;        {constants::shape::kCylinder, Type::kCylinder},</div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;        {constants::shape::kDxfShape, Type::kDxfShape},</div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;        {constants::shape::kEllipse, Type::kEllipse},</div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;        {constants::shape::kHexagonBar, Type::kHexagonBar},</div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        {constants::shape::kOctagonBar, Type::kOctagonBar},</div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;        {constants::shape::kPipe, Type::kPipe},</div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;        {constants::shape::kSheet, Type::kSheet},</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;        {constants::shape::kSquareBar, Type::kSquareBar},</div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;        {constants::shape::kSquareTubing, Type::kSquareTubing},</div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;        {constants::shape::kStlShape, Type::kStlShape},</div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;        {constants::shape::kTBar, Type::kTBar},</div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;        {constants::shape::kUnspecified, Type::kUnspecified}}}};</div>
-<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160; </div>
-<div class="line"><a name="l00269"></a><span class="lineno"><a class="line" href="classmasscalculator_1_1core_1_1shapes_1_1Shape.html#a4ff151263f68fd64eba47a55ba06b0bd">  269</a></span>&#160;  <span class="keyword">static</span> constexpr <a class="code" href="structmasscalculator_1_1base_1_1ImmutableMap.html">base::ImmutableMap&lt;Type, std::string_view, 16&gt;</a> kTypeString{</div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;      {{{Type::kAngle, constants::shape::kAngle},</div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;        {Type::kBar, constants::shape::kBar},</div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;        {Type::kBeam, constants::shape::kBeam},</div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;        {Type::kChannel, constants::shape::kChannel},</div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;        {Type::kCylinder, constants::shape::kCylinder},</div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;        {Type::kDxfShape, constants::shape::kDxfShape},</div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;        {Type::kEllipse, constants::shape::kEllipse},</div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;        {Type::kHexagonBar, constants::shape::kHexagonBar},</div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;        {Type::kOctagonBar, constants::shape::kOctagonBar},</div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;        {Type::kPipe, constants::shape::kPipe},</div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;        {Type::kSheet, constants::shape::kSheet},</div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;        {Type::kSquareBar, constants::shape::kSquareBar},</div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;        {Type::kSquareTubing, constants::shape::kSquareTubing},</div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;        {Type::kStlShape, constants::shape::kStlShape},</div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;        {Type::kTBar, constants::shape::kTBar},</div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;        {Type::kUnspecified, constants::shape::kUnspecified}}}};</div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;};</div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;} <span class="comment">// namespace masscalculator::core::shapes</span></div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// MASSCALCULATOR_CORE_LIBRARIES_MASSCALCULATOR_CORE_SHAPES_SHAPE_H_</span></div>
+<div class="line"><a name="l00246"></a><span class="lineno"><a class="line" href="classmasscalculator_1_1core_1_1shapes_1_1Shape.html#a4e7d5ea8447342063e8d619fff21e1dc">  246</a></span>&#160;  <span class="keyword">static</span> constexpr <a class="code" href="structmasscalculator_1_1base_1_1ImmutableMap.html">base::ImmutableMap&lt;std::string_view, Type, 16&gt;</a> kType{</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;      {{{constants::shape::kAngle, Type::kAngle},</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;        {constants::shape::kBar, Type::kBar},</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;        {constants::shape::kBeam, Type::kBeam},</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;        {constants::shape::kChannel, Type::kChannel},</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        {constants::shape::kCylinder, Type::kCylinder},</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;        {constants::shape::kDxfShape, Type::kDxfShape},</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;        {constants::shape::kEllipse, Type::kEllipse},</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;        {constants::shape::kHexagonBar, Type::kHexagonBar},</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;        {constants::shape::kOctagonBar, Type::kOctagonBar},</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        {constants::shape::kPipe, Type::kPipe},</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;        {constants::shape::kSheet, Type::kSheet},</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;        {constants::shape::kSquareBar, Type::kSquareBar},</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;        {constants::shape::kSquareTubing, Type::kSquareTubing},</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;        {constants::shape::kStlShape, Type::kStlShape},</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;        {constants::shape::kTBar, Type::kTBar},</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;        {constants::shape::kUnspecified, Type::kUnspecified}}}};</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160; </div>
+<div class="line"><a name="l00268"></a><span class="lineno"><a class="line" href="classmasscalculator_1_1core_1_1shapes_1_1Shape.html#a4ff151263f68fd64eba47a55ba06b0bd">  268</a></span>&#160;  <span class="keyword">static</span> constexpr <a class="code" href="structmasscalculator_1_1base_1_1ImmutableMap.html">base::ImmutableMap&lt;Type, std::string_view, 16&gt;</a> kTypeString{</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;      {{{Type::kAngle, constants::shape::kAngle},</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;        {Type::kBar, constants::shape::kBar},</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;        {Type::kBeam, constants::shape::kBeam},</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;        {Type::kChannel, constants::shape::kChannel},</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;        {Type::kCylinder, constants::shape::kCylinder},</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;        {Type::kDxfShape, constants::shape::kDxfShape},</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;        {Type::kEllipse, constants::shape::kEllipse},</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;        {Type::kHexagonBar, constants::shape::kHexagonBar},</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;        {Type::kOctagonBar, constants::shape::kOctagonBar},</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;        {Type::kPipe, constants::shape::kPipe},</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;        {Type::kSheet, constants::shape::kSheet},</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;        {Type::kSquareBar, constants::shape::kSquareBar},</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;        {Type::kSquareTubing, constants::shape::kSquareTubing},</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;        {Type::kStlShape, constants::shape::kStlShape},</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;        {Type::kTBar, constants::shape::kTBar},</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;        {Type::kUnspecified, constants::shape::kUnspecified}}}};</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;};</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;} <span class="comment">// namespace masscalculator::core::shapes</span></div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// MASSCALCULATOR_CORE_LIBRARIES_MASSCALCULATOR_CORE_SHAPES_SHAPE_H_</span></div>
 <div class="ttc" id="aclassmasscalculator_1_1core_1_1shapes_1_1Shape_html"><div class="ttname"><a href="classmasscalculator_1_1core_1_1shapes_1_1Shape.html">masscalculator::core::shapes::Shape</a></div><div class="ttdoc">Template base class Shape.</div><div class="ttdef"><b>Definition:</b> shape.h:77</div></div>
 <div class="ttc" id="aclassmasscalculator_1_1core_1_1shapes_1_1Shape_html_a004b0883825e7b8c5788fb1ae5a36360"><div class="ttname"><a href="classmasscalculator_1_1core_1_1shapes_1_1Shape.html#a004b0883825e7b8c5788fb1ae5a36360">masscalculator::core::shapes::Shape::Shape</a></div><div class="ttdeci">Shape(const Args &amp;... args)</div><div class="ttdoc">Construct a new Shape object.</div><div class="ttdef"><b>Definition:</b> shape.h:148</div></div>
 <div class="ttc" id="aclassmasscalculator_1_1core_1_1shapes_1_1Shape_html_a1129b9f0643b43460fc07208722db8e0"><div class="ttname"><a href="classmasscalculator_1_1core_1_1shapes_1_1Shape.html#a1129b9f0643b43460fc07208722db8e0">masscalculator::core::shapes::Shape::Type</a></div><div class="ttdeci">Type</div><div class="ttdoc">Enumeration that holds the material colors.</div><div class="ttdef"><b>Definition:</b> shape.h:82</div></div>
@@ -241,7 +240,7 @@ $(function() {
 <div class="ttc" id="aclassmasscalculator_1_1core_1_1shapes_1_1Shape_html_afd68612d29a4468dde5228634b6db47c"><div class="ttname"><a href="classmasscalculator_1_1core_1_1shapes_1_1Shape.html#afd68612d29a4468dde5228634b6db47c">masscalculator::core::shapes::Shape::operator=</a></div><div class="ttdeci">Shape &amp; operator=(Shape &amp;&amp;)=default</div><div class="ttdoc">Allow move assignment operator.</div></div>
 <div class="ttc" id="aconstants_2shape_8h_html"><div class="ttname"><a href="constants_2shape_8h.html">shape.h</a></div><div class="ttdoc">This file contains constant expressions that define the keys to get the the different types of shapes...</div></div>
 <div class="ttc" id="aimmutable__map_8h_html"><div class="ttname"><a href="immutable__map_8h.html">immutable_map.h</a></div><div class="ttdoc">Defines the ImmutableMap template class, which is a simple map structure that can be declared as cons...</div></div>
-<div class="ttc" id="anamespacemasscalculator_1_1core_1_1shapes_html"><div class="ttname"><a href="namespacemasscalculator_1_1core_1_1shapes.html">masscalculator::core::shapes</a></div><div class="ttdoc">MassCalculator Core Shapes namespace.</div><div class="ttdef"><b>Definition:</b> shape.h:32</div></div>
+<div class="ttc" id="anamespacemasscalculator_1_1core_1_1shapes_html"><div class="ttname"><a href="namespacemasscalculator_1_1core_1_1shapes.html">masscalculator::core::shapes</a></div><div class="ttdoc">MassCalculator Core Shapes namespace.</div><div class="ttdef"><b>Definition:</b> shape.h:36</div></div>
 <div class="ttc" id="astructmasscalculator_1_1base_1_1ImmutableMap_html"><div class="ttname"><a href="structmasscalculator_1_1base_1_1ImmutableMap.html">masscalculator::base::ImmutableMap&lt; std::string_view, Type, 16 &gt;</a></div></div>
 <div class="ttc" id="astructmasscalculator_1_1core_1_1shapes_1_1Crtp_html"><div class="ttname"><a href="structmasscalculator_1_1core_1_1shapes_1_1Crtp.html">masscalculator::core::shapes::Crtp</a></div><div class="ttdoc">Writing repeated static_casts in CRTP base classes quickly becomes cumbersome, as it does not add muc...</div><div class="ttdef"><b>Definition:</b> shape.h:56</div></div>
 <div class="ttc" id="astructmasscalculator_1_1core_1_1shapes_1_1Crtp_html_a64d60f67df9c65b8475829f2586f65f9"><div class="ttname"><a href="structmasscalculator_1_1core_1_1shapes_1_1Crtp.html#a64d60f67df9c65b8475829f2586f65f9">masscalculator::core::shapes::Crtp::ShapeType</a></div><div class="ttdeci">TShape &amp; ShapeType()</div><div class="ttdef"><b>Definition:</b> shape.h:62</div></div>

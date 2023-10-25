@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>masscalculator-core: /home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator-core/libraries/masscalculator-core/include/shapes/shapes.hh Source File</title>
+<title>masscalculator-core: /home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator-core/libraries/masscalculator-core/include/masscalculator/masscalculator-core/shapes/shapes.hh Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_bc0718b08fb2015b8e59c47b2805f60c.html">libraries</a></li><li class="navelem"><a class="el" href="dir_7cfca9b165e3886c5d9673c8214d7c02.html">masscalculator-core</a></li><li class="navelem"><a class="el" href="dir_1d0d6a4ca67e634bebd4949af67c16ea.html">include</a></li><li class="navelem"><a class="el" href="dir_29c61b5b80451f46e22ea303aeee1b2c.html">shapes</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_bc0718b08fb2015b8e59c47b2805f60c.html">libraries</a></li><li class="navelem"><a class="el" href="dir_7cfca9b165e3886c5d9673c8214d7c02.html">masscalculator-core</a></li><li class="navelem"><a class="el" href="dir_1d0d6a4ca67e634bebd4949af67c16ea.html">include</a></li><li class="navelem"><a class="el" href="dir_950937db7f6e61b2fb3cd239ba4fd847.html">masscalculator</a></li><li class="navelem"><a class="el" href="dir_86e0949541c3cda9c236adfc32733e21.html">masscalculator-core</a></li><li class="navelem"><a class="el" href="dir_f911538cacf25aa4e9ea62ef60adc026.html">shapes</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -70,13 +70,25 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <a href="shapes_8hh.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#ifndef ___SHAPES_HH___</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#define ___SHAPES_HH___</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">  #include &quot;<a class="code" href="shape_8hpp.html">shape.hpp</a>&quot;</span> <span class="comment">//The macro inside will exclude the include in all bellow files for this header</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">  #include &quot;<a class="code" href="cylinder_8hpp.html">cylinder.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="acylinder_8hpp_html"><div class="ttname"><a href="cylinder_8hpp.html">cylinder.hpp</a></div><div class="ttdoc">Cylinder class that holds the parameters for the shape.</div></div>
-<div class="ttc" id="ashape_8hpp_html"><div class="ttname"><a href="shape_8hpp.html">shape.hpp</a></div><div class="ttdoc">This class is the base class for the Shapes, this will be inherited from all the Shape types,...</div></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#ifndef MASSCALCULATOR_CORE_LIBRARIES_MASSCALCULATOR_CORE_SHAPES_SHAPES_H_</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#define MASSCALCULATOR_CORE_LIBRARIES_MASSCALCULATOR_CORE_SHAPES_SHAPES_H_</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment">// #include &quot;angle.h&quot;         // for Angle</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment">// #include &quot;bar.h&quot;           // for Bar</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment">// #include &quot;beam.h&quot;          // for Beam</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment">// #include &quot;channel.h&quot;       // for Channel</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="cylinder_8h.html">cylinder.h</a>&quot;</span> <span class="comment">// for Cylinder</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment">// #include &quot;dxf_shape.h&quot;     // for DxfShape</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment">// #include &quot;elipse.h&quot;        // for Elipse</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment">// #include &quot;hexagon_bar.h&quot;   // for HexagonBar</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="comment">// #include &quot;octagon_bar.h&quot;   // for OctagonBar</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment">// #include &quot;pipe.h&quot;          // for Pipe</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment">// #include &quot;sheet.h&quot;         // for Sheet</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="comment">// #include &quot;square_bar.h&quot;    // for SquareBar</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="comment">// #include &quot;square_tubing.h&quot; // for SquareTubing</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="comment">// #include &quot;stl_shape.h&quot;     // for StlShape</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="comment">// #include &quot;t_bar.h&quot;         // for TBar</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// MASSCALCULATOR_CORE_LIBRARIES_MASSCALCULATOR_CORE_SHAPES_SHAPES_H_</span></div>
+<div class="ttc" id="acylinder_8h_html"><div class="ttname"><a href="cylinder_8h.html">cylinder.h</a></div><div class="ttdoc">This file contains the definition for the cylinder class. The cylinder class holds all the specific p...</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

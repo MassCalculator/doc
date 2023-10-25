@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>masscalculator-core: /home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator-core/libraries/lua-handler/include/lua_handler.h File Reference</title>
+<title>masscalculator-core: /home/runner/work/masscalculator.github.io/masscalculator.github.io/MassCalculator/masscalculator-core/libraries/masscalculator-base/include/masscalculator/masscalculator-base/lua_handler.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_bc0718b08fb2015b8e59c47b2805f60c.html">libraries</a></li><li class="navelem"><a class="el" href="dir_2b09e477dc96cfead3e65918ee059472.html">lua-handler</a></li><li class="navelem"><a class="el" href="dir_69b289bd453b13349c41d66cac205cbb.html">include</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_bc0718b08fb2015b8e59c47b2805f60c.html">libraries</a></li><li class="navelem"><a class="el" href="dir_c79e8f01f899f9b9fae2be594870b4e4.html">masscalculator-base</a></li><li class="navelem"><a class="el" href="dir_7fbc103f192077c0f21a11f821c551d2.html">include</a></li><li class="navelem"><a class="el" href="dir_01304e0b4dc21b6b8c91316f2d14a062.html">masscalculator</a></li><li class="navelem"><a class="el" href="dir_83a32d99adb396ed14ddbbb7ce6f2c44.html">masscalculator-base</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -76,40 +76,48 @@ $(function() {
 
 <p>Definition of the LuaScriptHandler class, which encapsulates the definition and specializations for handling Lua scripts. It provides an interface to interact with Lua scripts and execute Lua functions from C++ code.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &lt;string&gt;</code><br />
+<div class="textblock"><code>#include &lt;lua.hpp&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
-<code>#include &quot;<a class="el" href="macro__logger_8h_source.html">masscalculator/base/macro_logger.h</a>&quot;</code><br />
-<code>#include &quot;lua5.1/lauxlib.h&quot;</code><br />
-<code>#include &quot;lua5.1/lua.h&quot;</code><br />
-<code>#include &quot;lua5.1/lualib.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="macro__logger_8h_source.html">masscalculator/masscalculator-base/macro_logger.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for lua_handler.h:</div>
 <div class="dyncontent">
-<div class="center"><img src="lua__handler_8h__incl.png" border="0" usemap="#a_2home_2runner_2work_2masscalculator_8github_8io_2masscalculator_8github_8io_2MassCalculator_2masscalculator-core_2libraries_2lua-handler_2include_2lua__handler_8h" alt=""/></div>
-<map name="a_2home_2runner_2work_2masscalculator_8github_8io_2masscalculator_8github_8io_2MassCalculator_2masscalculator-core_2libraries_2lua-handler_2include_2lua__handler_8h" id="a_2home_2runner_2work_2masscalculator_8github_8io_2masscalculator_8github_8io_2MassCalculator_2masscalculator-core_2libraries_2lua-handler_2include_2lua__handler_8h">
-<area shape="rect" title="Definition of the LuaScriptHandler class, which encapsulates the definition and specializations for h..." alt="" coords="181,5,489,76"/>
-<area shape="rect" title=" " alt="" coords="5,131,64,158"/>
-<area shape="rect" title=" " alt="" coords="89,131,151,158"/>
-<area shape="rect" href="macro__logger_8h.html" title="This file contains logger macros that are used throughout the codebase. The macro_logger...." alt="" coords="175,124,331,165"/>
-<area shape="rect" title=" " alt="" coords="356,131,479,158"/>
-<area shape="rect" title=" " alt="" coords="503,131,601,158"/>
-<area shape="rect" title=" " alt="" coords="625,131,740,158"/>
-<area shape="rect" title=" " alt="" coords="176,213,243,240"/>
-<area shape="rect" title=" " alt="" coords="267,213,325,240"/>
+<div class="center"><img src="lua__handler_8h__incl.png" border="0" usemap="#a_2home_2runner_2work_2masscalculator_8github_8io_2masscalculator_8github_8io_2MassCalculator_2masscalculator-core_2libraries_2masscalculator-base_2include_2masscalculator_2masscalculator-base_2lua__handler_8h" alt=""/></div>
+<map name="a_2home_2runner_2work_2masscalculator_8github_8io_2masscalculator_8github_8io_2MassCalculator_2masscalculator-core_2libraries_2masscalculator-base_2include_2masscalculator_2masscalculator-base_2lua__handler_8h" id="a_2home_2runner_2work_2masscalculator_8github_8io_2masscalculator_8github_8io_2MassCalculator_2masscalculator-core_2libraries_2masscalculator-base_2include_2masscalculator_2masscalculator-base_2lua__handler_8h">
+<area shape="rect" title="Definition of the LuaScriptHandler class, which encapsulates the definition and specializations for h..." alt="" coords="13,5,332,91"/>
+<area shape="rect" title=" " alt="" coords="5,146,76,173"/>
+<area shape="rect" title=" " alt="" coords="101,146,159,173"/>
+<area shape="rect" title=" " alt="" coords="184,146,247,173"/>
+<area shape="rect" href="macro__logger_8h.html" title="This file contains logger macros that are used throughout the codebase. The macro_logger...." alt="" coords="270,139,494,180"/>
+<area shape="rect" title=" " alt="" coords="305,228,371,255"/>
+<area shape="rect" title=" " alt="" coords="395,228,454,255"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="lua__handler_8h__dep__incl.png" border="0" usemap="#a_2home_2runner_2work_2masscalculator_8github_8io_2masscalculator_8github_8io_2MassCalculator_2masscalculator-core_2libraries_2lua-handler_2include_2lua__handler_8hdep" alt=""/></div>
-<map name="a_2home_2runner_2work_2masscalculator_8github_8io_2masscalculator_8github_8io_2MassCalculator_2masscalculator-core_2libraries_2lua-handler_2include_2lua__handler_8hdep" id="a_2home_2runner_2work_2masscalculator_8github_8io_2masscalculator_8github_8io_2MassCalculator_2masscalculator-core_2libraries_2lua-handler_2include_2lua__handler_8hdep">
-<area shape="rect" title="Definition of the LuaScriptHandler class, which encapsulates the definition and specializations for h..." alt="" coords="337,5,645,76"/>
-<area shape="rect" href="lua__handler_8cc.html" title="Implementation of the LuaScriptHandler class, which encapsulates the definition and specializations f..." alt="" coords="5,124,313,195"/>
-<area shape="rect" href="lua__handler__test_8h.html" title="Defines unit tests for the LuaScriptHandler class." alt="" coords="337,124,645,195"/>
-<area shape="rect" href="alloy__coppers_8h.html" title="This file contains the class definition for alloy_coppers. The alloy_coppers class holds all the spec..." alt="" coords="669,124,988,195"/>
-<area shape="rect" href="lua__handler__test_8cc.html" title="Defines unit tests for the LuaScriptHandler class." alt="" coords="337,243,645,313"/>
-<area shape="rect" href="alloy__coppers__test_8cc.html" title="Defines unit tests for the AlloyCoppers class." alt="" coords="695,361,1013,432"/>
-<area shape="rect" href="alloy__coppers__test_8h.html" title="Defines unit tests for the AlloyCoppers class." alt="" coords="793,243,1112,313"/>
+<div class="center"><img src="lua__handler_8h__dep__incl.png" border="0" usemap="#a_2home_2runner_2work_2masscalculator_8github_8io_2masscalculator_8github_8io_2MassCalculator_2masscalculator-core_2libraries_2masscalculator-base_2include_2masscalculator_2masscalculator-base_2lua__handler_8hdep" alt=""/></div>
+<map name="a_2home_2runner_2work_2masscalculator_8github_8io_2masscalculator_8github_8io_2MassCalculator_2masscalculator-core_2libraries_2masscalculator-base_2include_2masscalculator_2masscalculator-base_2lua__handler_8hdep" id="a_2home_2runner_2work_2masscalculator_8github_8io_2masscalculator_8github_8io_2MassCalculator_2masscalculator-core_2libraries_2masscalculator-base_2include_2masscalculator_2masscalculator-base_2lua__handler_8hdep">
+<area shape="rect" title="Definition of the LuaScriptHandler class, which encapsulates the definition and specializations for h..." alt="" coords="545,5,864,91"/>
+<area shape="rect" href="lua__handler_8cc.html" title="Implementation of the LuaScriptHandler class, which encapsulates the definition and specializations f..." alt="" coords="5,146,324,217"/>
+<area shape="rect" href="lua__handler__test_8h.html" title="Defines unit tests for the LuaScriptHandler class." alt="" coords="348,146,667,217"/>
+<area shape="rect" href="material_8h.html" title="This file contains the base class for Materials. This class is inherited by all Material types and pr..." alt="" coords="940,139,1259,224"/>
+<area shape="rect" href="alloy__coppers_8cc.html" title="This file contains the implementation for the alloy_coppers class. The alloy_coppers class holds all ..." alt="" coords="1875,413,2193,483"/>
+<area shape="rect" href="alloy__steels_8cc.html" title="This file contains the implementation for the alloy_steels class. The alloy_steels class holds all th..." alt="" coords="348,413,667,483"/>
+<area shape="rect" href="lua__handler__test_8cc.html" title="Defines unit tests for the LuaScriptHandler class." alt="" coords="348,279,667,350"/>
+<area shape="rect" href="alloy__coppers_8h.html" title="This file contains the class definition for alloy_coppers. The alloy_coppers class holds all the spec..." alt="" coords="1137,272,1456,357"/>
+<area shape="rect" href="material_8cc.html" title="This file is left here for convenience, but the implementation is done with templates in the header f..." alt="" coords="1283,539,1601,609"/>
+<area shape="rect" href="alloy__steels_8h.html" title="This file contains the class definition for alloy_steels. The alloy_steels class holds all the specif..." alt="" coords="743,272,1061,357"/>
+<area shape="rect" href="materials_8hh.html" title="This file contains the includes for all types of materials." alt="" coords="1532,405,1851,491"/>
+<area shape="rect" href="alloy__coppers__test_8cc.html" title="Defines unit tests for the AlloyCoppers class." alt="" coords="940,539,1259,609"/>
+<area shape="rect" href="alloy__coppers__test_8h.html" title="Defines unit tests for the AlloyCoppers class." alt="" coords="1137,413,1456,483"/>
+<area shape="rect" href="example__1_8cc.html" title="This file contains an example for using the Object Interface class." alt="" coords="2311,546,2631,602"/>
+<area shape="rect" href="object__interface_8cc.html" title="This file contains the implementation for the Object class. The Object class holds all the properties..." alt="" coords="1625,539,1944,609"/>
+<area shape="rect" href="object__interface__test_8h.html" title="Defines unit tests for the Object class." alt="" coords="1968,539,2287,609"/>
+<area shape="rect" href="object__interface__test_8cc.html" title="Defines unit tests for the Object class." alt="" coords="1968,657,2287,728"/>
+<area shape="rect" href="alloy__steels__test_8cc.html" title="Defines unit tests for the AlloySteels class." alt="" coords="572,539,891,609"/>
+<area shape="rect" href="alloy__steels__test_8h.html" title="Defines unit tests for the AlloySteels class." alt="" coords="743,413,1061,483"/>
 </map>
 </div>
 </div>
@@ -117,26 +125,26 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmasscalculator_1_1LuaScriptHandler.html">masscalculator::LuaScriptHandler</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class <a class="el" href="classmasscalculator_1_1LuaScriptHandler.html" title="Class LuaScriptHandler, that holds all the nessesary functions and specialisations to get from lua fi...">LuaScriptHandler</a>, that holds all the nessesary functions and specialisations to get from lua files.  <a href="classmasscalculator_1_1LuaScriptHandler.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmasscalculator_1_1base_1_1LuaScriptHandler.html">masscalculator::base::LuaScriptHandler</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class <a class="el" href="classmasscalculator_1_1base_1_1LuaScriptHandler.html" title="Class LuaScriptHandler, that holds all the nessesary functions and specialisations to get from lua fi...">LuaScriptHandler</a>, that holds all the nessesary functions and specialisations to get from lua files.  <a href="classmasscalculator_1_1base_1_1LuaScriptHandler.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespacemasscalculator"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemasscalculator.html">masscalculator</a></td></tr>
-<tr class="memdesc:namespacemasscalculator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default namespace. <br /></td></tr>
+<tr class="memitem:namespacemasscalculator_1_1base"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemasscalculator_1_1base.html">masscalculator::base</a></td></tr>
+<tr class="memdesc:namespacemasscalculator_1_1base"><td class="mdescLeft">&#160;</td><td class="mdescRight">MassCalculator Base namespace. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a6cce51dd4708c0c356240467f6a35946"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:a6cce51dd4708c0c356240467f6a35946"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemasscalculator.html#a6cce51dd4708c0c356240467f6a35946">masscalculator::LuaScriptHandler::LuaGet&lt; std::string &gt;</a> (const std::string &amp;variable_name)</td></tr>
-<tr class="memdesc:a6cce51dd4708c0c356240467f6a35946"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specialization of the <code>LuaGet</code> function template to retrieve a Lua parameter as a <code>std::string</code>.  <a href="namespacemasscalculator.html#a6cce51dd4708c0c356240467f6a35946">More...</a><br /></td></tr>
-<tr class="separator:a6cce51dd4708c0c356240467f6a35946"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1ce3e19ac972ab4ec365ca6a004c1e7"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:ac1ce3e19ac972ab4ec365ca6a004c1e7"><td class="memTemplItemLeft" align="right" valign="top">std::string_view&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemasscalculator.html#ac1ce3e19ac972ab4ec365ca6a004c1e7">masscalculator::LuaScriptHandler::LuaGet&lt; std::string_view &gt;</a> (const std::string &amp;variable_name)</td></tr>
-<tr class="memdesc:ac1ce3e19ac972ab4ec365ca6a004c1e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specialization of the <code>LuaGet</code> function template to retrieve a Lua parameter as a <code>std::string_view</code>.  <a href="namespacemasscalculator.html#ac1ce3e19ac972ab4ec365ca6a004c1e7">More...</a><br /></td></tr>
-<tr class="separator:ac1ce3e19ac972ab4ec365ca6a004c1e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bfa1091020f47062436729950160cfa"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:a1bfa1091020f47062436729950160cfa"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemasscalculator_1_1base.html#a1bfa1091020f47062436729950160cfa">masscalculator::base::LuaScriptHandler::LuaGet&lt; std::string &gt;</a> (const std::string &amp;variable_name)</td></tr>
+<tr class="memdesc:a1bfa1091020f47062436729950160cfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specialization of the <code>LuaGet</code> function template to retrieve a Lua parameter as a <code>std::string</code>.  <a href="namespacemasscalculator_1_1base.html#a1bfa1091020f47062436729950160cfa">More...</a><br /></td></tr>
+<tr class="separator:a1bfa1091020f47062436729950160cfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a563ae9a1ff1e5985820f8e8a2ab794be"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:a563ae9a1ff1e5985820f8e8a2ab794be"><td class="memTemplItemLeft" align="right" valign="top">std::string_view&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemasscalculator_1_1base.html#a563ae9a1ff1e5985820f8e8a2ab794be">masscalculator::base::LuaScriptHandler::LuaGet&lt; std::string_view &gt;</a> (const std::string &amp;variable_name)</td></tr>
+<tr class="memdesc:a563ae9a1ff1e5985820f8e8a2ab794be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specialization of the <code>LuaGet</code> function template to retrieve a Lua parameter as a <code>std::string_view</code>.  <a href="namespacemasscalculator_1_1base.html#a563ae9a1ff1e5985820f8e8a2ab794be">More...</a><br /></td></tr>
+<tr class="separator:a563ae9a1ff1e5985820f8e8a2ab794be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Definition of the LuaScriptHandler class, which encapsulates the definition and specializations for handling Lua scripts. It provides an interface to interact with Lua scripts and execute Lua functions from C++ code. </p>

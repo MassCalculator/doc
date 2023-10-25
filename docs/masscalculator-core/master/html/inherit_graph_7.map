@@ -1,15 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title=" " alt="" coords="5,373,81,399"/>
-<area shape="rect" id="node2" href="$classMassCalculator_1_1Materials_1_1AlloySteels.html" title="Class AlloySteels, that holds all the nessesary information for AlloySteels and it&#39;s types therefore ..." alt="" coords="129,5,320,47"/>
-<area shape="rect" id="node3" href="$classMassCalculator_1_1Materials_1_1Aluminium.html" title="Class Aluminium, that holds all the nessesary information for Aluminium and it&#39;s types therefore we c..." alt="" coords="129,71,320,112"/>
-<area shape="rect" id="node4" href="$classMassCalculator_1_1Materials_1_1Brass.html" title="Class Brass, that holds all the nessesary information for Brass and it&#39;s types therefore we can use i..." alt="" coords="129,136,320,177"/>
-<area shape="rect" id="node5" href="$classMassCalculator_1_1Materials_1_1Bronz.html" title="Class Bronz, that holds all the nessesary information for Bronz and it&#39;s types therefore we can use i..." alt="" coords="129,201,320,243"/>
-<area shape="rect" id="node6" href="$classMassCalculator_1_1Materials_1_1Copper.html" title="Class Copper, that holds all the nessesary information for Copper and it&#39;s types therefore we can use..." alt="" coords="129,267,320,308"/>
-<area shape="rect" id="node7" href="$classMassCalculator_1_1Materials_1_1Magnesium.html" title="Class Magnesium, that holds all the nessesary information for Magnesium and it&#39;s types therefore we c..." alt="" coords="129,332,320,373"/>
-<area shape="rect" id="node8" href="$classMassCalculator_1_1Materials_1_1Nickel.html" title="Class Nickel, that holds all the nessesary information for Nickel and it&#39;s types therefore we can use..." alt="" coords="129,397,320,439"/>
-<area shape="rect" id="node9" href="$classMassCalculator_1_1Materials_1_1Plastic.html" title="Class Plastic, that holds all the nessesary information for Plastic and it&#39;s types therefore we can u..." alt="" coords="129,463,320,504"/>
-<area shape="rect" id="node10" href="$classMassCalculator_1_1Materials_1_1StainlessSteel.html" title="Class StainlessSteel, that holds all the nessesary information for StainlessSteel and it&#39;s types ther..." alt="" coords="129,528,320,569"/>
-<area shape="rect" id="node11" href="$classMassCalculator_1_1Materials_1_1Steel.html" title="Class Steel, that holds all the nessesary information for Steel and it&#39;s types therefore we can use i..." alt="" coords="129,593,320,635"/>
-<area shape="rect" id="node12" href="$classMassCalculator_1_1Materials_1_1Titanium.html" title="Class Titanium, that holds all the nessesary information for Titanium and it&#39;s types therefore we can..." alt="" coords="129,659,320,700"/>
-<area shape="rect" id="node13" href="$classMassCalculator_1_1Materials_1_1Zinc.html" title="Class Zinc, that holds all the nessesary information for Zinc and it&#39;s types therefore we can use in ..." alt="" coords="129,724,320,765"/>
+<area shape="rect" id="node1" href="$structmasscalculator_1_1base_1_1ImmutableMap.html" title=" " alt="" coords="5,5,180,61"/>
 </map>

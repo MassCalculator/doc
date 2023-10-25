@@ -1,0 +1,5 @@
+<map id="masscalculator::core::shapes::Cylinder" name="masscalculator::core::shapes::Cylinder">
+<area shape="rect" id="node1" title="Class Cylinder, that holds all the nessesary information for Cylinder and it&#39;s details therefore we c..." alt="" coords="31,184,188,225"/>
+<area shape="rect" id="node2" href="$classmasscalculator_1_1core_1_1shapes_1_1Shape.html" title=" " alt="" coords="5,95,213,136"/>
+<area shape="rect" id="node3" href="$structmasscalculator_1_1core_1_1shapes_1_1Crtp.html" title="Writing repeated static_casts in CRTP base classes quickly becomes cumbersome, as it does not add muc..." alt="" coords="15,5,204,47"/>
+</map>

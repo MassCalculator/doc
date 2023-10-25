@@ -1,3 +1,17 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structMassCalculator_1_1Shapes_1_1Channel_1_1Properties.html" title="Struct with material specific properties TODO:Check if this can be moved to the base class." alt="" coords="5,5,183,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,425,68,451"/>
+<area shape="rect" id="node2" href="$classMassCalculator_1_1Shapes_1_1Angle.html" title="Class Angle, that holds all the nessesary information for Angle and it&#39;s details therefore we can use..." alt="" coords="131,5,308,47"/>
+<area shape="rect" id="node3" href="$classMassCalculator_1_1Shapes_1_1Bar.html" title="Class Bar, that holds all the nessesary information for Bar and it&#39;s details therefore we can use in ..." alt="" coords="116,71,323,98"/>
+<area shape="rect" id="node4" href="$classMassCalculator_1_1Shapes_1_1Beam.html" title="Class Beam, that holds all the nessesary information for Beam and it&#39;s details therefore we can use i..." alt="" coords="131,123,308,164"/>
+<area shape="rect" id="node5" href="$classMassCalculator_1_1Shapes_1_1Channel.html" title="Class Channel, that holds all the nessesary information for Channel and it&#39;s details therefore we can..." alt="" coords="131,188,308,229"/>
+<area shape="rect" id="node6" href="$classMassCalculator_1_1Shapes_1_1DxfShape.html" title="Class DxfShape, that holds all the nessesary information for the shape that is read from the dxf file..." alt="" coords="131,253,308,295"/>
+<area shape="rect" id="node7" href="$classMassCalculator_1_1Shapes_1_1Elipse.html" title="Class Elipse, that holds all the nessesary information for Elipse and it&#39;s details therefore we can u..." alt="" coords="131,319,308,360"/>
+<area shape="rect" id="node8" href="$classMassCalculator_1_1Shapes_1_1HexagonBar.html" title="Class HexagonBar, that holds all the nessesary information for HexagonBar and it&#39;s details therefore ..." alt="" coords="131,384,308,425"/>
+<area shape="rect" id="node9" href="$classMassCalculator_1_1Shapes_1_1OctagonBar.html" title="Class OctagonBar, that holds all the nessesary information for OctagonBar and it&#39;s details therefore ..." alt="" coords="131,449,308,491"/>
+<area shape="rect" id="node10" href="$classMassCalculator_1_1Shapes_1_1Pipe.html" title="Class Pipe, that holds all the nessesary information for Pipe and it&#39;s details therefore we can use i..." alt="" coords="131,515,308,556"/>
+<area shape="rect" id="node11" href="$classMassCalculator_1_1Shapes_1_1Sheet.html" title="Class Sheet, that holds all the nessesary information for Sheet and it&#39;s details therefore we can use..." alt="" coords="131,580,308,621"/>
+<area shape="rect" id="node12" href="$classMassCalculator_1_1Shapes_1_1SquareBar.html" title="Class SquareBar, that holds all the nessesary information for SquareBar and it&#39;s details therefore we..." alt="" coords="131,645,308,687"/>
+<area shape="rect" id="node13" href="$classMassCalculator_1_1Shapes_1_1SquareTubing.html" title="Class SquareTubing, that holds all the nessesary information for SquareTubing and it&#39;s details theref..." alt="" coords="131,711,308,752"/>
+<area shape="rect" id="node14" href="$classMassCalculator_1_1Shapes_1_1StlShape.html" title="Class StlShape, that holds all the nessesary information for the shape that is read from the dxf file..." alt="" coords="131,776,308,817"/>
+<area shape="rect" id="node15" href="$classMassCalculator_1_1Shapes_1_1TBar.html" title="Class TBar, that holds all the nessesary information for TBar and it&#39;s details therefore we can use i..." alt="" coords="131,841,308,883"/>
 </map>
